@@ -68,3 +68,26 @@ if __name__ == "__main__":
 
     with open("llm_output/aqua_output.json", 'w') as json_file:
         json.dump(aqua_output, json_file, indent=4)
+
+    # generate llm output form StrategyQA dataset:
+    strategy_qa_output = []
+    for sample in tqdm.tqdm(strategy_qa_dataset):
+        prompt = generate_strategy_qa_constrastive_prompt(sample)
+
+        messages=[
+            {"role": "system", "content": "Assistant is a large language model."},
+            {"role": "user", "content": prompt}
+        ]
+
+        outputs = pipeline(
+            messages,
+            max_new_tokens=1024,
+            eos_token_id=terminators,
+            temperature=0.01,
+        )
+
+        sample["llama_output"] = outputs[0]["generated_text"][-1]["content"]
+        strategy_qa_output.append(sample)
+
+    with open("llm_output/strategy_qa_output.json", 'w') as json_file:
+        json.dump(strategy_qa_output, json_file, indent=4)
