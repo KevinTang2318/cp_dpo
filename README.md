@@ -7,4 +7,4 @@ The following table shows the accuracy scores of all experiments conducted in th
 
 |              | AQuA         | StragegyQA     | CoinFlip     | BigBench Object Tracking   |
 |--------------|--------------|----------------|--------------|----------------------------|
-| Zero-Shot CP (baseline) | 0.2874015748031496 | 0.6336980306345733 | 0.462 | 0.31066666666666665 |
+| Zero-Shot CP (baseline) | 0.2545454545454545 | 0.6554054054054054 | 0.4351851851851852 | 0.3576158940397351 |

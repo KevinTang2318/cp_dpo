@@ -1,40 +1,39 @@
-import re
 import json
+import re
+
+import pandas as pd
 from sklearn.metrics import accuracy_score
+
+
+def extract_answer(entry, pattern):
+    match = re.match(pattern, entry)
+    if match:
+        # Extract just the letter (A, B, C, or D)
+        llm_answer = match.group()
+        return llm_answer.upper()
+    else:
+        raise Exception("Failed to match: ", entry)
 
 
 def calculate_accuracy(
         pattern: str,
-        file_path: str,
-        ground_truth_key: str,
-        llm_answer_key: str,
+        dataset_name: str,
         need_extraction: bool = False
 ):
 
-    with open(file_path, "r") as f:
-        data = json.load(f)
+    test_data = pd.read_json("test_data/testing.jsonl", lines=True)
+
+    dataset_entries = (test_data[test_data["dataset"]
+                                 == f"{dataset_name}_preference_dataset.json"]
+                       .reset_index(drop=True))
 
     # get the ground truth and answer from the LLM
-    ground_truth = []
-    llm_answers = []
+    ground_truth = dataset_entries["ground_truth"].replace(
+        r'^[^a-zA-Z]+|[^a-zA-Z]+$', '', regex=True).str.upper().tolist()
 
-    for entry in data:
-        if need_extraction:
-            entry[ground_truth_key] = entry[ground_truth_key][0]
-
-        cleaned_ground_truth = re.sub(r'^[^a-zA-Z]+|[^a-zA-Z]+$', '',
-                                      entry[ground_truth_key])
-        ground_truth.append(cleaned_ground_truth.upper())
-
-        match = re.match(pattern, entry[llm_answer_key])
-        if match:
-            # Extract just the letter (A, B, C, or D)
-            llm_answer = match.group()
-            cleaned_llm_answer = re.sub(r'^[^a-zA-Z]+|[^a-zA-Z]+$', '',
-                                        llm_answer)
-            llm_answers.append(cleaned_llm_answer.upper())
-        else:
-            raise Exception("Failed to match: ", entry[llm_answer_key])
+    llm_answers = dataset_entries["response_chosen"].apply(
+        extract_answer, args=(pattern,)
+    ).replace(r'^[^a-zA-Z]+|[^a-zA-Z]+$', '', regex=True).str.upper().tolist()
 
     return accuracy_score(ground_truth, llm_answers)
 
@@ -42,36 +41,27 @@ def calculate_accuracy(
 print("Accuracy for zero-shot CP on AQuA dataset: ",
       calculate_accuracy(
           "^[A-E]",
-          "preference_data/aqua_preference_dataset.json",
-          "ground_truth",
-          "correct_answer"
+          "aqua",
       )
       )
 
 print("Accuracy for zero-shot CP on StrategyQA dataset: ",
       calculate_accuracy(
           "^(Yes|No)",
-          "preference_data/strategy_qa_preference_dataset.json",
-          "ground_truth",
-          "correct_answer"
+          "strategy_qa",
       )
       )
 
 print("Accuracy for zero-shot CP on CoinFlip dataset: ",
       calculate_accuracy(
           "^(Yes|No)",
-          "preference_data/coin_flip_preference_dataset.json",
-          "rationale",
-          "correct_answer"
+          "coin_flip",
       )
       )
 
 print("Accuracy for zero-shot CP on BigBench Object Tracking dataset: ",
       calculate_accuracy(
           "^.*$",
-          "preference_data/object_tracking_preference_dataset.json",
-          "rationale",
-          "correct_answer",
-          need_extraction=True
+          "object_tracking",
       )
       )
