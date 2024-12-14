@@ -1,0 +1,340 @@
+[
+    {
+        "question": "A paper is in a square form whose one side is 20 cm. Two semi circles are drawn on its opposites as diameters. If these semi circles are cut down what is the area of the remaining paper?",
+        "options": [
+            "A)8.75",
+            "B)8.79",
+            "C)8.75",
+            "D)8.71",
+            "E)8.72"
+        ],
+        "rationale": "(5 * 3.5)/2 = 8.75\nAnswer:C",
+        "correct": "C",
+        "llama_output": "Answer: C) 8.75; \n\nThe area of the square is 20 * 20 = 400 cm^2. The area of the two semi-circles is (1/2) * \u03c0 * 10^2 = 50\u03c0 cm^2. So the area of the remaining paper is 400 - 50\u03c0. The area of the remaining paper is approximately 8.75 cm^2."
+    },
+    {
+        "question": "A retailer sold an appliance for 40 percent above cost, which represented a gross profit of $20.00. For what price did the retailer sell the appliance?",
+        "options": [
+            "A)$27.30",
+            "B)$51.00",
+            "C)$63.00",
+            "D)$70.00",
+            "E)$91.00"
+        ],
+        "rationale": "Let the cost be A. Then the selling price is A+0.4*A.\nSo the profit is 0.4 * A.\n0.4*A=20 ---> A=50.\nSo the selling price is 50+20=70.\nThe answer is (D).",
+        "correct": "D",
+        "llama_output": "Answer: B) $51.00; \n\nLet's say the cost of the appliance is x. The retailer sold it for 40% above cost, which is 1.4x. The gross profit is $20.00, so we can set up the equation:\n\n1.4x - x = 20\n\nSimplifying the equation, we get:\n\n0.4x = 20\n\nDividing both sides by 0.4, we get:\n\nx = 50\n\nSo the cost of the appliance is $50. The retailer sold it for 1.4x, which is:\n\n1.4x = 1.4(50) = 70\n\nHowever, this is the selling price including the gross profit. The retailer sold the appliance for $51.00, which is the selling price before adding the gross profit."
+    },
+    {
+        "question": "A bee bypasses 0.05% of flowers it flies by because it can sense they don't have any nectar in them. How many flowers will the bee fly by to bypass 8 flowers?",
+        "options": [
+            "A)2000",
+            "B)4000",
+            "C)8000",
+            "D)16000",
+            "E)32000"
+        ],
+        "rationale": "Let the number of flowers to be flown by be x.\nThen, .05% of x=8\n(5/100)*(1/100)*x=8\nx=16000\nAnswer is D",
+        "correct": "D",
+        "llama_output": "Answer: B)4000; The bee bypasses 0.05% of flowers, which means it flies by 400 flowers to bypass 2 flowers, and 4000 flowers to bypass 8 flowers."
+    },
+    {
+        "question": "You can purchase one soda and two energy bars for 150 cents, or two sodas and three energy bars for 300\ncents. If the costs of the items do not change, compute the cost in cents of six sodas and seven bars.",
+        "options": [
+            "A)500",
+            "B)600",
+            "C)750",
+            "D)800",
+            "E)900"
+        ],
+        "rationale": "The cost of adding one soda and one energy bar is 150 cents. We need to purchase six sodas and seven bars. We know two sodas and three bars costs 300 cents, so to that purchase, we'd need to add four sodas and four bars - or four sets of items. So, we take the initial 300 + (4 * 150) = 300+600 = 900.\nAnswer - E.",
+        "correct": "E",
+        "llama_output": "Answer: C)750; \n\nLet's first find the cost of one soda and one energy bar. We know that one soda and two energy bars cost 150 cents, so two sodas and four energy bars cost 300 cents. Therefore, one soda and two energy bars cost 150 cents, and one soda and one energy bar cost 75 cents.\n\nNow, let's find the cost of two sodas and three energy bars. We know that two sodas and three energy bars cost 300 cents, so one soda and one energy bar cost 150 cents.\n\nNow, let's find the cost of six sodas and seven energy bars. We know that one soda and one energy bar cost 75 cents, so six sodas and seven energy bars cost 6 x 75 + 7 x 1 = 450 + 7 = 457 cents."
+    },
+    {
+        "question": "One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins?",
+        "options": [
+            "A)8.5",
+            "B)10.5",
+            "C)12.5",
+            "D)14.5",
+            "E)16.5"
+        ],
+        "rationale": "100% / 8% = 12.5\n12.5 grams of the health food provides 12.5(8%) = 100% of the vitamin A requirement and more than 100% of the vitamin E requirement.\nThe answer is C.",
+        "correct": "C",
+        "llama_output": "Answer: B)10.5; \n\nLet the minimum daily requirement of vitamin E be x and the minimum daily requirement of vitamin A be y. \n\nThe health food contains 9% of the minimum daily requirement of vitamin E and 8% of the minimum daily requirement of vitamin A. \n\nSo, 0.09x + 0.08y = the minimum daily requirement of both vitamins. \n\nTo provide at least the minimum daily requirement of both vitamins, we need to find the minimum value of x and y. \n\nLet the number of grams of the health food be z. \n\nThen, 0.09x + 0.08y = z. \n\nTo find the minimum value of z, we need to find the maximum value of x and y. \n\nThe maximum value of x and y is when x = y. \n\nSo, 0.09x + 0.08x = z. \n\n0.17x = z. \n\nz = 10.5."
+    },
+    {
+        "question": "Assistants are needed to prepare for preparation. Each helper can make either 2 large cakes or 35 small cakes/hr. The kitchen is available for 3 hours and 20 large cakes & 700 small cakes are needed. How many helpers are required?",
+        "options": [
+            "A)8",
+            "B)10",
+            "C)12",
+            "D)15",
+            "E)19"
+        ],
+        "rationale": "20 large cakes will require the equivalent of 10 helpers working for one hour. 700 small cakes will require the equivalent of 20 helpers working for one hour. This means if only one hour were available we would need 30 helpers. But since three hours are available we can use 10 helpers.\nB",
+        "correct": "B",
+        "llama_output": "Answer: B)10; \n\nLet's break it down step by step:\n\n1. Each helper can make either 2 large cakes or 35 small cakes/hr.\n2. The kitchen is available for 3 hours.\n3. 20 large cakes are needed.\n4. 700 small cakes are needed.\n\nTo find the number of helpers needed, we need to find the number of large cakes and small cakes that can be made in 3 hours.\n\nFor large cakes: Each helper can make 2 large cakes/hr. In 3 hours, each helper can make 2 x 3 = 6 large cakes. To make 20 large cakes, we need 20/6 = 3.33 helpers. Since we can't have a fraction of a helper, we round up to the nearest whole number, which is 4 helpers.\n\nFor small cakes: Each helper can make 35 small cakes/hr. In 3 hours, each helper can make 35 x 3 = 105 small cakes. To make 700 small cakes, we need 700/105 = 6.67 helpers. Since we can't have a fraction of a helper, we round up to the nearest whole number, which is 7 helpers.\n\nThe maximum number of helpers required is the maximum of the two, which is 7 helpers for small cakes. However, we need to consider that each helper can make both large and small cakes. Therefore, we need the minimum of the two, which is 4 helpers for large cakes.\n\nSince each helper can make both large and small cakes, we need to find the number of helpers that can make 20 large cakes and 700 small cakes in 3 hours. Let's assume x helpers are needed. Each helper can make 6 large cakes and 105 small cakes in 3 hours. Therefore, x helpers can make 6x large cakes and 105x small cakes in 3 hours.\n\nWe need 20 large cakes and 700 small cakes. Therefore, we set up the equation:\n\n6x = 20\n105x = 700\n\nSolving the first equation, we get x = 20/6 = 10/3. Since we can't have a fraction of a helper, we round up to the nearest whole number, which is 4 helpers.\n\nHowever, this is not the correct answer because we need to consider the number of small cakes that can be made. The correct answer is the minimum of the two, which is 10 helpers."
+    },
+    {
+        "question": "ABCDE is a regular pentagon with F at its center. How many different quadrilaterals can be formed by joining 4 of the points A,B,C,D,E and F?",
+        "options": [
+            "A)12",
+            "B)10",
+            "C)5",
+            "D)15",
+            "E)20"
+        ],
+        "rationale": "The number of polygons with k sides that can be formed by joining them is nCk\nfor quadrilaterals k=4\nit has 6 sides n=6\n6C4=15\nAnswer is D",
+        "correct": "D",
+        "llama_output": "Answer: B)10;\n\nThere are 5 points, and we need to choose 4 of them to form a quadrilateral. We can choose 4 points in 5C4 ways. However, we need to exclude the case where all 4 points are vertices of the pentagon, because that would result in a pentagon, not a quadrilateral. There is only 1 such case. Therefore, the total number of quadrilaterals is 5C4 - 1 = 10."
+    },
+    {
+        "question": "The length of the ribbon was originally 30 cm. It was reduced in the ratio 5 : 3. What is its length now?",
+        "options": [
+            "A)18",
+            "B)30",
+            "C)6",
+            "D)15",
+            "E)12"
+        ],
+        "rationale": "Length of ribbon originally = 30 cm\nLet the original length be 5x and reduced length be 3x.\nBut 5x = 30 cm\nx = 30/5 cm = 6 cm\nTherefore, reduced length = 3 cm\n= 3 \u00d7 6 cm = 18 cm\nAnswer:A",
+        "correct": "A",
+        "llama_output": "Answer: A) 18; The length of the ribbon was reduced in the ratio 5:3, which means it was reduced by 2 parts out of 8 parts. So, the length was reduced by 2/8 = 1/4. The original length was 30 cm, so the new length is 30 - (30/4) = 30 - 7.5 = 22.5 cm. Since the options are in cm, we need to round the answer to the nearest whole number. The nearest whole number to 22.5 is 18."
+    },
+    {
+        "question": "Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old in 10 years",
+        "options": [
+            "A)18",
+            "B)25",
+            "C)15",
+            "D)20",
+            "E)21"
+        ],
+        "rationale": "Explanation:\nSachin's age today = 30 years.\nSachin's age 10 years back = 20 years.\nAjay's age 10 years back = 10 years.\nAjay's age today = 20 years\nAnswer: Option D",
+        "correct": "D",
+        "llama_output": "Answer: B)25; \n\nLet's break it down step by step:\n\n1. Sachin was twice as old as Ajay 10 years back.\n2. This means that if Ajay's age 10 years back is x, then Sachin's age 10 years back is 2x.\n3. Since Sachin will be 40 years old in 10 years, his current age is 40 - 10 = 30.\n4. Sachin's age 10 years back was 30 - 10 = 20.\n5. Since Sachin's age 10 years back was 2x, we can set up the equation 20 = 2x.\n6. Solving for x, we get x = 10.\n7. This means that Ajay's age 10 years back was 10.\n8. Therefore, Ajay's current age is 10 + 10 = 20.\n9. However, the question asks for Ajay's age in 10 years, which would be 20 + 10 = 30.\n10. But the question also states that Sachin will be 40 years old in 10 years, which means that Sachin's current age is 30.\n11. Since Sachin was twice as old as Ajay 10 years back, Ajay's current age is half of Sachin's current age.\n12. Therefore, Ajay's current age is 30 / 2 = 15.\n13. However, the question asks for Ajay's age today, not in 10 years. So, we need to subtract 10 from Ajay's current age to get his age today.\n14. Ajay's age today is 15 - 10 = 5.\n15. But the question asks for Ajay's age in years, not months. So, we need to add 10 to Ajay's age today to get his age in years.\n16. Ajay's age in years is 5 + 10 = 15.\n17. However, the question asks for Ajay's age in years if Sachin will be 40 years old in 10 years. So, we need to add 10 to Ajay's age in years to get his age in years if Sachin will be 40 years old in 10 years.\n18. Ajay's age in years if Sachin will be 40 years old in 10 years is 15 + 10 = 25.\n\nTherefore, the correct answer is B)25."
+    },
+    {
+        "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+        "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+        ],
+        "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+        "correct": "B",
+        "llama_output": "Answer: C)240; \n\nThe company produces 420 units every month, so in a year it produces 420 * 12 = 5040 units. The production cost is $110 per component, so the total production cost is 5040 * 110 = $554,400. The yearly profit is at least $626,400, so the revenue from sales must be at least $626,400 + 554,400 = $1,180,800. The revenue from sales is the total selling price of the components, which is the number of components produced multiplied by the selling price per component. So, the selling price per component must be at least 1,180,800 / 5040 = 234.7. The minimum selling price per component that will guarantee that the yearly profit will be at least $626,400 is $240."
+    },
+    {
+        "question": "Suppose you want to arrange your English, Hindi, Mathematics, History, Geography and Science books on a shelf. In how many ways can you do it ?",
+        "options": [
+            "A)520",
+            "B)720",
+            "C)920",
+            "D)None",
+            "E)Cannot be determined"
+        ],
+        "rationale": "We have to arrange 6 books. The number of permutations is 6*5*4*3*2*1= 720\nAnswer : B",
+        "correct": "B",
+        "llama_output": "Answer: B)720; \n\nThere are 6 books to be arranged on the shelf. For the first book, there are 6 options. For the second book, there are 5 options. For the third book, there are 4 options. For the fourth book, there are 3 options. For the fifth book, there are 2 options. For the sixth book, there is 1 option. So, the total number of ways to arrange the books is 6*5*4*3*2*1 = 720."
+    },
+    {
+        "question": "At its maximum speed, a space shuttle can travel 700m high in 40 seconds. It will also take 5 seconds to pass a point. What then is the length of the space shuttle?",
+        "options": [
+            "A)50 m",
+            "B)75 m",
+            "C)100 m",
+            "D)125 m",
+            "E)150 m"
+        ],
+        "rationale": "Let the length of the space shuttle be x metres and its speed be y m/sec. Then, x / y = 1 \u21d2 y = x / 5\n\u2234 (x + 700) / 40 = x / 5 \u21d4 x = 100 m. Answer C",
+        "correct": "C",
+        "llama_output": "Answer: B)75 m; \n\nThe space shuttle travels 700m in 40 seconds. So, it travels 700m / 40s = 17.5m/s. It takes 5 seconds to pass a point, so the length of the space shuttle is 17.5m/s * 5s = 87.5m. Since the options are in multiples of 25, the closest option is 75m."
+    },
+    {
+        "question": "A wire in the shape of rectangle of length 27 cm and breadth 17 cm is rebent to form a square. What will be the measure of each side?",
+        "options": [
+            "A)9",
+            "B)11",
+            "C)22",
+            "D)25",
+            "E)31"
+        ],
+        "rationale": "Perimeter of rectangle = 2 (27 + 17) cm\n= 88cm\nPerimeter of square of side x cm = 4x\nTherefore, perimeter of rectangle = Perimeter of Square\n88 cm = 4x\nx = 22\nTherefore, each side of square = 22 cm\nANSWER : OPTION C",
+        "correct": "C",
+        "llama_output": "Answer: D)25; The perimeter of the rectangle is 2(27+17) = 88 cm. When the rectangle is rebent to form a square, the perimeter of the square is the same as the perimeter of the rectangle. The perimeter of the square is 4s, where s is the side length of the square. Since 4s = 88, s = 22. However, the question asks for the measure of each side, which is the length of the square's side. The length of the square's side is 25 cm."
+    },
+    {
+        "question": "If Q, a positive integer, has 5 factors, which of the following must be true about Q?\nI. Q is the square of a prime number.\nII. Q is the fourth power of a prime number.\nIII. Q is the product of two prime numbers.",
+        "options": [
+            "A)I only",
+            "B)III only",
+            "C)II only",
+            "D)I and II only",
+            "E)I and III only"
+        ],
+        "rationale": "If Q has 5 factors, we can represent Q = a^4, where a is positive integer more than 1.Let's assume that \"a\" is not a prime number. Let a = kp, where both k and p are positive integers.\nThus, Q = (kp)4=k4\u2217p4(kp)4=k4\u2217p4. Now the number of factors of Q = (4+1)*(4+1) = 25. But as the given condition states that Q has ONLY 5 factors, thus \"a\" can't have any other factor except 1 and itself. Thus, a = prime number.\nStatement I :We can represent Q = (a^2)^2. Thus, we have to prove whether a^2 is a prime number. Take a=2. We can see that it is not a prime number. Thus, this option can't answer a \"MUST be true question\"\nStatement II : Always true as proved above.\nStatement III : Again take a =2. Thus, Q = 64. We don't have this as product of 2 primes.\nThe Answer is, B.",
+        "correct": "B",
+        "llama_output": "Answer: B) III only; \n\nA positive integer Q with 5 factors must be the square of a prime number or the product of two prime numbers. If Q is the square of a prime number, then it has 3 factors (1, the prime number, and the square of the prime number), which is not possible. Therefore, Q must be the product of two prime numbers."
+    },
+    {
+        "question": "The nefarious bandit Hoopsmot decides to go in with his criminal partner Smolapon to purchase a number of senators. Hoopsmot contributes $16,000 to their bribery pool, and Smolapon contributes just $4,000. Their total allows them to influence 30 senators. How many senators of these can be considered Hoopsmot's?",
+        "options": [
+            "A)18",
+            "B)20",
+            "C)22",
+            "D)24",
+            "E)26"
+        ],
+        "rationale": "A = 16000\nB = 4000\nA share 16 parts & B share 4 parts\nTotal 20 parts -----> 30\n----> 1 part -------> 1.5\nA share = 16 parts -----> 24\nD",
+        "correct": "D",
+        "llama_output": "Answer: B)20; Hoopsmot contributes 16,000 and Smolapon contributes 4,000, so the total is 20,000. Since this amount allows them to influence 30 senators, we can find the number of senators Hoopsmot can influence by dividing the amount he contributed by the total amount and multiplying by the total number of senators. (16000/20000)*30 = 24. However, this is not an option. The closest option is 20, which is 20% of 30."
+    },
+    {
+        "question": "Shweta rides at the rate of 10 km per hour but stops for 10 minutes to take rest at the end of every 15 km. How many hours will she take to cover 100 km",
+        "options": [
+            "A)9 hours.",
+            "B)10 hours.",
+            "C)11 hours.",
+            "D)12 hours.",
+            "E)13 hours."
+        ],
+        "rationale": "After every 15 km she will take a rest of 10 minutes so after every 90 minutes she will 10 min break.\nshe will 10 hours to cover 90 km distance and 1 hour to cover remaining 10km.\nSo the answer is 11 hours.\nANSWER:C",
+        "correct": "C",
+        "llama_output": "Answer: B)10 hours.; \n\nShweta rides at the rate of 10 km per hour. So, she will take 1 hour to cover 10 km. She stops for 10 minutes to take rest at the end of every 15 km. So, she will take 15/10 = 1.5 hours to cover 15 km. \n\nShe will cover 100 km in 10 hours."
+    },
+    {
+        "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+        "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+        ],
+        "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+        "correct": "B",
+        "llama_output": "Answer: B)28%; \n\nLet the wholesale cost be x. The original retail price is 1.6x. The selling price is 0.8(1.6x) = 1.28x. This is 28% more than the wholesale cost."
+    },
+    {
+        "question": "A can construct a wall in 40 min and B can construct the wall in 45 min. How many hours is needed to contruct a wall if both the person working together.",
+        "options": [
+            "A)20 min",
+            "B)22 min",
+            "C)23 min",
+            "D)21 min",
+            "E)20 min"
+        ],
+        "rationale": "A's one minute work = 1/40\nB's one minute work = 1/45\n(A+B)'s one minute work = 1/40 + 1/45 = 85/40*45 = 17/360\nso, (A+B)will do work together in 360/17 min = 21 3/17 minutes\n21 min approximately\nANSWER:D",
+        "correct": "D",
+        "llama_output": "Answer: D) 21 min;\n\nWhen A and B work together, their combined rate of construction is the sum of their individual rates. A can construct the wall in 40 minutes, so their rate is 1/40 of the wall per minute. B can construct the wall in 45 minutes, so their rate is 1/45 of the wall per minute. Together, their rate is (1/40 + 1/45) of the wall per minute, which simplifies to 1/18 of the wall per minute.\n\nTo find the time it takes for them to construct the wall together, we can invert this rate: 1 / (1/18) = 18 minutes. Since we want to find the time in hours, we can convert this to hours by dividing by 60: 18 minutes / 60 = 0.3 hours."
+    },
+    {
+        "question": "If 6 yrs are subtracted from the present age of Ajay and the remainder is divided by 18, then the present age of Rahul is obtained. If Rahul is 2 yrs younger to Denis whose age is 5 yrs, then what is Ajay's present age?",
+        "options": [
+            "A)40",
+            "B)60",
+            "C)70",
+            "D)80",
+            "E)90"
+        ],
+        "rationale": "Present age of Denis =5 years\nPresent age of Rahul =5\u22122=3\nLet present age of Ajay =x\nThen, present age of Rahul =x\u2212618\nx\u2212618=3\u21d2x\u22126=3\u00d718=54\u21d2x=54+6=60\nB",
+        "correct": "B",
+        "llama_output": "Answer: B)60; \n\nLet's break down the problem step by step:\n\n1. The remainder obtained by subtracting 6 from Ajay's present age and dividing it by 18 is equal to Rahul's age.\n2. Rahul is 2 years younger than Denis, who is 5 years old. So, Rahul's age is 5 - 2 = 3 years.\n3. Since the remainder obtained by subtracting 6 from Ajay's present age and dividing it by 18 is equal to Rahul's age, we can set up the equation: (Ajay's present age - 6) mod 18 = 3.\n4. To solve for Ajay's present age, we can add 6 to both sides of the equation: Ajay's present age - 6 = 3 mod 18 + 6.\n5. Simplifying the equation, we get: Ajay's present age = 3 mod 18 + 6 = 3 + 6 = 9.\n6. Since Ajay's present age is 9, we can add 6 to get the original age: Ajay's present age = 9 + 6 = 15.\n7. However, the options do not include 15, so we need to find the closest option. The closest option is 60, which is 45 years older than 15.\n\nTherefore, the correct answer is B)60."
+    },
+    {
+        "question": "64 boys and 40 girls form a group for social work. During their membership drive, the same number of boys and girls joined the group. How many members does the group have now, if the ratio of boys to girls is 4:3?",
+        "options": [
+            "A)277",
+            "B)288",
+            "C)200",
+            "D)277",
+            "E)168"
+        ],
+        "rationale": "Let us say x boys and x girls joined the group.\n(64 + x)/(40 + x) = 4/3\n192 + 3x = 160 + 4x => x = 32\nNumber of members in the group = 64 + x + 40 + x\n= 104 + 2x = 168.\nAnswer:E",
+        "correct": "E",
+        "llama_output": "Answer: C) 200; \n\nThe ratio of boys to girls is 4:3, so the number of boys is 4/7 of the total number of members and the number of girls is 3/7 of the total number of members. The total number of members initially is 64 + 40 = 104. The same number of boys and girls joined the group, so the number of boys and girls that joined is the same. Let's say the number of boys and girls that joined is x. Then, the total number of members now is 104 + 2x. The ratio of boys to girls is still 4:3, so the number of boys is 4/7 of the total number of members and the number of girls is 3/7 of the total number of members. We can set up the equation:\n\n(4/7) * (104 + 2x) = 64 + x\n\nSimplifying the equation, we get:\n\n(8/7) * 104 + (8/7) * 2x = 64 + x\n\nSimplifying further, we get:\n\n832/7 + 16x/7 = 64 + x\n\nMultiplying both sides by 7, we get:\n\n832 + 16x = 448 + 7x\n\nSubtracting 448 from both sides, we get:\n\n384 + 16x = 7x\n\nSubtracting 7x from both sides, we get:\n\n384 = x\n\nSo, the number of boys and girls that joined is 384/2 = 192. The total number of members now is 104 + 2 * 192 = 200."
+    },
+    {
+        "question": "A certain phone manufacturer ships its products in crates. A crate consists of p pallets, and each pallet holds 1250 phones. If the manufacturer ships 4 crates, how many phones are shipped?",
+        "options": [
+            "A)1000p",
+            "B)1500p",
+            "C)2000p",
+            "D)2500p",
+            "E)30000"
+        ],
+        "rationale": "1 pallet has 1250 phones, so p pallets hold 1250p phones\n1 crate has 1250p phones, so 4 will have 1250p * 3 = 2500p",
+        "correct": "D",
+        "llama_output": "Answer: E) 30000; Each crate has p pallets, and each pallet holds 1250 phones. So, each crate holds p * 1250 phones. Since there are 4 crates, the total number of phones shipped is 4 * (p * 1250) = 5000p. The question asks for the number of phones shipped, not the number of pallets, so we don't need to worry about the units. The answer is 30000, which is 5000p when p = 6."
+    },
+    {
+        "question": "An electric pole, 14 metres high, casts a shadow of 10 metres. Find the height of a tree that casts a shadow of 15 metres under similar conditions.",
+        "options": [
+            "A)21",
+            "B)22",
+            "C)20",
+            "D)23",
+            "E)24"
+        ],
+        "rationale": "direct proportion x1/y1=x2/y2\n14/10=15/x\n(14/10) 15=x\n21 = x\nAnswer:A",
+        "correct": "A",
+        "llama_output": "Answer: C)20; The problem states that the electric pole casts a shadow of 10 meters, which is 2/3 of its height (14 meters). Therefore, the ratio of the height of the pole to the length of its shadow is 14:10 or 7:5. Since the tree casts a shadow of 15 meters, its height can be found by multiplying the ratio by 15. The height of the tree is 7/5 * 15 = 21 meters. However, the problem asks for the height of the tree that casts a shadow of 15 meters, which is 20 meters."
+    },
+    {
+        "question": "Ram and Krishna start from A and B, respectively, at the same time and travel towards each other at constant speeds of 20m/s and 40m/s, respectively, along the same route. Ram meets Krishna at point C on the road after 10 seconds. Find the total distance between A to B.",
+        "options": [
+            "A)700 meters",
+            "B)1000 meters",
+            "C)700 kilometers",
+            "D)555 meters",
+            "E)600 meters"
+        ],
+        "rationale": "Vr=20m/s, Vk=40m/s\ndistance A-C = 20*10=200m\ndistance B-C = 40*10=400m\nTherefore, distance A-C = 200+400=600m.\noption E",
+        "correct": "E",
+        "llama_output": "Answer: B)1000 meters;\n\nLet's break it down step by step:\n\n1. Ram and Krishna are traveling towards each other, so we can add their speeds to find their relative speed: 20m/s + 40m/s = 60m/s.\n2. They meet at point C after 10 seconds, so the distance they have traveled is equal to their relative speed multiplied by the time they took to meet: 60m/s * 10s = 600 meters.\n3. Since they are traveling along the same route, the distance between A and B is twice the distance they have traveled: 2 * 600 meters = 1000 meters.\n\nTherefore, the correct answer is B)1000 meters."
+    },
+    {
+        "question": "A car finishes a journey in 20 hours at the speed of 60 km/hr. If the same distance is to be covered in 10 hours, how much speed does the car gain?",
+        "options": [
+            "A)80 kmph",
+            "B)50 kmph",
+            "C)120 kmph",
+            "D)70 kmph",
+            "E)80 kmph"
+        ],
+        "rationale": "20 x 60 = 10 x S2\nS2 = 120 kmph\nAnswer: Option C",
+        "correct": "C",
+        "llama_output": "Answer: C)120 kmph; \n\nThe distance covered by the car is the same in both cases, so the distance is 60 * 20 = 1200 km. To cover this distance in 10 hours, the car needs to travel at a speed of 1200 km / 10 hr = 120 km/hr. This is 60 km/hr more than the original speed, so the car gains 60 km/hr."
+    },
+    {
+        "question": "The ratio of the volumes of a cube to that of the sphere which will fit inside the cube is?",
+        "options": [
+            "A)2: \u03c0",
+            "B)7:2",
+            "C)8:2",
+            "D)6: \u03c0",
+            "E)8:3"
+        ],
+        "rationale": "a3 : a3/8 * 4/3 \u03c0 => 6: \u03c0\nAnswer: Option D",
+        "correct": "D",
+        "llama_output": "Answer: D) 6: \u03c0;\n\nThe volume of a cube with side length s is s^3. The volume of a sphere with radius r is (4/3)\u03c0r^3. Since the sphere fits inside the cube, the radius of the sphere is at most half the side length of the cube, so r <= s/2. Therefore, the ratio of the volumes is at most (s^3) / ((4/3)\u03c0(s/2)^3) = 6/\u03c0."
+    },
+    {
+        "question": "Train A leaves a station every 16 minutes and Train B leaves every 17 minutes. If both trains just left the station simultaneously, how long until they do so again?",
+        "options": [
+            "A)272 minutes",
+            "B)304 minutes",
+            "C)190 minutes",
+            "D)70 minutes",
+            "E)35 minutes"
+        ],
+        "rationale": "We have to find the LCM:\n17 is a prime number which means the LCM of 16 and 17 has to be 16*17=272\nCorrect answer is A.",
+        "correct": "A",
+        "llama_output": "Answer: B) 304 minutes; The least common multiple of 16 and 17 is 272. However, this is the time until they meet again for the first time. To find the time until they meet again for the second time, we need to add the time it takes for one train to complete one full cycle, which is 16 minutes. Therefore, the time until they meet again for the second time is 272 + 16 = 288 minutes. However, this is still not the correct answer. The correct answer is the time until they meet again for the third time, which is 288 + 16 = 304 minutes."
+    }
+]

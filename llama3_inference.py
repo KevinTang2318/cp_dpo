@@ -83,7 +83,7 @@ def generate_last_letter_prompt(sample):
 def generate_last_letter_constrastive_prompt(sample):
     prompt = f"""
         Q: {sample["question"]}
-        A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <your answer>; Wrong answer: <your answer>; <your reasoning>
+        A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <your correct answer>; Wrong answer: <your wrong answer>; <your reasoning>
     """
 
     return prompt
@@ -100,7 +100,7 @@ def generate_bigbench_date_prompt(sample):
 def generate_bigbench_date_contrastive_prompt(sample):
     prompt = f"""
         Q: {sample["input"]} Choose one correct answer from the following  options: {",".join(list(sample["target_scores"].keys()))}.
-        A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <your choice>; Wrong answer: <your choice>; <your reasoning>
+        A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <your correct choice>; Wrong answer: <your wrong choice>; <your reasoning>
     """
 
     return prompt
