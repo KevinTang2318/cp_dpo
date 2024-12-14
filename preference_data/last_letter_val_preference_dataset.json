@@ -1,0 +1,802 @@
+[
+    {
+        "question": "Take the last letters of each words in \"Loren Wes Dean Hayley\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nsny",
+        "correct_answer": "Ney",
+        "wrong_answer": "Hay",
+        "llm_reasoning": "Reasoning: The last letter of each word is \"N\" from \"Loren\", \"N\" from \"Wes\", \"N\" from \"Dean\", and \"Y\" from \"Hayley\". Concatenating these letters gives \"NenY\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Imelda Andi Mack Rigoberto\" and concatenate them.",
+        "options": [],
+        "ground_truth": "aiko",
+        "correct_answer": "ad",
+        "wrong_answer": "rig",
+        "llm_reasoning": "Reasoning: The last letter of each word is \"a\" from \"Imelda\", \"d\" from \"Andi\", \"k\" from \"Mack\", and \"o\" from \"Rigoberto\". Concatenating these letters gives \"ad\". The wrong answer \"rig\" is incorrect because it is the last three letters of the last word \"Rigoberto\", not the last letter of each word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Debby Geoffrey Alana Silvestre\" and concatenate them.",
+        "options": [],
+        "ground_truth": "yyae",
+        "correct_answer": "yre",
+        "wrong_answer": "re",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"y\" from Debby, \"y\" from Geoffrey, \"a\" from Alana, and \"e\" from Silvestre. Concatenating these letters gives \"yre\". The wrong answer \"re\" is incorrect because it only takes the last two letters, missing the \"y\" from Debby and Alana."
+    },
+    {
+        "question": "Take the last letters of each words in \"Bri Roger Eve Diana\" and concatenate them.",
+        "options": [],
+        "ground_truth": "irea",
+        "correct_answer": "ire",
+        "wrong_answer": "e",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given phrase are \"i\" from \"Bri\", \"r\" from \"Roger\", \"E\" from \"Eve\", and \"a\" from \"Diana\". Concatenating these letters gives us \"ire\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Elle Alex Irma Stephan\" and concatenate them.",
+        "options": [],
+        "ground_truth": "exan",
+        "correct_answer": "elima",
+        "wrong_answer": "elima",
+        "llm_reasoning": "The correct answer is simply the last letter of each word in the given name, which are \"e\" from \"Elle\", \"x\" from \"Alex\", \"a\" from \"Irma\", and \"n\" from \"Stephan\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Camilo Becky Eliza Rebecca\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oyaa",
+        "correct_answer": "olabe",
+        "wrong_answer": "ila",
+        "llm_reasoning": "Reasoning: The last letters of each word are: Camilo - O, Becky - Y, Eliza - A, Rebecca - A. Concatenating these letters gives \"olabe\". The wrong answer \"ila\" is incorrect because it only takes the last letters of the first three words, ignoring the last word \"Rebecca\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"April Molly Maurice Jaclyn\" and concatenate them.",
+        "options": [],
+        "ground_truth": "lyen",
+        "correct_answer": "llyr",
+        "wrong_answer": "ly",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given string are \"l\" from April, \"y\" from Molly, \"e\" from Maurice, and \"n\" from Jaclyn. Concatenating these letters gives us \"llyr\". The wrong answer \"ly\" is incorrect because it only takes the last two letters and ignores the rest."
+    },
+    {
+        "question": "Take the last letters of each words in \"Guadalupe Ebony Wil Luke\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eyle",
+        "correct_answer": "epyl",
+        "wrong_answer": "eluke",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"e\" from Guadalupe, \"y\" from Ebony, \"L\" from Wil, and \"E\" from Luke. Concatenating these letters gives \"epyl\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Jacky Socorro Mark Wanda\" and concatenate them.",
+        "options": [],
+        "ground_truth": "yoka",
+        "correct_answer": "ykwa",
+        "wrong_answer": "ykaw",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given string: Jacky - y, Socorro - o, Mark - k, Wanda - a. Concatenating these letters gives ykwa. The wrong answer is obtained by concatenating the letters in a different order, which is incorrect."
+    },
+    {
+        "question": "Take the last letters of each words in \"Liliana Quincy Bart Makayla\" and concatenate them.",
+        "options": [],
+        "ground_truth": "ayta",
+        "correct_answer": "ayna",
+        "wrong_answer": "yla",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"a\" from Liliana, \"y\" from Quincy, \"t\" from Bart, and \"a\" from Makayla. Concatenating these letters gives \"anya\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Orlando Colby Julius Ofelia\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oysa",
+        "correct_answer": "olo",
+        "wrong_answer": "of",
+        "llm_reasoning": "Reasoning: The last letter of \"Orlando\" is O, the last letter of \"Colby\" is Y, the last letter of \"Julius\" is S, and the last letter of \"Ofelia\" is A. Concatenating these letters gives \"olo\". The wrong answer \"of\" is incorrect because it only takes the last two letters, whereas the correct answer takes the last letter of each word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Regina Joel Justice Eli\" and concatenate them.",
+        "options": [],
+        "ground_truth": "alei",
+        "correct_answer": "aine",
+        "wrong_answer": "t",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word: \"Regina\" ends with \"a\", \"Joel\" ends with \"l\", \"Justice\" ends with \"e\", and \"Eli\" ends with \"i\". Concatenating these letters gives \"aine\". The wrong answer \"t\" is obtained by taking the last letter of the last word \"Eli\", which is incorrect because it does not consider the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Jermaine Pat Tammie Olivia\" and concatenate them.",
+        "options": [],
+        "ground_truth": "etea",
+        "correct_answer": "einot",
+        "wrong_answer": "eimot",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given string: \"Jermaine\" ends with \"e\", \"Pat\" ends with \"t\", \"Tammie\" ends with \"e\", \"Olivia\" ends with \"a\". Concatenating these letters gives \"einet\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Barbie Desiree Yaneth Dre\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eehe",
+        "correct_answer": "eire",
+        "wrong_answer": "re",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"e\" from Barbie, \"e\" from Desiree, \"h\" from Yaneth, and \"e\" from Dre. Concatenating these letters gives \"eire\". The wrong answer \"re\" is incorrect because it only takes the last letters of the first two words and ignores the last letters of the remaining words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Sal Scott Myrna Maximo\" and concatenate them.",
+        "options": [],
+        "ground_truth": "ltao",
+        "correct_answer": "oxtimo",
+        "wrong_answer": "oxtimo",
+        "llm_reasoning": "The correct answer is simply the last letter of each word in the given string, which are \"l\", \"t\", \"a\", and \"o\", concatenated together to form \"ltao\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Dave Ernesto Liam Marsha\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eoma",
+        "correct_answer": "e",
+        "wrong_answer": "h",
+        "llm_reasoning": "The correct answer is the last letter of each word in the given string: \"Dave\" ends with \"E\", \"Ernesto\" ends with \"O\", \"Liam\" ends with \"M\", and \"Marsha\" ends with \"A\". The wrong answer is the last letter of each word in the given string, but in the wrong order."
+    },
+    {
+        "question": "Take the last letters of each words in \"Nicolas Aaliyah Pascual Rob\" and concatenate them.",
+        "options": [],
+        "ground_truth": "shlb",
+        "correct_answer": "lsa",
+        "wrong_answer": "rob",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"s\" from Nicolas, \"h\" from Aaliyah, \"l\" from Pascual, and \"b\" from Rob. Concatenating these letters gives us \"slab\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Rachel Alisa Fanny Jeffery\" and concatenate them.",
+        "options": [],
+        "ground_truth": "layy",
+        "correct_answer": "ley",
+        "wrong_answer": "y",
+        "llm_reasoning": "Correct answer: The correct answer is obtained by taking the last letters of each word in the given name: Rachel - L, Alisa - A, Fanny - Y, Jeffery - Y. Then, concatenate these letters to get \"ley\".\n\nWrong answer: The wrong answer is obtained by taking only the last letter of the last word \"Jeffery\" which is \"Y\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Cinthia Lloyd Jacqueline Jc\" and concatenate them.",
+        "options": [],
+        "ground_truth": "adec",
+        "correct_answer": "aie",
+        "wrong_answer": "Jc",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"a\" from \"Cinthia\", \"d\" from \"Lloyd\", \"e\" from \"Jacqueline\", and \"c\" from \"Jc\". Concatenating these letters gives \"aie\". The wrong answer is \"Jc\" because it is not the correct concatenation of the last letters of each word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Laila Audrey Glenn Rhonda\" and concatenate them.",
+        "options": [],
+        "ground_truth": "ayna",
+        "correct_answer": "aled",
+        "wrong_answer": "aled",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given name are L (Laila), y (Audrey), N (Glenn), and A (Rhonda). Concatenating these letters gives us \"aled\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Kristopher Deb Jake Tammy\" and concatenate them.",
+        "options": [],
+        "ground_truth": "rbey",
+        "correct_answer": "rre",
+        "wrong_answer": "y",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given string: \"Kristopher\" ends with \"r\", \"Deb\" ends with \"b\", \"Jake\" ends with \"e\", and \"Tammy\" ends with \"y\". Concatenating these letters gives \"rre\". The wrong answer \"y\" is obtained by taking only the last letter of the last word \"Tammy\", which is incorrect as it does not consider the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Marty Justine Edgardo Osman\" and concatenate them.",
+        "options": [],
+        "ground_truth": "yeon",
+        "correct_answer": "ytnoe",
+        "wrong_answer": "ytnoe",
+        "llm_reasoning": "Reasoning: The last letters of each word in \"Marty Justine Edgardo Osman\" are y, t, e, o, and n. Concatenating these letters gives \"ytnoe\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Max Mikey Cynthia Holly\" and concatenate them.",
+        "options": [],
+        "ground_truth": "xyay",
+        "correct_answer": "xh",
+        "wrong_answer": "y",
+        "llm_reasoning": "Reasoning: The last letter of \"Max\" is \"X\", the last letter of \"Mikey\" is \"Y\", the last letter of \"Cynthia\" is \"A\", and the last letter of \"Holly\" is \"Y\". Concatenating these letters gives \"XYA\", which is then reduced to \"Xh\" since \"A\" is dropped when two vowels are concatenated."
+    },
+    {
+        "question": "Take the last letters of each words in \"Miguel Angel Saul Brady Darryl\" and concatenate them.",
+        "options": [],
+        "ground_truth": "llyl",
+        "correct_answer": "l",
+        "wrong_answer": "y",
+        "llm_reasoning": "The correct answer is the last letter of each word in the given name, which are l from Miguel, l from Angel, l from Saul, y from Brady, and l from Darryl. The wrong answer is y because it is the last letter of the word Brady, but not the last letter of the other names."
+    },
+    {
+        "question": "Take the last letters of each words in \"Logan Ely Abbie Colleen\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nyen",
+        "correct_answer": "nnie",
+        "wrong_answer": "n",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given name: Logan (n), Ely (y), Abbie (e), Colleen (n), and concatenating them to get \"nnie\". The wrong answer is obtained by taking only the last letter of the first word \"Logan\" which is \"n\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Arnold Aidan Ally Ami\" and concatenate them.",
+        "options": [],
+        "ground_truth": "dnyi",
+        "correct_answer": "dldy",
+        "wrong_answer": "ami",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given string are \"n\" from \"Arnold\", \"n\" from \"Aidan\", \"y\" from \"Ally\", and \"i\" from \"Ami\". Concatenating these letters gives \"dldy\". The wrong answer \"ami\" is incorrect because it is the original word \"Ami\" instead of its last letter \"i\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Maricruz Alfredo Barry Deepak\" and concatenate them.",
+        "options": [],
+        "ground_truth": "zoyk",
+        "correct_answer": "zdk",
+        "wrong_answer": "k",
+        "llm_reasoning": "Correct answer: The last letters of each word in the given string are \"z\" from Maricruz, \"o\" from Alfredo, \"y\" from Barry, and \"k\" from Deepak. Concatenating these letters gives \"zdk\".\n\nWrong answer: The wrong answer is \"k\" because it is the last letter of only one word, Deepak, and not the last letters of all the words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Justin Neal Jt Lucia\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nlta",
+        "correct_answer": "nit",
+        "wrong_answer": "tac",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"n\" from \"Justin\", \"l\" from \"Neal\", \"t\" from \"Jt\", and \"a\" from \"Lucia\". Concatenating these letters gives \"nit\". The wrong answer \"tac\" is incorrect because it is the letters in reverse order, not the correct concatenation."
+    },
+    {
+        "question": "Take the last letters of each words in \"Maryam Susy Trinity Pearl\" and concatenate them.",
+        "options": [],
+        "ground_truth": "myyl",
+        "correct_answer": "mly",
+        "wrong_answer": "l",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given phrase are \"y\" from \"Maryam\", \"y\" from \"Susy\", \"y\" from \"Trinity\", and \"l\" from \"Pearl\". Concatenating these letters gives \"mly\". The wrong answer \"l\" is incorrect because it only takes the last letter of the last word \"Pearl\" and ignores the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Kristy Brandi Lizeth Petra\" and concatenate them.",
+        "options": [],
+        "ground_truth": "yiha",
+        "correct_answer": "yd",
+        "wrong_answer": "t",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given string are \"y\" from Kristy, \"i\" from Brandi, \"h\" from Lizeth, and \"a\" from Petra. Concatenating these letters gives \"ydiha\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Andres Mary Ann Sydney Dina\" and concatenate them.",
+        "options": [],
+        "ground_truth": "snya",
+        "correct_answer": "snd",
+        "wrong_answer": "dna",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"s\" from Andres, \"y\" from Mary, \"n\" from Ann, \"y\" from Sydney, and \"a\" from Dina. Concatenating these letters gives \"snd\". The wrong answer \"dna\" is incorrect because it is the last letters of the words \"Dina\" and \"Andres\" in reverse order, which is not the correct concatenation."
+    },
+    {
+        "question": "Take the last letters of each words in \"Yan Eunice Joseph Hugh\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nehh",
+        "correct_answer": "eceh",
+        "wrong_answer": "eceh",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"n\" from \"Yan\", \"e\" from \"Eunice\", \"ph\" from \"Joseph\", and \"h\" from \"Hugh\". Concatenating these letters gives us \"nceph\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Lupita Cyndi Kay Derrick\" and concatenate them.",
+        "options": [],
+        "ground_truth": "aiyk",
+        "correct_answer": "a",
+        "wrong_answer": "kay",
+        "llm_reasoning": "Reasoning: The last letter of \"Lupita\" is \"A\", the last letter of \"Cyndi\" is \"I\", the last letter of \"Kay\" is \"Y\", and the last letter of \"Derrick\" is \"K\". Concatenating these letters gives \"AIYK\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Rogelio Freddy Ivan Madeleine\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oyne",
+        "correct_answer": "oie",
+        "wrong_answer": "Madeleine",
+        "llm_reasoning": "Correct answer: The correct answer is the concatenation of the last letters of each word in the given name, which are \"o\", \"y\", \"n\", and \"e\". \n\nWrong answer: The wrong answer is the entire name \"Madeleine\", which is not the correct concatenation of the last letters of each word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Rosendo Shayla Erica Georgia\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oaaa",
+        "correct_answer": "oale",
+        "wrong_answer": "oare",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"o\" from Rosendo, \"a\" from Shayla, \"a\" from Erica, and \"a\" from Georgia. Concatenating these letters gives \"oale\". The wrong answer \"oare\" is incorrect because it combines the last letters of Rosendo and Shayla, but not Erica and Georgia."
+    },
+    {
+        "question": "Take the last letters of each words in \"Caleb Chase Eleazar Chanel\" and concatenate them.",
+        "options": [],
+        "ground_truth": "berl",
+        "correct_answer": "el",
+        "wrong_answer": "el",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given phrase are \"el\" from \"Caleb\", \"e\" from \"Chase\", \"r\" from \"Eleazar\", and \"l\" from \"Chanel\". Concatenating these letters gives us \"elerl\", which is the correct answer."
+    },
+    {
+        "question": "Take the last letters of each words in \"Theo Sheila Mariana Esmeralda\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oaaa",
+        "correct_answer": "aled",
+        "wrong_answer": "a",
+        "llm_reasoning": "The correct answer is obtained by taking the last letter of each word: Theo (o), Sheila (a), Mariana (a), Esmeralda (a) and concatenating them. The wrong answer is obtained by taking only the last letter of the first word (o)."
+    },
+    {
+        "question": "Take the last letters of each words in \"Jeff Jen Giselle Noel\" and concatenate them.",
+        "options": [],
+        "ground_truth": "fnel",
+        "correct_answer": "lle",
+        "wrong_answer": "Noel",
+        "llm_reasoning": "Reasoning: The last letter of \"Jeff\" is F, the last letter of \"Jen\" is N, the last letter of \"Giselle\" is E, and the last letter of \"Noel\" is L. Concatenating these letters gives us \"F-N-E-L\", which is the correct answer."
+    },
+    {
+        "question": "Take the last letters of each words in \"Janice Shelly Arnulfo Nestor\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eyor",
+        "correct_answer": "e",
+        "wrong_answer": "r",
+        "llm_reasoning": "The correct answer is the last letter of each word in the given name, which are \"e\" from Janice, \"y\" from Shelly, \"o\" from Arnulfo, and \"r\" from Nestor. The wrong answer is the last letter of the name Nestor, which is \"r\", but it's not the correct concatenation of the last letters of each word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Luz Terence Elder Jazmin\" and concatenate them.",
+        "options": [],
+        "ground_truth": "zern",
+        "correct_answer": "zn",
+        "wrong_answer": "n",
+        "llm_reasoning": "Reasoning: The last letter of \"Luz\" is \"Z\", the last letter of \"Terence\" is \"E\", the last letter of \"Elder\" is \"R\", and the last letter of \"Jazmin\" is \"N\". Concatenating these letters gives \"Z-E-R-N\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Mar\u00eda Fredy Bridgette Kenya\" and concatenate them.",
+        "options": [],
+        "ground_truth": "ayea",
+        "correct_answer": "eetne",
+        "wrong_answer": "eetnay",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"a\" from Mar\u00eda, \"y\" from Fredy, \"te\" from Bridgette, and \"a\" from Kenya. Concatenating these letters gives \"eetne\". The wrong answer \"eetnay\" is incorrect because it includes the last letter of the word \"Kenya\" which is \"a\", not \"y\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Sue Cassandra Cody Cali\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eayi",
+        "correct_answer": "yie",
+        "wrong_answer": "i",
+        "llm_reasoning": "Correct answer: The correct answer is obtained by taking the last letters of each word in the given string \"Sue Cassandra Cody Cali\". The last letters of each word are \"e\" from \"Sue\", \"a\" from \"Cassandra\", \"y\" from \"Cody\", and \"i\" from \"Cali\". Concatenating these letters gives \"yei\". \n\nWrong answer: The wrong answer is obtained by taking only the last letter of the last word \"Cali\", which is \"i\". This is incorrect because it does not consider the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Eugenio Moises Marion Kirk\" and concatenate them.",
+        "options": [],
+        "ground_truth": "osnk",
+        "correct_answer": "oie",
+        "wrong_answer": "kirk",
+        "llm_reasoning": "Reasoning: The last letter of each word is \"o\" in \"Eugenio\", \"s\" in \"Moises\", \"n\" in \"Marion\", and \"k\" in \"Kirk\". Concatenating these letters gives \"oies\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Dino Toby Abigail Manuela\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oyla",
+        "correct_answer": "iln",
+        "wrong_answer": "a",
+        "llm_reasoning": "Correct answer: The last letters of each word in \"Dino Toby Abigail Manuela\" are \"o\", \"y\", \"l\", \"l\", and \"a\". Concatenating these letters gives \"oylla\". However, the correct answer is \"iln\" because the last letters are \"o\", \"y\", \"l\", \"a\", and \"a\". \n\nWrong answer: The wrong answer is \"a\" because it is the last letter of the word \"Abigail\", but it is not the correct concatenation of all the last letters."
+    },
+    {
+        "question": "Take the last letters of each words in \"Ashish Tracey Varun Emil\" and concatenate them.",
+        "options": [],
+        "ground_truth": "hynl",
+        "correct_answer": "y",
+        "wrong_answer": "l",
+        "llm_reasoning": "The correct answer is the last letter of each word in the given string: \"Ashish\" ends with \"H\", \"Tracey\" ends with \"Y\", \"Varun\" ends with \"N\", and \"Emil\" ends with \"L\". So, the correct answer is \"y\". The wrong answer is \"l\" because it is the last letter of \"Emil\" but not the last letter of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Damian Crystal Nisha Hernan\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nlan",
+        "correct_answer": "niln",
+        "wrong_answer": "man",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"n\" from Damian, \"l\" from Crystal, \"a\" from Nisha, and \"n\" from Hernan. Concatenating these letters gives \"niln\". The wrong answer \"man\" is incorrect because it is not the correct combination of the last letters of each word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Maura Selvin Tabitha Gino\" and concatenate them.",
+        "options": [],
+        "ground_truth": "anao",
+        "correct_answer": "aht",
+        "wrong_answer": "no",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given string are \"a\" from \"Maura\", \"n\" from \"Selvin\", \"a\" from \"Tabitha\", and \"o\" from \"Gino\". Concatenating these letters gives \"aht\". The wrong answer \"no\" is incorrect because it is not the correct concatenation of the last letters of each word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Faustino Lamar Fransisco Rina\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oroa",
+        "correct_answer": "o; o; o; a",
+        "wrong_answer": "o",
+        "llm_reasoning": "o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o; o;"
+    },
+    {
+        "question": "Take the last letters of each words in \"Nubia Sarah Jalen Kris\" and concatenate them.",
+        "options": [],
+        "ground_truth": "ahns",
+        "correct_answer": "a",
+        "wrong_answer": "s",
+        "llm_reasoning": "Reasoning: The last letter of \"Nubia\" is \"A\", the last letter of \"Sarah\" is \"H\", the last letter of \"Jalen\" is \"N\", the last letter of \"Kris\" is \"S\". Concatenating these letters gives \"A H N S\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Lynda Danilo Jonny Judith\" and concatenate them.",
+        "options": [],
+        "ground_truth": "aoyh",
+        "correct_answer": "dailoj",
+        "wrong_answer": "dailoj",
+        "llm_reasoning": "The correct answer is simply the last letter of each word in the given string, concatenated together. The last letters of each word are \"a\" from \"Lynda\", \"o\" from \"Danilo\", \"y\" from \"Jonny\", and \"h\" from \"Judith\", so the correct answer is \"a-o-y-h\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Marshall Herman Faye Grant\" and concatenate them.",
+        "options": [],
+        "ground_truth": "lnet",
+        "correct_answer": "ll",
+        "wrong_answer": "t",
+        "llm_reasoning": "The correct answer is to take the last letter of each word: Marshall ends with L, Herman ends with N, Faye ends with E, and Grant ends with T. Concatenating these letters gives L-N-E-T."
+    },
+    {
+        "question": "Take the last letters of each words in \"Axel Osvaldo Mildred Sylvia\" and concatenate them.",
+        "options": [],
+        "ground_truth": "loda",
+        "correct_answer": "LDRS",
+        "wrong_answer": "LDR",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given name are Axl-L, Osvaldo-D, Mildred-D, and Sylvia-A. Concatenating these letters gives L-D-D-A, which can be written as LDRS. The wrong answer LDR is incorrect because it only takes the last letters of the first three words and ignores the last letter of the fourth word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Forrest Juanito Allan Candice\" and concatenate them.",
+        "options": [],
+        "ground_truth": "tone",
+        "correct_answer": "etoic",
+        "wrong_answer": "tinoa",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"t\" from Forrest, \"o\" from Juanito, \"n\" from Allan, and \"e\" from Candice. Concatenating these letters gives \"etoic\". The wrong answer \"tinoa\" is incorrect because it combines the last letters in a different order."
+    },
+    {
+        "question": "Take the last letters of each words in \"Les Jun Noe Juliana\" and concatenate them.",
+        "options": [],
+        "ground_truth": "snea",
+        "correct_answer": "an",
+        "wrong_answer": "a",
+        "llm_reasoning": "Reasoning: The last letters of each word in \"Les Jun Noe Juliana\" are \"s\", \"n\", \"e\", \"a\", and \"a\". Concatenating these letters gives us \"s-n-e-a-a\", which simplifies to \"snea\" or \"an\" when the repeated letters are removed."
+    },
+    {
+        "question": "Take the last letters of each words in \"Peggy Trent Darrell Pamela\" and concatenate them.",
+        "options": [],
+        "ground_truth": "ytla",
+        "correct_answer": "yylle",
+        "wrong_answer": "Peggy",
+        "llm_reasoning": "Correct answer: The correct answer is the concatenation of the last letters of each word in the given string, which are y, l, l, e. \n\nWrong answer: The wrong answer is \"Peggy\" because it is one of the words in the given string, not the concatenation of the last letters of each word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Michel Roy Sergey Jessie\" and concatenate them.",
+        "options": [],
+        "ground_truth": "lyye",
+        "correct_answer": "ley",
+        "wrong_answer": "y",
+        "llm_reasoning": "Correct answer: The correct answer is \"ley\" because the last letters of each word in the given string are \"l\" from \"Michel\", \"y\" from \"Roy\", \"y\" from \"Sergey\", and \"e\" from \"Jessie\". When concatenated, these letters form the string \"ley\".\n\nWrong answer: The wrong answer is \"y\" because it is the last letter of only one word, \"Roy\", and does not take into account the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Dorian Mayra Freddie Magaly\" and concatenate them.",
+        "options": [],
+        "ground_truth": "naey",
+        "correct_answer": "naly",
+        "wrong_answer": "rie",
+        "llm_reasoning": "Reasoning: The last letter of \"Dorian\" is N, the last letter of \"Mayra\" is A, the last letter of \"Freddie\" is E, and the last letter of \"Magaly\" is Y. Concatenating these letters gives \"naly\". The wrong answer \"rie\" is incorrect because it is the last letters of \"Dorian\" and \"Freddie\" concatenated, but it does not include the last letters of \"Mayra\" and \"Magaly\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Belkis Wendell Lissette Patricia\" and concatenate them.",
+        "options": [],
+        "ground_truth": "slea",
+        "correct_answer": "sis; Patricia",
+        "wrong_answer": "sis",
+        "llm_reasoning": "sis; sis; Reasoning: The last letter of each word is \"s\" in \"Belkis\", \"Lissette\", and \"Patricia\", and \"L\" in \"Wendell\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Gerson Roxanne Deborah Nathaniel\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nehl",
+        "correct_answer": "nne",
+        "wrong_answer": "l",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given string: \"Gerson\" ends with \"N\", \"Roxanne\" ends with \"E\", \"Deborah\" ends with \"H\", and \"Nathaniel\" ends with \"L\". Concatenating these letters gives \"nne\". The wrong answer \"l\" is obtained by taking the last letter of the last word \"Nathaniel\", which is incorrect because it does not consider the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Charmaine Vic Homero Jeanine\" and concatenate them.",
+        "options": [],
+        "ground_truth": "ecoe",
+        "correct_answer": "ein",
+        "wrong_answer": "ne",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"m\" from \"Charmaine\", \"V\" from \"Vic\", \"o\" from \"Homero\", and \"e\" from \"Jeanine\". Concatenating these letters gives \"meo\", which is the correct answer."
+    },
+    {
+        "question": "Take the last letters of each words in \"Sophie Gregorio Avery Pooja\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eoya",
+        "correct_answer": "eiea",
+        "wrong_answer": "eiea",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given string are \"e\" from Sophie, \"o\" from Gregorio, \"y\" from Avery, and \"a\" from Pooja. Concatenating these letters gives \"eiea\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Cruz Wilber Marilu Malik\" and concatenate them.",
+        "options": [],
+        "ground_truth": "zruk",
+        "correct_answer": "zlkm",
+        "wrong_answer": "zlkm",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"z\" from Cruz, \"r\" from Wilber, \"u\" from Marilu, and \"k\" from Malik. Concatenating these letters gives us \"zlkm\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Chava Rosalia Kurt Linda\" and concatenate them.",
+        "options": [],
+        "ground_truth": "aata",
+        "correct_answer": "ail",
+        "wrong_answer": "t",
+        "llm_reasoning": "Correct answer: The correct answer is obtained by taking the last letters of each word in the given string: \"Chava\" ends with \"a\", \"Rosalia\" ends with \"a\", \"Kurt\" ends with \"t\", and \"Linda\" ends with \"a\". Concatenating these letters gives \"ail\".\n\nWrong answer: The wrong answer is obtained by taking the last letter of the entire string, which is \"a\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Idalia Arnoldo Marla Duane\" and concatenate them.",
+        "options": [],
+        "ground_truth": "aoae",
+        "correct_answer": "ailad",
+        "wrong_answer": "ne",
+        "llm_reasoning": "Correct answer: The correct answer is obtained by taking the last letters of each word in the given name: Idalia (A), Arnoldo (O), Marla (A), and Duane (E). Concatenating these letters gives us \"ailad\".\n\nWrong answer: The wrong answer is obtained by taking the last letters of each word in the given name: Idalia (A), Arnoldo (O), Marla (A), and Duane (E). However, instead of concatenating these letters, I mistakenly took the last letter of the entire name, which is \"E\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Whitney Erika Tj Benito\" and concatenate them.",
+        "options": [],
+        "ground_truth": "yajo",
+        "correct_answer": "yieb",
+        "wrong_answer": "yieb",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given name: Whitney (y), Erika (a), Tj (not applicable, so we take the last letter of the next word), Benito (o). Concatenating these letters gives \"yieb\". The wrong answer is also \"yieb\" because it is the correct answer!"
+    },
+    {
+        "question": "Take the last letters of each words in \"Jaime Brad Levi Emmanuel\" and concatenate them.",
+        "options": [],
+        "ground_truth": "edil",
+        "correct_answer": "eme",
+        "wrong_answer": "le",
+        "llm_reasoning": "Reasoning: The last letters of each word in \"Jaime Brad Levi Emmanuel\" are \"E\", \"D\", \"I\", and \"L\" respectively. Concatenating these letters gives \"eme\". The wrong answer \"le\" is incorrect because it only takes the last letters of the first two words \"Jaime\" and \"Brad\", ignoring the rest of the words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Julia Kirsten Pam Adan\" and concatenate them.",
+        "options": [],
+        "ground_truth": "anmn",
+        "correct_answer": "a",
+        "wrong_answer": "dan",
+        "llm_reasoning": "Reasoning: The last letter of each word is \"a\" from Julia, \"n\" from Kirsten, \"m\" from Pam, and \"n\" from Adan. Concatenating these letters gives \"a n m n\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Efren Rex Marilyn Emerson\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nxnn",
+        "correct_answer": "n",
+        "wrong_answer": "r",
+        "llm_reasoning": "Correct answer: The last letters of each word in \"Efren Rex Marilyn Emerson\" are \"n\", \"x\", \"n\", \"n\", and \"n\". Concatenating these letters gives \"n\". \n\nWrong answer: The wrong answer is \"r\" because it is the last letter of the word \"Rex\", but it is not the correct answer because the last letters of the other words are not \"r\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Cristal Roxana Rajesh Danny\" and concatenate them.",
+        "options": [],
+        "ground_truth": "lahy",
+        "correct_answer": "lal",
+        "wrong_answer": "h",
+        "llm_reasoning": "The correct answer is obtained by taking the last letter of each word: Cristal -> l, Roxana -> a, Rajesh -> l, Danny -> y, and concatenating them to get \"lal\". The wrong answer is obtained by taking the last letter of the entire string \"Cristal Roxana Rajesh Danny\" which is \"y\", but this is incorrect because the task is to take the last letter of each word separately."
+    },
+    {
+        "question": "Take the last letters of each words in \"Russ Berta Mandy Lydia\" and concatenate them.",
+        "options": [],
+        "ground_truth": "saya",
+        "correct_answer": "dy",
+        "wrong_answer": "y",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"ss\" from \"Russ\", \"a\" from \"Berta\", \"y\" from \"Mandy\", and \"a\" from \"Lydia\". Concatenating these letters gives \"ssaya\". However, the wrong answer is just \"y\" because it's the last letter of \"Mandy\", but it's not the correct concatenation of all the last letters."
+    },
+    {
+        "question": "Take the last letters of each words in \"Chloe Flaco Theodore Nathalie\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eoee",
+        "correct_answer": "oie",
+        "wrong_answer": "e",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"o\" from Chloe, \"o\" from Flaco, \"e\" from Theodore, and \"e\" from Nathalie. Concatenating these letters gives \"oie\". The wrong answer \"e\" is incorrect because it only takes the last letter of the last word Nathalie, ignoring the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Gabe Dora Aileen Modesto\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eano",
+        "correct_answer": "e",
+        "wrong_answer": "o",
+        "llm_reasoning": "The correct answer is the last letter of each word: \"Gabe\" ends with \"E\", \"Dora\" ends with \"A\", \"Aileen\" ends with \"N\", and \"Modesto\" ends with \"O\". The wrong answer is the last letter of each word in the wrong order."
+    },
+    {
+        "question": "Take the last letters of each words in \"Paula Irina Laurel Maribel\" and concatenate them.",
+        "options": [],
+        "ground_truth": "aall",
+        "correct_answer": "ael",
+        "wrong_answer": "l",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given name: Paula - a, Irina - a, Laurel - l, Maribel - l. Concatenating these letters gives \"ael\". The wrong answer is obtained by taking only the last letter of the last word, which is \"l\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Thomas Cara Nita Frances\" and concatenate them.",
+        "options": [],
+        "ground_truth": "saas",
+        "correct_answer": "sin",
+        "wrong_answer": "t",
+        "llm_reasoning": "The correct answer is obtained by taking the last letter of each word: Thomas - S, Cara - A, Nita - A, Frances - S. Concatenating these letters gives \"sin\". The wrong answer is obtained by taking the last letter of the entire string \"Thomas Cara Nita Frances\" which is \"S\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Bj Rigo Nigel Christian\" and concatenate them.",
+        "options": [],
+        "ground_truth": "joln",
+        "correct_answer": "nig",
+        "wrong_answer": "rigo",
+        "llm_reasoning": "Reasoning: The last letter of \"Bj\" is \"j\", the last letter of \"Rigo\" is \"o\", the last letter of \"Nigel\" is \"l\", the last letter of \"Christian\" is \"n\". Concatenating these letters gives \"jnol\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Jodi Judi Nia Raj\" and concatenate them.",
+        "options": [],
+        "ground_truth": "iiaj",
+        "correct_answer": "idnir",
+        "wrong_answer": "idnir",
+        "llm_reasoning": "The correct answer is simply the last letter of each word in the given string \"Jodi Judi Nia Raj\", which are i, i, a, and j respectively. Concatenating these letters gives \"idnir\". The wrong answer is also \"idnir\" because it is the correct answer."
+    },
+    {
+        "question": "Take the last letters of each words in \"Tere Niko Keith Conner\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eohr",
+        "correct_answer": "rer",
+        "wrong_answer": "ner",
+        "llm_reasoning": "The correct answer is obtained by taking the last letter of each word: \"Tere\" ends with \"E\", \"Niko\" ends with \"O\", \"Keith\" ends with \"H\", and \"Conner\" ends with \"R\". The wrong answer is obtained by taking the last letter of each word in a different order."
+    },
+    {
+        "question": "Take the last letters of each words in \"H\u00e9ctor Daniela Rossy Jose Manuel\" and concatenate them.",
+        "options": [],
+        "ground_truth": "rayl",
+        "correct_answer": "ry",
+        "wrong_answer": "Jose",
+        "llm_reasoning": "Correct answer: The last letters of each word are \"r\" from H\u00e9ctor, \"a\" from Daniela, \"y\" from Rossy, \"e\" from Jose, and \"l\" from Manuel. Concatenating these letters gives \"ry\". \n\nWrong answer: The wrong answer is \"Jose\" because it is a word, not a single letter."
+    },
+    {
+        "question": "Take the last letters of each words in \"Andre Oralia Carrie Bruno\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eaeo",
+        "correct_answer": "ire",
+        "wrong_answer": "o",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word: \"Andre\" ends with \"e\", \"Oralia\" ends with \"a\", \"Carrie\" ends with \"e\", and \"Bruno\" ends with \"o\". Concatenating these letters gives \"ire\". The wrong answer is obtained by taking the last letter of each word, which is \"o\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Christy Rey Michelle Dolly\" and concatenate them.",
+        "options": [],
+        "ground_truth": "yyey",
+        "correct_answer": "ylyd",
+        "wrong_answer": "ydly",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given name: Christy (y), Rey (y), Michelle (e), and Dolly (y), and concatenating them in order. The wrong answer is obtained by concatenating the last letters in a different order."
+    },
+    {
+        "question": "Take the last letters of each words in \"Frank Trevor Al Gabriella\" and concatenate them.",
+        "options": [],
+        "ground_truth": "krla",
+        "correct_answer": "kael",
+        "wrong_answer": "k",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given name are \"k\" from Frank, \"r\" from Trevor, \"i\" from Al, and \"a\" from Gabriella. Concatenating these letters gives \"k-r-i-a\" which simplifies to \"kael\". The wrong answer \"k\" is incorrect because it only takes the last letter of the first word \"Frank\" and ignores the rest."
+    },
+    {
+        "question": "Take the last letters of each words in \"Sonya Eddy Carol Yung\" and concatenate them.",
+        "options": [],
+        "ground_truth": "aylg",
+        "correct_answer": "yna",
+        "wrong_answer": "y",
+        "llm_reasoning": "Reasoning: The last letters of each word in the given string are \"y\" from Sonya, \"y\" from Eddy, \"l\" from Carol, and \"g\" from Yung. Concatenating these letters gives \"yna\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Lorena Shana Priscilla Summer\" and concatenate them.",
+        "options": [],
+        "ground_truth": "aaar",
+        "correct_answer": "aare",
+        "wrong_answer": "rnaa",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"a\" from Lorena, \"a\" from Shana, \"a\" from Priscilla, and \"r\" from Summer. Concatenating these letters gives \"aare\". The wrong answer \"rnaa\" is incorrect because it combines the last letters of the words in the wrong order."
+    },
+    {
+        "question": "Take the last letters of each words in \"Irving Hans Moses Nicole\" and concatenate them.",
+        "options": [],
+        "ground_truth": "gsse",
+        "correct_answer": "ing",
+        "wrong_answer": "e",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given name: Irving (ing), Hans (s), Moses (es), Nicole (e). Then, concatenating these letters gives us the correct answer \"ing\". The wrong answer \"e\" is obtained by taking the last letter of the last name \"Nicole\" and ignoring the rest."
+    },
+    {
+        "question": "Take the last letters of each words in \"Meagan Naomi Israel Marie\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nile",
+        "correct_answer": "nile",
+        "wrong_answer": "l",
+        "llm_reasoning": "Reasoning: The last letter of each word is \"n\" in Meagan, \"i\" in Naomi, \"l\" in Israel, and \"e\" in Marie. Concatenating these letters gives \"nile\". The wrong answer \"l\" is incorrect because it is the last letter of only one word, Israel, and not the last letter of all the words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Mickey Dom Lilly Eloy\" and concatenate them.",
+        "options": [],
+        "ground_truth": "ymyy",
+        "correct_answer": "y",
+        "wrong_answer": "y",
+        "llm_reasoning": "The correct answer is because the last letters of each word in the given string are \"y\" from \"Mickey\", \"y\" from \"Dom\", \"y\" from \"Lilly\", and \"y\" from \"Eloy\". When concatenated, the result is \"yyyy\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Emiliano Jasmin Wade Vilma\" and concatenate them.",
+        "options": [],
+        "ground_truth": "onea",
+        "correct_answer": "o",
+        "wrong_answer": "e",
+        "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given name: Emiliano (o), Jasmin (n), Wade (e), Vilma (a). Concatenating these letters gives \"one\". The wrong answer is obtained by taking the last letters of each word in the wrong order, which is \"e\" (from Vilma)."
+    },
+    {
+        "question": "Take the last letters of each words in \"Gabino Kayla Laurie Familia\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oaea",
+        "correct_answer": "oila",
+        "wrong_answer": "a",
+        "llm_reasoning": "Correct answer: The correct answer is obtained by taking the last letters of each word in the given string \"Gabino Kayla Laurie Familia\". The last letters are \"o\" from Gabino, \"a\" from Kayla, \"e\" from Laurie, and \"a\" from Familia. Concatenating these letters gives \"oila\".\n\nWrong answer: The wrong answer is obtained by taking the first letter of each word in the given string \"Gabino Kayla Laurie Familia\". The first letters are \"G\" from Gabino, \"K\" from Kayla, \"L\" from Laurie, and \"F\" from Familia. Concatenating these letters gives \"GKLF\", which is not the correct answer."
+    },
+    {
+        "question": "Take the last letters of each words in \"Jae Dennis Cris Bernadette\" and concatenate them.",
+        "options": [],
+        "ground_truth": "esse",
+        "correct_answer": "ette",
+        "wrong_answer": "ne",
+        "llm_reasoning": "Correct answer: The correct answer is \"ette\" because the last letters of each word in the given name are \"e\" from Jae, \"s\" from Dennis, \"s\" from Cris, and \"e\" from Bernadette. When concatenated, these letters form the string \"ette\".\n\nWrong answer: The wrong answer is \"ne\" because it is formed by taking the last letters of only two words, \"e\" from Jae and \"e\" from Bernadette, and concatenating them. This is an incomplete and incorrect answer because it does not include the last letters of the other two words, \"s\" from Dennis and \"s\" from Cris."
+    },
+    {
+        "question": "Take the last letters of each words in \"Vicki Dwight Johnson Alexandra\" and concatenate them.",
+        "options": [],
+        "ground_truth": "itna",
+        "correct_answer": "iksona",
+        "wrong_answer": "ikson",
+        "llm_reasoning": "Reasoning: The last letters of each word are \"i\" from \"Vicki\", \"h\" from \"Dwight\", \"n\" from \"Johnson\", and \"a\" from \"Alexandra\". Concatenating these letters gives \"iksona\". The wrong answer \"ikson\" is incorrect because it is missing the last letter \"a\" from \"Alexandra\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Delia Kathleen Mateo Marvin\" and concatenate them.",
+        "options": [],
+        "ground_truth": "anon",
+        "correct_answer": "oate",
+        "wrong_answer": "Marvin",
+        "llm_reasoning": "Reasoning: The last letter of each word is \"a\" in \"Delia\", \"h\" in \"Kathleen\", \"o\" in \"Mateo\", and \"n\" in \"Marvin\". Concatenating these letters gives \"aothen\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Aj Jd Maddie Francisca\" and concatenate them.",
+        "options": [],
+        "ground_truth": "jdea",
+        "correct_answer": "ida",
+        "wrong_answer": "d",
+        "llm_reasoning": "The correct answer is \"ida\" because the last letters of each word are \"j\" from \"Aj\", \"d\" from \"Jd\", \"e\" from \"Maddie\", and \"a\" from \"Francisca\". When concatenated, these letters form the string \"ida\".\n\nThe wrong answer is \"d\" because it is the last letter of only one word, \"Jd\", and does not include the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Cat Alisha Ramon Norberto\" and concatenate them.",
+        "options": [],
+        "ground_truth": "tano",
+        "correct_answer": "t",
+        "wrong_answer": "o",
+        "llm_reasoning": "The correct answer is the last letter of each word in the given string: \"Cat\" ends with \"t\", \"Alisha\" ends with \"a\", \"Ramon\" ends with \"n\", and \"Norberto\" ends with \"o\". The concatenated result is \"tano\". The wrong answer is \"o\" because it is the last letter of \"Norberto\" but not the last letter of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Clayton Edison Debbie Elvira\" and concatenate them.",
+        "options": [],
+        "ground_truth": "nnea",
+        "correct_answer": "n",
+        "wrong_answer": "a",
+        "llm_reasoning": "The correct answer is the last letter of each word in the given string: \"Clayton\" ends with \"n\", \"Edison\" ends with \"n\", \"Debbie\" ends with \"e\", and \"Elvira\" ends with \"a\". The concatenated result is \"n n e a\". The wrong answer is \"a\" because it is the last letter of only one word, \"Elvira\", and not the last letter of all the words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Oscar George Sanjay Haydee\" and concatenate them.",
+        "options": [],
+        "ground_truth": "reye",
+        "correct_answer": "rre",
+        "wrong_answer": "e",
+        "llm_reasoning": "Correct answer: The last letters of each word in \"Oscar George Sanjay Haydee\" are \"r\", \"e\", \"y\", \"e\", and \"e\". Concatenating these letters gives \"rre\". \n\nWrong answer: The wrong answer is just \"e\" because it is the last letter of the last word \"Haydee\". However, the question asks for the concatenation of the last letters of each word, not just the last word."
+    },
+    {
+        "question": "Take the last letters of each words in \"Chance Valentin Micah Clara\" and concatenate them.",
+        "options": [],
+        "ground_truth": "enha",
+        "correct_answer": "e",
+        "wrong_answer": "a",
+        "llm_reasoning": "The correct answer is the last letter of each word in the given string: \"Chance\" ends with \"E\", \"Valentin\" ends with \"N\", \"Micah\" ends with \"H\", and \"Clara\" ends with \"A\". The concatenated result is \"E N H A\". The wrong answer \"a\" is the last letter of the word \"Clara\", but it's not the correct concatenation of all the words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Lalo Yolanda Elida Ester\" and concatenate them.",
+        "options": [],
+        "ground_truth": "oaar",
+        "correct_answer": "oda",
+        "wrong_answer": "r",
+        "llm_reasoning": "Correct answer: The correct answer is \"oda\" because we take the last letter of each word: Lalo ends with \"o\", Yolanda ends with \"a\", Elida ends with \"a\", and Ester ends with \"r\". Then we concatenate these letters to get \"oda\". \n\nWrong answer: The wrong answer is \"r\" because it is the last letter of the word Ester, but it does not take into account the last letters of the other words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Mabel Estela Irene May\" and concatenate them.",
+        "options": [],
+        "ground_truth": "laey",
+        "correct_answer": "le",
+        "wrong_answer": "y",
+        "llm_reasoning": "Correct answer: The last letters of each word in \"Mabel Estela Irene May\" are \"L\", \"A\", \"E\", \"Y\". Concatenating them gives \"le\". \n\nWrong answer: The wrong answer is \"y\" because it is the last letter of the word \"May\", but it is not the correct concatenation of the last letters of all the words."
+    },
+    {
+        "question": "Take the last letters of each words in \"Gisela Gerald Mackenzie Ashley\" and concatenate them.",
+        "options": [],
+        "ground_truth": "adey",
+        "correct_answer": "ale",
+        "wrong_answer": "y",
+        "llm_reasoning": "The correct answer is obtained by taking the last letter of each word: Gisela (a), Gerald (l), Mackenzie (e), Ashley (y) and concatenating them. The wrong answer is obtained by taking the last letter of only the first word, which is \"y\"."
+    },
+    {
+        "question": "Take the last letters of each words in \"Annie To\u00f1o Sharon Delores\" and concatenate them.",
+        "options": [],
+        "ground_truth": "eons",
+        "correct_answer": "neores",
+        "wrong_answer": "Sharon",
+        "llm_reasoning": "Reasoning: The last letters of each word in \"Annie To\u00f1o Sharon Delores\" are \"nie\", \"\u00f1o\", \"n\", \"es\", and \"s\". Concatenating these letters gives \"nie\u00f1ones\"."
+    }
+]
