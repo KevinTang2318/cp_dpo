@@ -6,7 +6,8 @@
             "Melissa.": 1,
             "Jamie.": 0
         },
-        "llama_output": "Answer: Melissa; \n\nInitially, Bob is dancing with Melissa. After the first switch, Bob is dancing with Claire. Then, Bob and Alice switch partners, so Bob is now dancing with Alice. Finally, Bob and Claire switch partners again, so Bob is now dancing with Melissa."
+        "llama_output": "Answer: Melissa; \n\nInitially, Bob is dancing with Melissa. After the first switch, Bob is dancing with Claire. Then, Bob and Alice switch partners, so Bob is now dancing with Alice. Finally, Bob and Claire switch partners again, so Bob is now dancing with Melissa.",
+        "ground_truth": "Melissa"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left winger, and Claire is playing center midfielder. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Alice and Bob trade positions. Finally, Claire and Alice trade positions. At the end of the match, Claire is playing ",
@@ -15,7 +16,8 @@
             "left winger.": 0,
             "center midfielder.": 1
         },
-        "llama_output": "Answer: center midfielder.; Claire and Bob traded positions first, so Claire became the left winger. Then, Alice and Bob traded positions, so Claire became the goalkeeper. Finally, Claire and Alice traded positions, so Claire became the center midfielder again."
+        "llama_output": "Answer: center midfielder.; Claire and Bob traded positions first, so Claire became the left winger. Then, Alice and Bob traded positions, so Claire became the goalkeeper. Finally, Claire and Alice traded positions, so Claire became the center midfielder again.",
+        "ground_truth": "center midfielder"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing striker, Bob is playing left winger, and Claire is playing benchwarmer. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Alice and Bob trade positions. Finally, Claire and Alice trade positions. At the end of the match, Claire is playing ",
@@ -24,7 +26,8 @@
             "left winger.": 1,
             "benchwarmer.": 0
         },
-        "llama_output": "Answer: benchwarmer; \n\nAfter the first swap, Claire becomes the striker and Alice becomes the benchwarmer. Then, Alice and Bob trade positions, so Alice becomes the left winger and Bob becomes the striker. Finally, Claire and Alice trade positions again, so Claire becomes the benchwarmer and Alice becomes the striker."
+        "llama_output": "Answer: benchwarmer; \n\nAfter the first swap, Claire becomes the striker and Alice becomes the benchwarmer. Then, Alice and Bob trade positions, so Alice becomes the left winger and Bob becomes the striker. Finally, Claire and Alice trade positions again, so Claire becomes the benchwarmer and Alice becomes the striker.",
+        "ground_truth": "left winger"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a white ball, and Claire has a red ball. \n\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the ",
@@ -33,7 +36,8 @@
             "white ball.": 0,
             "red ball.": 0
         },
-        "llama_output": "Answer: red ball; \n\nAfter the first swap, Claire has the red ball and Bob has the blue ball. \n\nAfter the second swap, Alice has the blue ball, Bob has the red ball, and Claire has the white ball. \n\nAfter the third swap, Claire has the red ball, Bob has the blue ball, and Alice has the white ball."
+        "llama_output": "Answer: red ball; \n\nAfter the first swap, Claire has the red ball and Bob has the blue ball. \n\nAfter the second swap, Alice has the blue ball, Bob has the red ball, and Claire has the white ball. \n\nAfter the third swap, Claire has the red ball, Bob has the blue ball, and Alice has the white ball.",
+        "ground_truth": "blue ball"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Jamie, and Claire is dancing with Rodrigo. \n\nThroughout the song, the dancers often trade partners. First, Bob and Claire switch partners. Then, Alice and Bob switch partners. Finally, Bob and Claire switch partners. At the end of the dance, Bob is dancing with  ",
@@ -42,7 +46,8 @@
             "Jamie.": 1,
             "Rodrigo.": 0
         },
-        "llama_output": "Answer: Jamie; \n\nInitially, Bob is dancing with Jamie. After the first switch, Bob is dancing with Rodrigo. Then, after the second switch, Bob is dancing with Alice. Finally, after the third switch, Bob is dancing with Jamie again."
+        "llama_output": "Answer: Jamie; \n\nInitially, Bob is dancing with Jamie. After the first switch, Bob is dancing with Rodrigo. Then, after the second switch, Bob is dancing with Alice. Finally, after the third switch, Bob is dancing with Jamie again.",
+        "ground_truth": "Jamie"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a black ball, and Claire has a blue ball. \n\nAs the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Alice swap balls. Finally, Alice and Bob swap balls. At the end of the game, Claire has the ",
@@ -51,7 +56,8 @@
             "black ball.": 1,
             "blue ball.": 0
         },
-        "llama_output": "Answer: blue ball; \n\nAfter the first swap, Bob and Alice swap balls, so Alice has the black ball and Bob has the green ball. \n\nAfter the second swap, Claire and Alice swap balls, so Claire has the green ball and Alice has the blue ball. \n\nAfter the third swap, Alice and Bob swap balls, so Claire has the blue ball, Alice has the black ball, and Bob has the green ball."
+        "llama_output": "Answer: blue ball; \n\nAfter the first swap, Bob and Alice swap balls, so Alice has the black ball and Bob has the green ball. \n\nAfter the second swap, Claire and Alice swap balls, so Claire has the green ball and Alice has the blue ball. \n\nAfter the third swap, Alice and Bob swap balls, so Claire has the blue ball, Alice has the black ball, and Bob has the green ball.",
+        "ground_truth": "black ball"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a blue present, and Claire has a brown present. \n\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Alice swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the ",
@@ -60,7 +66,8 @@
             "blue present.": 0,
             "brown present.": 0
         },
-        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Claire gets the pink ball and Alice gets the brown present. \n\nAfter the second swap, Bob gets the brown present and Alice gets the blue present. \n\nAfter the third swap, Claire gets the blue present and Alice gets the pink ball."
+        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Claire gets the pink ball and Alice gets the brown present. \n\nAfter the second swap, Bob gets the brown present and Alice gets the blue present. \n\nAfter the third swap, Claire gets the blue present and Alice gets the pink ball.",
+        "ground_truth": "pink ball"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Karl, and Claire is dancing with Helga. \n\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Alice and Bob switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Bob is dancing with  ",
@@ -69,7 +76,8 @@
             "Karl.": 0,
             "Helga.": 0
         },
-        "llama_output": "Answer: Karl; \n\nInitially, Bob is dancing with Karl. After Alice and Claire switch partners, Alice is now dancing with Helga, and Claire is dancing with Sam. Then, Alice and Bob switch partners, so Alice is now dancing with Karl, and Bob is dancing with Helga. Finally, Claire and Bob switch partners, so Claire is now dancing with Karl, and Bob is still dancing with Helga."
+        "llama_output": "Answer: Karl; \n\nInitially, Bob is dancing with Karl. After Alice and Claire switch partners, Alice is now dancing with Helga, and Claire is dancing with Sam. Then, Alice and Bob switch partners, so Alice is now dancing with Karl, and Bob is dancing with Helga. Finally, Claire and Bob switch partners, so Claire is now dancing with Karl, and Bob is still dancing with Helga.",
+        "ground_truth": "Sam"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a yellow ball, and Claire has a white ball. \n\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the ",
@@ -78,7 +86,8 @@
             "yellow ball.": 0,
             "white ball.": 0
         },
-        "llama_output": "Answer: yellow ball; \n\nAfter the first swap, Claire has the yellow ball and Bob has the white ball. \n\nAfter the second swap, Alice has the yellow ball, Bob has the pink ball, and Claire has the white ball. \n\nAfter the third swap, Claire has the pink ball, Bob has the white ball, and Alice has the yellow ball."
+        "llama_output": "Answer: yellow ball; \n\nAfter the first swap, Claire has the yellow ball and Bob has the white ball. \n\nAfter the second swap, Alice has the yellow ball, Bob has the pink ball, and Claire has the white ball. \n\nAfter the third swap, Claire has the pink ball, Bob has the white ball, and Alice has the yellow ball.",
+        "ground_truth": "pink ball"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing cheerleader, Bob is playing fullback, and Claire is playing benchwarmer. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Bob trade positions. Then, Bob and Claire trade positions. Finally, Bob and Alice trade positions. At the end of the match, Claire is playing ",
@@ -87,7 +96,8 @@
             "fullback.": 0,
             "benchwarmer.": 0
         },
-        "llama_output": "Answer: benchwarmer; \n\nAfter the first swap, Alice is playing fullback and Bob is playing cheerleader. After the second swap, Bob is playing benchwarmer and Claire is playing fullback. After the third swap, Bob is playing cheerleader and Alice is playing benchwarmer. Therefore, Claire is playing benchwarmer at the end of the match."
+        "llama_output": "Answer: benchwarmer; \n\nAfter the first swap, Alice is playing fullback and Bob is playing cheerleader. After the second swap, Bob is playing benchwarmer and Claire is playing fullback. After the third swap, Bob is playing cheerleader and Alice is playing benchwarmer. Therefore, Claire is playing benchwarmer at the end of the match.",
+        "ground_truth": "cheerleader"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing striker, Bob is playing right winger, and Claire is playing goalkeeper. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Bob and Alice trade positions. Finally, Alice and Claire trade positions. At the end of the match, Claire is playing ",
@@ -96,7 +106,8 @@
             "right winger.": 0,
             "goalkeeper.": 1
         },
-        "llama_output": "Answer: goalkeeper.; Claire started as the goalkeeper and then swapped positions with Bob, who was playing right winger. Then, Bob swapped positions with Alice, who was playing striker. Finally, Alice swapped positions with Claire, so Claire ended up back in her original position, which is goalkeeper."
+        "llama_output": "Answer: goalkeeper.; Claire started as the goalkeeper and then swapped positions with Bob, who was playing right winger. Then, Bob swapped positions with Alice, who was playing striker. Finally, Alice swapped positions with Claire, so Claire ended up back in her original position, which is goalkeeper.",
+        "ground_truth": "goalkeeper"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a purple present, and Claire has a blue present. \n\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the ",
@@ -105,7 +116,8 @@
             "purple present.": 1,
             "blue present.": 0
         },
-        "llama_output": "Answer: purple present; \n\nAfter the first swap, Alice has the blue present and Claire has the black ball. \n\nAfter the second swap, Bob has the blue present, Claire has the purple present, and Alice has the black ball. \n\nAfter the third swap, Alice has the purple present, Bob has the black ball, and Claire has the blue present."
+        "llama_output": "Answer: purple present; \n\nAfter the first swap, Alice has the blue present and Claire has the black ball. \n\nAfter the second swap, Bob has the blue present, Claire has the purple present, and Alice has the black ball. \n\nAfter the third swap, Alice has the purple present, Bob has the black ball, and Claire has the blue present.",
+        "ground_truth": "purple present"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Helga, and Claire is dancing with Karl. \n\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Bob and Alice switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Claire is dancing with  ",
@@ -114,7 +126,8 @@
             "Helga.": 0,
             "Karl.": 1
         },
-        "llama_output": "Answer: Helga; Claire initially danced with Karl, then switched with Bob, and then switched with Bob's previous partner, which was Helga."
+        "llama_output": "Answer: Helga; Claire initially danced with Karl, then switched with Bob, and then switched with Bob's previous partner, which was Helga.",
+        "ground_truth": "Karl"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Karl, and Claire is dancing with Helga. \n\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Alice and Bob switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Alice is dancing with  ",
@@ -123,7 +136,8 @@
             "Karl.": 1,
             "Helga.": 0
         },
-        "llama_output": "Answer: Helga; After the first switch, Alice is dancing with Helga. Then, Alice and Bob switch partners, so Alice is now dancing with Karl. Finally, Claire and Bob switch partners, so Claire is now dancing with Sam. Since Alice and Claire switched partners at the start, Alice is now dancing with Helga."
+        "llama_output": "Answer: Helga; After the first switch, Alice is dancing with Helga. Then, Alice and Bob switch partners, so Alice is now dancing with Karl. Finally, Claire and Bob switch partners, so Claire is now dancing with Sam. Since Alice and Claire switched partners at the start, Alice is now dancing with Helga.",
+        "ground_truth": "Karl"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing right winger, Bob is playing striker, and Claire is playing fullback. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Bob and Alice trade positions. Then, Alice and Claire trade positions. Finally, Claire and Bob trade positions. At the end of the match, Bob is playing ",
@@ -132,7 +146,8 @@
             "striker.": 1,
             "fullback.": 0
         },
-        "llama_output": "Answer: striker; \n\nAfter the first swap, Bob and Alice trade positions, so Bob becomes the right winger and Alice becomes the striker.\n\nAfter the second swap, Alice and Claire trade positions, so Alice becomes the fullback and Claire becomes the right winger.\n\nAfter the third swap, Claire and Bob trade positions, so Claire becomes the striker and Bob becomes the fullback.\n\nSo, at the end of the match, Bob is playing fullback."
+        "llama_output": "Answer: striker; \n\nAfter the first swap, Bob and Alice trade positions, so Bob becomes the right winger and Alice becomes the striker.\n\nAfter the second swap, Alice and Claire trade positions, so Alice becomes the fullback and Claire becomes the right winger.\n\nAfter the third swap, Claire and Bob trade positions, so Claire becomes the striker and Bob becomes the fullback.\n\nSo, at the end of the match, Bob is playing fullback.",
+        "ground_truth": "striker"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Lolita, Bob gets Hound of the Baskervilles, and Claire gets The Fellowship of the Ring. \n\nAs the semester proceeds, they start trading around the new books. First, Bob and Claire swap books. Then, Alice and Bob swap books. Finally, Bob and Claire swap books. At the end of the semester, Alice has  ",
@@ -141,7 +156,8 @@
             "Hound of the Baskervilles.": 0,
             "The Fellowship of the Ring.": 1
         },
-        "llama_output": "Answer: Hound of the Baskervilles; \n\nInitially, Alice has Lolita, Bob has Hound of the Baskervilles, and Claire has The Fellowship of the Ring. After the first swap between Bob and Claire, Bob has The Fellowship of the Ring, and Claire has Hound of the Baskervilles. Then, Alice and Bob swap books, so Alice gets Hound of the Baskervilles (from Bob) and Bob gets Lolita (from Alice). Finally, Bob and Claire swap books again, so Bob gets back The Fellowship of the Ring, and Claire gets Lolita. Therefore, at the end of the semester, Alice has Hound of the Baskervilles."
+        "llama_output": "Answer: Hound of the Baskervilles; \n\nInitially, Alice has Lolita, Bob has Hound of the Baskervilles, and Claire has The Fellowship of the Ring. After the first swap between Bob and Claire, Bob has The Fellowship of the Ring, and Claire has Hound of the Baskervilles. Then, Alice and Bob swap books, so Alice gets Hound of the Baskervilles (from Bob) and Bob gets Lolita (from Alice). Finally, Bob and Claire swap books again, so Bob gets back The Fellowship of the Ring, and Claire gets Lolita. Therefore, at the end of the semester, Alice has Hound of the Baskervilles.",
+        "ground_truth": "The Fellowship of the Ring"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a green present, Bob has a pink ball, and Claire has a red present. \n\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Alice and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the ",
@@ -150,7 +166,8 @@
             "pink ball.": 0,
             "red present.": 0
         },
-        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Bob and Claire swap their gifts, so Bob has the red present and Claire has the pink ball.\n\nAfter the second swap, Alice and Claire swap their gifts, so Alice has the pink ball and Claire has the green present.\n\nAfter the third swap, Alice and Bob swap their gifts, so Alice has the red present and Bob has the green present.\n\nAt the end of the event, Claire has the pink ball."
+        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Bob and Claire swap their gifts, so Bob has the red present and Claire has the pink ball.\n\nAfter the second swap, Alice and Claire swap their gifts, so Alice has the pink ball and Claire has the green present.\n\nAfter the third swap, Alice and Bob swap their gifts, so Alice has the red present and Bob has the green present.\n\nAt the end of the event, Claire has the pink ball.",
+        "ground_truth": "green present"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Jamie, and Claire is dancing with Melissa. \n\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Claire and Bob switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Alice is dancing with  ",
@@ -159,7 +176,8 @@
             "Jamie.": 0,
             "Melissa.": 0
         },
-        "llama_output": "Answer: Jamie; \n\nInitially, Alice is dancing with Sam. Then, Alice and Claire switch partners, so Alice is now dancing with Melissa. Next, Claire and Bob switch partners, so Claire is now dancing with Sam. Finally, Alice and Bob switch partners, so Alice is now dancing with Jamie."
+        "llama_output": "Answer: Jamie; \n\nInitially, Alice is dancing with Sam. Then, Alice and Claire switch partners, so Alice is now dancing with Melissa. Next, Claire and Bob switch partners, so Claire is now dancing with Sam. Finally, Alice and Bob switch partners, so Alice is now dancing with Jamie.",
+        "ground_truth": "Sam"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Lola, and Claire is dancing with Karl. \n\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Bob and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Bob is dancing with  ",
@@ -168,7 +186,8 @@
             "Lola.": 1,
             "Karl.": 0
         },
-        "llama_output": "Answer: Lola; \n\nInitially, Bob is dancing with Lola. After the first switch, Bob is dancing with Sam. Then, Bob and Claire switch partners, so Bob is dancing with Karl. Finally, Alice and Bob switch partners, so Bob is dancing with Lola again."
+        "llama_output": "Answer: Lola; \n\nInitially, Bob is dancing with Lola. After the first switch, Bob is dancing with Sam. Then, Bob and Claire switch partners, so Bob is dancing with Karl. Finally, Alice and Bob switch partners, so Bob is dancing with Lola again.",
+        "ground_truth": "Lola"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Ulysses, Bob gets The Fellowship of the Ring, and Claire gets The Pearl. \n\nAs the semester proceeds, they start trading around the new books. First, Alice and Claire swap books. Then, Bob and Claire swap books. Finally, Alice and Bob swap books. At the end of the semester, Alice has  ",
@@ -177,7 +196,8 @@
             "The Fellowship of the Ring.": 0,
             "The Pearl.": 0
         },
-        "llama_output": "Answer: The Fellowship of the Ring; After the first swap, Alice gets The Pearl and Claire gets Ulysses. Then, Bob and Claire swap, so Bob gets The Pearl and Claire gets The Fellowship of the Ring. Finally, Alice and Bob swap, so Alice gets The Fellowship of the Ring and Bob gets The Pearl."
+        "llama_output": "Answer: The Fellowship of the Ring; After the first swap, Alice gets The Pearl and Claire gets Ulysses. Then, Bob and Claire swap, so Bob gets The Pearl and Claire gets The Fellowship of the Ring. Finally, Alice and Bob swap, so Alice gets The Fellowship of the Ring and Bob gets The Pearl.",
+        "ground_truth": "Ulysses"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing right winger, Bob is playing left midfielder, and Claire is playing center midfielder. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Bob and Alice trade positions. Finally, Claire and Bob trade positions. At the end of the match, Claire is playing ",
@@ -186,7 +206,8 @@
             "left midfielder.": 0,
             "center midfielder.": 1
         },
-        "llama_output": "Answer: center midfielder.; Claire and Alice initially swapped positions, so Claire became the right winger. Then, Bob and Alice swapped positions, so Claire became the left midfielder. Finally, Claire and Bob swapped positions, so Claire became the center midfielder again."
+        "llama_output": "Answer: center midfielder.; Claire and Alice initially swapped positions, so Claire became the right winger. Then, Bob and Alice swapped positions, so Claire became the left midfielder. Finally, Claire and Bob swapped positions, so Claire became the center midfielder again.",
+        "ground_truth": "center midfielder"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left midfielder, Bob is playing goalkeeper, and Claire is playing right winger. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Claire and Alice trade positions. Finally, Alice and Bob trade positions. At the end of the match, Claire is playing ",
@@ -195,7 +216,8 @@
             "goalkeeper.": 0,
             "right winger.": 0
         },
-        "llama_output": "Answer: right winger.; Claire started as the right winger and then swapped positions with Bob, who was the goalkeeper. Then, Claire swapped positions with Alice, who was the left midfielder. So, Claire ended up back at the right winger position."
+        "llama_output": "Answer: right winger.; Claire started as the right winger and then swapped positions with Bob, who was the goalkeeper. Then, Claire swapped positions with Alice, who was the left midfielder. So, Claire ended up back at the right winger position.",
+        "ground_truth": "left midfielder"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Lola, and Claire is dancing with Ophelia. \n\nThroughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Bob and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Claire is dancing with  ",
@@ -204,7 +226,8 @@
             "Lola.": 0,
             "Ophelia.": 0
         },
-        "llama_output": "Answer: Ophelia; Claire was initially dancing with Ophelia, then Bob and Claire switched partners, so Claire ended up with Bob's original partner Lola, and then Alice and Bob switched partners, so Claire ended up with Ophelia again."
+        "llama_output": "Answer: Ophelia; Claire was initially dancing with Ophelia, then Bob and Claire switched partners, so Claire ended up with Bob's original partner Lola, and then Alice and Bob switched partners, so Claire ended up with Ophelia again.",
+        "ground_truth": "Helga"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a black ball, and Claire has a purple ball. \n\nAs the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Alice swap balls. Finally, Bob and Alice swap balls. At the end of the game, Claire has the ",
@@ -213,7 +236,8 @@
             "black ball.": 1,
             "purple ball.": 0
         },
-        "llama_output": "Answer: purple ball; \n\nAfter the first swap, Bob and Alice swap balls, so Alice has the black ball and Bob has the green ball. \n\nThen, Claire and Alice swap balls, so Claire gets the black ball and Alice gets the purple ball. \n\nFinally, Bob and Alice swap balls again, so Bob gets the purple ball and Alice gets the green ball. \n\nAt the end of the game, Claire has the black ball."
+        "llama_output": "Answer: purple ball; \n\nAfter the first swap, Bob and Alice swap balls, so Alice has the black ball and Bob has the green ball. \n\nThen, Claire and Alice swap balls, so Claire gets the black ball and Alice gets the purple ball. \n\nFinally, Bob and Alice swap balls again, so Bob gets the purple ball and Alice gets the green ball. \n\nAt the end of the game, Claire has the black ball.",
+        "ground_truth": "black ball"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Fellowship of the Ring, Bob gets The Odyssey, and Claire gets The Great Gatsby. \n\nAs the semester proceeds, they start trading around the new books. First, Alice and Claire swap books. Then, Alice and Bob swap books. Finally, Claire and Alice swap books. At the end of the semester, Bob has  ",
@@ -222,7 +246,8 @@
             "The Odyssey.": 0,
             "The Great Gatsby.": 1
         },
-        "llama_output": "Answer: The Great Gatsby; \n\nLet's break down the book trades:\n\n1. Alice and Claire swap books: Alice gets The Great Gatsby, and Claire gets The Fellowship of the Ring.\n2. Alice and Bob swap books: Alice gets The Odyssey, and Bob gets The Fellowship of the Ring.\n3. Claire and Alice swap books: Claire gets The Odyssey, and Alice gets The Great Gatsby.\n\nAfter these trades, Bob has The Fellowship of the Ring (from the initial purchase) and The Odyssey (from the last trade with Alice). Therefore, at the end of the semester, Bob has The Great Gatsby."
+        "llama_output": "Answer: The Great Gatsby; \n\nLet's break down the book trades:\n\n1. Alice and Claire swap books: Alice gets The Great Gatsby, and Claire gets The Fellowship of the Ring.\n2. Alice and Bob swap books: Alice gets The Odyssey, and Bob gets The Fellowship of the Ring.\n3. Claire and Alice swap books: Claire gets The Odyssey, and Alice gets The Great Gatsby.\n\nAfter these trades, Bob has The Fellowship of the Ring (from the initial purchase) and The Odyssey (from the last trade with Alice). Therefore, at the end of the semester, Bob has The Great Gatsby.",
+        "ground_truth": "The Great Gatsby"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Jamie, Bob is dancing with Patrick, and Claire is dancing with Izzi. \n\nThroughout the song, the dancers often trade partners. First, Claire and Bob switch partners. Then, Alice and Bob switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Claire is dancing with  ",
@@ -231,7 +256,8 @@
             "Patrick.": 0,
             "Izzi.": 1
         },
-        "llama_output": "Answer: Izzi; Claire started with Izzi, then switched with Bob, who was originally with Patrick, so Claire ended up with Izzi."
+        "llama_output": "Answer: Izzi; Claire started with Izzi, then switched with Bob, who was originally with Patrick, so Claire ended up with Izzi.",
+        "ground_truth": "Izzi"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a pink ball, and Claire has a black ball. \n\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Alice and Claire swap balls. At the end of the game, Claire has the ",
@@ -240,7 +266,8 @@
             "pink ball.": 1,
             "black ball.": 0
         },
-        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Claire gets Alice's red ball and Alice gets Claire's black ball. \n\nAfter the second swap, Alice gets Bob's pink ball and Bob gets Alice's black ball. \n\nAfter the third swap, Alice gets Claire's pink ball (which Claire got from Alice earlier) and Claire gets Alice's black ball. \n\nSo, at the end of the game, Claire has the pink ball."
+        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Claire gets Alice's red ball and Alice gets Claire's black ball. \n\nAfter the second swap, Alice gets Bob's pink ball and Bob gets Alice's black ball. \n\nAfter the third swap, Alice gets Claire's pink ball (which Claire got from Alice earlier) and Claire gets Alice's black ball. \n\nSo, at the end of the game, Claire has the pink ball.",
+        "ground_truth": "pink ball"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing right midfielder, Bob is playing goalkeeper, and Claire is playing left winger. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Bob and Alice trade positions. Finally, Claire and Bob trade positions. At the end of the match, Claire is playing ",
@@ -249,7 +276,8 @@
             "goalkeeper.": 0,
             "left winger.": 0
         },
-        "llama_output": "Answer: left winger.; Claire and Bob traded positions initially, so Claire became the goalkeeper. Then, Bob and Alice traded positions, so Claire (who was the goalkeeper) became the right midfielder. Finally, Claire and Bob traded positions again, so Claire became the left winger."
+        "llama_output": "Answer: left winger.; Claire and Bob traded positions initially, so Claire became the goalkeeper. Then, Bob and Alice traded positions, so Claire (who was the goalkeeper) became the right midfielder. Finally, Claire and Bob traded positions again, so Claire became the left winger.",
+        "ground_truth": "right midfielder"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a orange ball, and Claire has a green present. \n\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Claire has the ",
@@ -258,7 +286,8 @@
             "orange ball.": 0,
             "green present.": 0
         },
-        "llama_output": "Answer: yellow present; \n\nAfter the first swap, Claire gets the orange ball and Bob gets the green present. \n\nAfter the second swap, Alice gets the green present and Claire gets the yellow present. \n\nAfter the third swap, Bob gets the yellow present and Alice gets the orange ball. \n\nSo, at the end of the event, Claire has the yellow present."
+        "llama_output": "Answer: yellow present; \n\nAfter the first swap, Claire gets the orange ball and Bob gets the green present. \n\nAfter the second swap, Alice gets the green present and Claire gets the yellow present. \n\nAfter the third swap, Bob gets the yellow present and Alice gets the orange ball. \n\nSo, at the end of the event, Claire has the yellow present.",
+        "ground_truth": "yellow present"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a purple present, and Claire has a green present. \n\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the ",
@@ -267,7 +296,8 @@
             "purple present.": 1,
             "green present.": 0
         },
-        "llama_output": "Answer: purple present; \n\nAfter the first swap, Alice has the green present and Claire has the yellow present. \n\nAfter the second swap, Bob has the green present, Claire has the purple present, and Alice has the green present. \n\nAfter the third swap, Alice has the purple present, Bob has the yellow present, and Claire has the green present."
+        "llama_output": "Answer: purple present; \n\nAfter the first swap, Alice has the green present and Claire has the yellow present. \n\nAfter the second swap, Bob has the green present, Claire has the purple present, and Alice has the green present. \n\nAfter the third swap, Alice has the purple present, Bob has the yellow present, and Claire has the green present.",
+        "ground_truth": "purple present"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Lola, Bob is dancing with Patrick, and Claire is dancing with Melissa. \n\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Bob and Claire switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Bob is dancing with  ",
@@ -276,7 +306,8 @@
             "Patrick.": 0,
             "Melissa.": 0
         },
-        "llama_output": "Answer: Melissa; After the first switch, Alice is dancing with Melissa, and Claire is dancing with Lola. After the second switch, Bob is dancing with Claire, and Claire is dancing with Melissa. After the third switch, Claire is dancing with Alice, and Alice is dancing with Melissa. So, at the end of the dance, Bob is dancing with Melissa."
+        "llama_output": "Answer: Melissa; After the first switch, Alice is dancing with Melissa, and Claire is dancing with Lola. After the second switch, Bob is dancing with Claire, and Claire is dancing with Melissa. After the third switch, Claire is dancing with Alice, and Alice is dancing with Melissa. So, at the end of the dance, Bob is dancing with Melissa.",
+        "ground_truth": "Lola"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing fullback, Bob is playing goalkeeper, and Claire is playing right winger. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Alice and Claire trade positions. Finally, Alice and Bob trade positions. At the end of the match, Alice is playing ",
@@ -285,7 +316,8 @@
             "goalkeeper.": 0,
             "right winger.": 1
         },
-        "llama_output": "Answer: right winger;"
+        "llama_output": "Answer: right winger;",
+        "ground_truth": "right winger"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a yellow ball, and Claire has a white ball. \n\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Alice has the ",
@@ -294,7 +326,8 @@
             "yellow ball.": 0,
             "white ball.": 1
         },
-        "llama_output": "Answer: pink ball; After the first swap, Claire has the yellow ball and Bob has the white ball. Then, Alice and Bob swap balls, so Alice gets the white ball and Bob gets the pink ball. Finally, Claire and Bob swap balls again, so Claire gets the pink ball and Bob gets the white ball. Therefore, Alice ends up with the pink ball."
+        "llama_output": "Answer: pink ball; After the first swap, Claire has the yellow ball and Bob has the white ball. Then, Alice and Bob swap balls, so Alice gets the white ball and Bob gets the pink ball. Finally, Claire and Bob swap balls again, so Claire gets the pink ball and Bob gets the white ball. Therefore, Alice ends up with the pink ball.",
+        "ground_truth": "white ball"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets The Odyssey, and Claire gets Ulysses. \n\nAs the semester proceeds, they start trading around the new books. First, Claire and Alice swap books. Then, Claire and Bob swap books. Finally, Bob and Alice swap books. At the end of the semester, Alice has  ",
@@ -303,7 +336,8 @@
             "The Odyssey.": 0,
             "Ulysses.": 0
         },
-        "llama_output": "Answer: The Odyssey; \n\nAfter the first swap, Claire gets Frankenstein and Alice gets Ulysses. \n\nThen, Claire and Bob swap books, so Claire gets The Odyssey and Bob gets Ulysses. \n\nFinally, Bob and Alice swap books, so Bob gets Frankenstein and Alice gets The Odyssey."
+        "llama_output": "Answer: The Odyssey; \n\nAfter the first swap, Claire gets Frankenstein and Alice gets Ulysses. \n\nThen, Claire and Bob swap books, so Claire gets The Odyssey and Bob gets Ulysses. \n\nFinally, Bob and Alice swap books, so Bob gets Frankenstein and Alice gets The Odyssey.",
+        "ground_truth": "Frankenstein"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing fullback, Bob is playing cheerleader, and Claire is playing left winger. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Bob and Alice trade positions. Finally, Bob and Claire trade positions. At the end of the match, Alice is playing ",
@@ -312,7 +346,8 @@
             "cheerleader.": 1,
             "left winger.": 0
         },
-        "llama_output": "Answer: left winger; \n\nAfter the first swap, Alice is playing left winger and Claire is playing fullback. After the second swap, Bob is playing fullback and Alice is playing cheerleader. After the third swap, Bob is playing left winger and Alice is playing fullback."
+        "llama_output": "Answer: left winger; \n\nAfter the first swap, Alice is playing left winger and Claire is playing fullback. After the second swap, Bob is playing fullback and Alice is playing cheerleader. After the third swap, Bob is playing left winger and Alice is playing fullback.",
+        "ground_truth": "cheerleader"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing striker, Bob is playing benchwarmer, and Claire is playing center midfielder. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Bob trade positions. Then, Alice and Claire trade positions. Finally, Claire and Bob trade positions. At the end of the match, Alice is playing ",
@@ -321,7 +356,8 @@
             "benchwarmer.": 0,
             "center midfielder.": 1
         },
-        "llama_output": "Answer: center midfielder; \n\nAfter the first swap, Alice is playing benchwarmer and Bob is playing striker. After the second swap, Alice is playing center midfielder and Bob is playing striker. After the third swap, Claire is playing benchwarmer and Bob is playing center midfielder. So, Alice is playing center midfielder at the end of the match."
+        "llama_output": "Answer: center midfielder; \n\nAfter the first swap, Alice is playing benchwarmer and Bob is playing striker. After the second swap, Alice is playing center midfielder and Bob is playing striker. After the third swap, Claire is playing benchwarmer and Bob is playing center midfielder. So, Alice is playing center midfielder at the end of the match.",
+        "ground_truth": "center midfielder"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a orange ball, Bob has a white ball, and Claire has a pink ball. \n\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Bob and Alice swap balls. Finally, Alice and Claire swap balls. At the end of the game, Alice has the ",
@@ -330,7 +366,8 @@
             "white ball.": 0,
             "pink ball.": 0
         },
-        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Claire and Alice swap balls, so Alice gets the pink ball and Claire gets the orange ball. \n\nAfter the second swap, Bob and Alice swap balls, so Alice gets the white ball and Bob gets the pink ball. \n\nAfter the third swap, Alice and Claire swap balls, so Alice gets the orange ball back and Claire gets the white ball. \n\nSo, at the end of the game, Alice has the pink ball."
+        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Claire and Alice swap balls, so Alice gets the pink ball and Claire gets the orange ball. \n\nAfter the second swap, Bob and Alice swap balls, so Alice gets the white ball and Bob gets the pink ball. \n\nAfter the third swap, Alice and Claire swap balls, so Alice gets the orange ball back and Claire gets the white ball. \n\nSo, at the end of the game, Alice has the pink ball.",
+        "ground_truth": "orange ball"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing center midfielder, and Claire is playing benchwarmer. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Alice and Bob trade positions. Finally, Bob and Claire trade positions. At the end of the match, Alice is playing ",
@@ -339,7 +376,8 @@
             "center midfielder.": 0,
             "benchwarmer.": 1
         },
-        "llama_output": "Answer: center midfielder; \n\nAfter the first swap, Claire moves to center midfielder and Bob moves to benchwarmer. Then, Alice and Bob trade positions, so Alice moves to center midfielder and Bob moves to goalkeeper. Finally, Bob and Claire trade positions, so Bob moves to benchwarmer and Claire moves to goalkeeper. However, this swap does not affect Alice's position, so she remains at center midfielder."
+        "llama_output": "Answer: center midfielder; \n\nAfter the first swap, Claire moves to center midfielder and Bob moves to benchwarmer. Then, Alice and Bob trade positions, so Alice moves to center midfielder and Bob moves to goalkeeper. Finally, Bob and Claire trade positions, so Bob moves to benchwarmer and Claire moves to goalkeeper. However, this swap does not affect Alice's position, so she remains at center midfielder.",
+        "ground_truth": "benchwarmer"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Catch-22, Bob gets Lolita, and Claire gets Hound of the Baskervilles. \n\nAs the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Bob and Claire swap books. Finally, Alice and Claire swap books. At the end of the semester, Alice has  ",
@@ -348,7 +386,8 @@
             "Lolita.": 0,
             "Hound of the Baskervilles.": 0
         },
-        "llama_output": "Answer: Lolita; \n\nAfter the first swap, Bob gets Catch-22 and Alice gets Lolita. \n\nAfter the second swap, Bob gets Hound of the Baskervilles and Claire gets Lolita. \n\nAfter the third swap, Alice gets Lolita and Claire gets Catch-22. \n\nSo, at the end of the semester, Alice has Lolita."
+        "llama_output": "Answer: Lolita; \n\nAfter the first swap, Bob gets Catch-22 and Alice gets Lolita. \n\nAfter the second swap, Bob gets Hound of the Baskervilles and Claire gets Lolita. \n\nAfter the third swap, Alice gets Lolita and Claire gets Catch-22. \n\nSo, at the end of the semester, Alice has Lolita.",
+        "ground_truth": "Catch"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a purple ball, Bob has a yellow ball, and Claire has a orange ball. \n\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the ",
@@ -357,7 +396,8 @@
             "yellow ball.": 1,
             "orange ball.": 0
         },
-        "llama_output": "Answer: yellow ball; \n\nAfter the first swap, Claire has the yellow ball and Bob has the orange ball. \n\nAfter the second swap, Bob has the purple ball and Alice has the orange ball. \n\nAfter the third swap, Bob has the orange ball (which he had initially) and Claire has the purple ball."
+        "llama_output": "Answer: yellow ball; \n\nAfter the first swap, Claire has the yellow ball and Bob has the orange ball. \n\nAfter the second swap, Bob has the purple ball and Alice has the orange ball. \n\nAfter the third swap, Bob has the orange ball (which he had initially) and Claire has the purple ball.",
+        "ground_truth": "yellow ball"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a red present, Bob has a black ball, and Claire has a pink ball. \n\nAs the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Bob and Alice swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the ",
@@ -366,7 +406,8 @@
             "black ball.": 0,
             "pink ball.": 0
         },
-        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Alice gets the pink ball from Claire, and Claire gets the red present from Alice. Bob still has the black ball.\n\nAfter the second swap, Bob gets the red present from Alice, and Alice gets the black ball from Bob. Claire still has the pink ball.\n\nAfter the third swap, Alice gets the pink ball from Claire, and Claire gets the black ball from Alice."
+        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Alice gets the pink ball from Claire, and Claire gets the red present from Alice. Bob still has the black ball.\n\nAfter the second swap, Bob gets the red present from Alice, and Alice gets the black ball from Bob. Claire still has the pink ball.\n\nAfter the third swap, Alice gets the pink ball from Claire, and Claire gets the black ball from Alice.",
+        "ground_truth": "red present"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing cheerleader, Bob is playing right winger, and Claire is playing goalkeeper. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Bob and Alice trade positions. Finally, Claire and Bob trade positions. At the end of the match, Bob is playing ",
@@ -375,7 +416,8 @@
             "right winger.": 0,
             "goalkeeper.": 0
         },
-        "llama_output": "Answer: right winger.; \n\nAfter the first swap, Alice becomes the goalkeeper and Claire becomes the cheerleader. \n\nAfter the second swap, Bob becomes the cheerleader and Alice becomes the right winger. \n\nAfter the third swap, Claire becomes the right winger and Bob becomes the goalkeeper. \n\nHowever, the question asks what position Bob is playing at the end of the match, and the answer is right winger, because Claire and Bob swapped positions last."
+        "llama_output": "Answer: right winger.; \n\nAfter the first swap, Alice becomes the goalkeeper and Claire becomes the cheerleader. \n\nAfter the second swap, Bob becomes the cheerleader and Alice becomes the right winger. \n\nAfter the third swap, Claire becomes the right winger and Bob becomes the goalkeeper. \n\nHowever, the question asks what position Bob is playing at the end of the match, and the answer is right winger, because Claire and Bob swapped positions last.",
+        "ground_truth": "cheerleader"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left midfielder, and Claire is playing fullback. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Alice and Bob trade positions. Finally, Bob and Claire trade positions. At the end of the match, Claire is playing ",
@@ -384,7 +426,8 @@
             "left midfielder.": 0,
             "fullback.": 1
         },
-        "llama_output": "Answer: fullback; \n\nAfter the first swap, Claire becomes the goalkeeper and Alice becomes the fullback. After the second swap, Alice becomes the left midfielder and Claire becomes the goalkeeper. Finally, after the third swap, Claire becomes the fullback again, and Alice becomes the goalkeeper."
+        "llama_output": "Answer: fullback; \n\nAfter the first swap, Claire becomes the goalkeeper and Alice becomes the fullback. After the second swap, Alice becomes the left midfielder and Claire becomes the goalkeeper. Finally, after the third swap, Claire becomes the fullback again, and Alice becomes the goalkeeper.",
+        "ground_truth": "fullback"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a purple present, and Claire has a blue present. \n\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Alice has the ",
@@ -393,7 +436,8 @@
             "purple present.": 0,
             "blue present.": 0
         },
-        "llama_output": "Answer: purple present; \n\nAfter the first swap, Claire has the black ball and Alice has the blue present. \n\nAfter the second swap, Bob has the blue present, Claire has the purple present, and Alice has the black ball. \n\nAfter the third swap, Alice has the purple present, Bob has the black ball, and Claire has the blue present."
+        "llama_output": "Answer: purple present; \n\nAfter the first swap, Claire has the black ball and Alice has the blue present. \n\nAfter the second swap, Bob has the blue present, Claire has the purple present, and Alice has the black ball. \n\nAfter the third swap, Alice has the purple present, Bob has the black ball, and Claire has the blue present.",
+        "ground_truth": "black ball"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Rodrigo, and Claire is dancing with Patrick. \n\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Bob switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Claire is dancing with  ",
@@ -402,7 +446,8 @@
             "Rodrigo.": 1,
             "Patrick.": 0
         },
-        "llama_output": "Answer: Patrick; Claire started with Patrick, then switched with Bob, who had switched with Alice, so Claire ended up with Patrick."
+        "llama_output": "Answer: Patrick; Claire started with Patrick, then switched with Bob, who had switched with Alice, so Claire ended up with Patrick.",
+        "ground_truth": "Rodrigo"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Patrick, and Claire is dancing with Rodrigo. \n\nThroughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Alice and Claire switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Claire is dancing with  ",
@@ -411,7 +456,8 @@
             "Patrick.": 1,
             "Rodrigo.": 0
         },
-        "llama_output": "Answer: Rodrigo; Claire initially danced with Rodrigo, and then Alice and Claire switched partners, so Claire ended up dancing with Rodrigo again."
+        "llama_output": "Answer: Rodrigo; Claire initially danced with Rodrigo, and then Alice and Claire switched partners, so Claire ended up dancing with Rodrigo again.",
+        "ground_truth": "Patrick"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a green ball, and Claire has a blue ball. \n\nAs the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the ",
@@ -420,7 +466,8 @@
             "green ball.": 0,
             "blue ball.": 0
         },
-        "llama_output": "Answer: blue ball; \n\nAfter the first swap, Alice has the green ball and Bob has the yellow ball. \n\nAfter the second swap, Alice has the blue ball and Bob has the green ball. \n\nAfter the third swap, Claire has the blue ball, Bob has the yellow ball, and Alice has the green ball."
+        "llama_output": "Answer: blue ball; \n\nAfter the first swap, Alice has the green ball and Bob has the yellow ball. \n\nAfter the second swap, Alice has the blue ball and Bob has the green ball. \n\nAfter the third swap, Claire has the blue ball, Bob has the yellow ball, and Alice has the green ball.",
+        "ground_truth": "yellow ball"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a pink ball, and Claire has a black ball. \n\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Alice and Claire swap balls. At the end of the game, Bob has the ",
@@ -429,7 +476,8 @@
             "pink ball.": 0,
             "black ball.": 1
         },
-        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Claire has the red ball and Alice has the black ball. \n\nAfter the second swap, Alice has the pink ball and Bob has the black ball. \n\nAfter the third swap, Alice has the black ball and Claire has the red ball, but Bob still has the pink ball."
+        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Claire has the red ball and Alice has the black ball. \n\nAfter the second swap, Alice has the pink ball and Bob has the black ball. \n\nAfter the third swap, Alice has the black ball and Claire has the red ball, but Bob still has the pink ball.",
+        "ground_truth": "black ball"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Jamie, Bob is dancing with Rodrigo, and Claire is dancing with Ophelia. \n\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Alice switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Claire is dancing with  ",
@@ -438,7 +486,8 @@
             "Rodrigo.": 1,
             "Ophelia.": 0
         },
-        "llama_output": "Answer: Ophelia; Claire started with Ophelia, then switched with Alice, and then Alice switched with Bob, so Claire ended up with the original partner of Alice, which is Ophelia."
+        "llama_output": "Answer: Ophelia; Claire started with Ophelia, then switched with Alice, and then Alice switched with Bob, so Claire ended up with the original partner of Alice, which is Ophelia.",
+        "ground_truth": "Rodrigo"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Lolita, Bob gets Catch-22, and Claire gets Moby Dick. \n\nAs the semester proceeds, they start trading around the new books. First, Claire and Alice swap books. Then, Bob and Claire swap books. Finally, Claire and Alice swap books. At the end of the semester, Alice has  ",
@@ -447,7 +496,8 @@
             "Catch-22.": 1,
             "Moby Dick.": 0
         },
-        "llama_output": "Answer: Moby Dick; After the first swap, Alice gets Moby Dick and Bob gets Lolita. Then, Bob and Claire swap, so Bob gets Moby Dick and Claire gets Catch-22. Finally, Claire and Alice swap again, so Alice gets Moby Dick and Bob gets Lolita."
+        "llama_output": "Answer: Moby Dick; After the first swap, Alice gets Moby Dick and Bob gets Lolita. Then, Bob and Claire swap, so Bob gets Moby Dick and Claire gets Catch-22. Finally, Claire and Alice swap again, so Alice gets Moby Dick and Bob gets Lolita.",
+        "ground_truth": "Catch"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Odyssey, Bob gets The Fellowship of the Ring, and Claire gets Hound of the Baskervilles. \n\nAs the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Claire and Bob swap books. Finally, Alice and Claire swap books. At the end of the semester, Alice has  ",
@@ -456,7 +506,8 @@
             "The Fellowship of the Ring.": 0,
             "Hound of the Baskervilles.": 0
         },
-        "llama_output": "Answer: The Fellowship of the Ring; \n\nAfter the first swap, Alice gets The Fellowship of the Ring and Bob gets The Odyssey. \n\nAfter the second swap, Claire gets The Fellowship of the Ring and Bob gets Hound of the Baskervilles. \n\nAfter the third swap, Alice gets Hound of the Baskervilles and Claire gets The Odyssey. \n\nSo, at the end of the semester, Alice has The Fellowship of the Ring."
+        "llama_output": "Answer: The Fellowship of the Ring; \n\nAfter the first swap, Alice gets The Fellowship of the Ring and Bob gets The Odyssey. \n\nAfter the second swap, Claire gets The Fellowship of the Ring and Bob gets Hound of the Baskervilles. \n\nAfter the third swap, Alice gets Hound of the Baskervilles and Claire gets The Odyssey. \n\nSo, at the end of the semester, Alice has The Fellowship of the Ring.",
+        "ground_truth": "The Odyssey"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a purple ball, and Claire has a blue ball. \n\nAs the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Bob swap balls. Finally, Bob and Alice swap balls. At the end of the game, Bob has the ",
@@ -465,7 +516,8 @@
             "purple ball.": 1,
             "blue ball.": 0
         },
-        "llama_output": "Answer: purple ball; \n\nAfter the first swap, Bob and Alice swap balls, so Bob gets the green ball and Alice gets the purple ball. \n\nThen, Claire and Bob swap balls, so Claire gets the green ball and Bob gets the blue ball. \n\nFinally, Bob and Alice swap balls again, so Bob gets the purple ball back and Alice gets the blue ball. \n\nTherefore, at the end of the game, Bob has the purple ball."
+        "llama_output": "Answer: purple ball; \n\nAfter the first swap, Bob and Alice swap balls, so Bob gets the green ball and Alice gets the purple ball. \n\nThen, Claire and Bob swap balls, so Claire gets the green ball and Bob gets the blue ball. \n\nFinally, Bob and Alice swap balls again, so Bob gets the purple ball back and Alice gets the blue ball. \n\nTherefore, at the end of the game, Bob has the purple ball.",
+        "ground_truth": "purple ball"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Melissa, Bob is dancing with Sam, and Claire is dancing with Karl. \n\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Alice switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Bob is dancing with  ",
@@ -474,7 +526,8 @@
             "Sam.": 0,
             "Karl.": 1
         },
-        "llama_output": "Answer: Sam; After the first switch, Bob is dancing with Sam. Then, Bob and Alice switch partners, so Bob is still dancing with Sam. Then, Claire and Alice switch partners, so Alice is now dancing with Karl. Finally, Bob and Alice switch partners again, so Bob is still dancing with Sam."
+        "llama_output": "Answer: Sam; After the first switch, Bob is dancing with Sam. Then, Bob and Alice switch partners, so Bob is still dancing with Sam. Then, Claire and Alice switch partners, so Alice is now dancing with Karl. Finally, Bob and Alice switch partners again, so Bob is still dancing with Sam.",
+        "ground_truth": "Karl"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a white present, Bob has a yellow present, and Claire has a orange ball. \n\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Alice and Claire swap their gifts. Finally, Claire and Bob swap their gifts. At the end of the event, Bob has the ",
@@ -483,7 +536,8 @@
             "yellow present.": 0,
             "orange ball.": 0
         },
-        "llama_output": "Answer: yellow present; \n\nInitially, Bob has a yellow present. After the first swap with Claire, Bob gets the orange ball and Claire gets the yellow present. Then, Alice and Claire swap their gifts, so Alice gets the orange ball and Claire gets the white present. Finally, Claire and Bob swap their gifts, so Bob gets the white present and Claire gets the orange ball. Therefore, at the end of the event, Bob has the white present."
+        "llama_output": "Answer: yellow present; \n\nInitially, Bob has a yellow present. After the first swap with Claire, Bob gets the orange ball and Claire gets the yellow present. Then, Alice and Claire swap their gifts, so Alice gets the orange ball and Claire gets the white present. Finally, Claire and Bob swap their gifts, so Bob gets the white present and Claire gets the orange ball. Therefore, at the end of the event, Bob has the white present.",
+        "ground_truth": "white present"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Jamie, and Claire is dancing with Izzi. \n\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Alice switch partners. Finally, Bob and Claire switch partners. At the end of the dance, Claire is dancing with  ",
@@ -492,7 +546,8 @@
             "Jamie.": 0,
             "Izzi.": 0
         },
-        "llama_output": "Answer: Izzi; Claire started with Izzi, then switched with Alice, who was with Rodrigo, so Claire ended up with Izzi."
+        "llama_output": "Answer: Izzi; Claire started with Izzi, then switched with Alice, who was with Rodrigo, so Claire ended up with Izzi.",
+        "ground_truth": "Rodrigo"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a orange ball, Bob has a purple ball, and Claire has a pink ball. \n\nAs the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Bob and Alice swap balls. Finally, Alice and Claire swap balls. At the end of the game, Alice has the ",
@@ -501,7 +556,8 @@
             "purple ball.": 0,
             "pink ball.": 0
         },
-        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Alice gets Claire's pink ball and Claire gets Alice's orange ball. \n\nAfter the second swap, Bob gets Alice's pink ball and Alice gets Bob's purple ball. \n\nAfter the third swap, Alice gets Claire's orange ball and Claire gets Alice's purple ball. \n\nSo, at the end of the game, Alice has the pink ball."
+        "llama_output": "Answer: pink ball; \n\nAfter the first swap, Alice gets Claire's pink ball and Claire gets Alice's orange ball. \n\nAfter the second swap, Bob gets Alice's pink ball and Alice gets Bob's purple ball. \n\nAfter the third swap, Alice gets Claire's orange ball and Claire gets Alice's purple ball. \n\nSo, at the end of the game, Alice has the pink ball.",
+        "ground_truth": "orange ball"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a brown ball, Bob has a red ball, and Claire has a purple ball. \n\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Alice and Claire swap balls. Finally, Alice and Bob swap balls. At the end of the game, Alice has the ",
@@ -510,7 +566,8 @@
             "red ball.": 0,
             "purple ball.": 1
         },
-        "llama_output": "Answer: brown ball; After the first swap, Bob and Claire swap balls, so Bob has the purple ball and Claire has the red ball. Then, Alice and Claire swap balls, so Alice gets the red ball and Claire gets the brown ball. Finally, Alice and Bob swap balls, so Alice gets the purple ball and Bob gets the brown ball. However, since the question asks what Alice has at the end of the game, the correct answer is that Alice has the brown ball."
+        "llama_output": "Answer: brown ball; After the first swap, Bob and Claire swap balls, so Bob has the purple ball and Claire has the red ball. Then, Alice and Claire swap balls, so Alice gets the red ball and Claire gets the brown ball. Finally, Alice and Bob swap balls, so Alice gets the purple ball and Bob gets the brown ball. However, since the question asks what Alice has at the end of the game, the correct answer is that Alice has the brown ball.",
+        "ground_truth": "purple ball"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a red ball, and Claire has a yellow ball. \n\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Claire and Alice swap balls. Finally, Bob and Claire swap balls. At the end of the game, Alice has the ",
@@ -519,7 +576,8 @@
             "red ball.": 1,
             "yellow ball.": 0
         },
-        "llama_output": "Answer: blue ball; \n\nAfter the first swap, Claire and Bob swap balls, so Claire has the red ball and Bob has the yellow ball. \n\nAfter the second swap, Claire and Alice swap balls, so Claire has the blue ball and Alice has the red ball. \n\nAfter the third swap, Bob and Claire swap balls, so Bob has the yellow ball and Claire has the red ball. \n\nSo, at the end of the game, Alice has the blue ball."
+        "llama_output": "Answer: blue ball; \n\nAfter the first swap, Claire and Bob swap balls, so Claire has the red ball and Bob has the yellow ball. \n\nAfter the second swap, Claire and Alice swap balls, so Claire has the blue ball and Alice has the red ball. \n\nAfter the third swap, Bob and Claire swap balls, so Bob has the yellow ball and Claire has the red ball. \n\nSo, at the end of the game, Alice has the blue ball.",
+        "ground_truth": "red ball"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Lolita, Bob gets Catch-22, and Claire gets Moby Dick. \n\nAs the semester proceeds, they start trading around the new books. First, Claire and Alice swap books. Then, Bob and Claire swap books. Finally, Claire and Alice swap books. At the end of the semester, Bob has  ",
@@ -528,7 +586,8 @@
             "Catch-22.": 0,
             "Moby Dick.": 0
         },
-        "llama_output": "Answer: Catch-22; \n\nInitially, Bob has Catch-22. Claire and Alice swap books, so Alice gets Moby Dick and Claire gets Lolita. Then, Bob and Claire swap books, so Bob gets Lolita and Claire gets Moby Dick. Finally, Claire and Alice swap books again, so Alice gets Moby Dick and Claire gets Lolita. At the end of the semester, Bob has Moby Dick, but since he swapped with Claire, he actually has Catch-22."
+        "llama_output": "Answer: Catch-22; \n\nInitially, Bob has Catch-22. Claire and Alice swap books, so Alice gets Moby Dick and Claire gets Lolita. Then, Bob and Claire swap books, so Bob gets Lolita and Claire gets Moby Dick. Finally, Claire and Alice swap books again, so Alice gets Moby Dick and Claire gets Lolita. At the end of the semester, Bob has Moby Dick, but since he swapped with Claire, he actually has Catch-22.",
+        "ground_truth": "Lolita"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a orange ball, Bob has a purple ball, and Claire has a pink ball. \n\nAs the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Bob and Alice swap balls. Finally, Alice and Claire swap balls. At the end of the game, Bob has the ",
@@ -537,7 +596,8 @@
             "purple ball.": 0,
             "pink ball.": 1
         },
-        "llama_output": "Answer: purple ball; \n\nInitially, Bob has a purple ball. After the first swap between Alice and Claire, Alice gets the pink ball and Claire gets the orange ball. Then, Bob and Alice swap balls, so Bob gets the orange ball and Alice gets the purple ball. Finally, Alice and Claire swap balls again, so Alice gets the pink ball and Claire gets the purple ball. At the end of the game, Bob still has the orange ball, but since the question asks about the final ball held by Bob, the correct answer is the purple ball."
+        "llama_output": "Answer: purple ball; \n\nInitially, Bob has a purple ball. After the first swap between Alice and Claire, Alice gets the pink ball and Claire gets the orange ball. Then, Bob and Alice swap balls, so Bob gets the orange ball and Alice gets the purple ball. Finally, Alice and Claire swap balls again, so Alice gets the pink ball and Claire gets the purple ball. At the end of the game, Bob still has the orange ball, but since the question asks about the final ball held by Bob, the correct answer is the purple ball.",
+        "ground_truth": "pink ball"
     },
     {
         "input": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a white ball, Bob has a brown ball, and Claire has a black ball. \n\nAs the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Alice and Bob swap balls. Finally, Bob and Claire swap balls. At the end of the game, Bob has the ",
@@ -546,7 +606,8 @@
             "brown ball.": 0,
             "black ball.": 0
         },
-        "llama_output": "Answer: brown ball; \n\nAfter the first swap, Alice has the black ball and Claire has the white ball. \n\nAfter the second swap, Alice has the brown ball and Bob has the black ball. \n\nAfter the third swap, Bob has the brown ball and Claire has the black ball."
+        "llama_output": "Answer: brown ball; \n\nAfter the first swap, Alice has the black ball and Claire has the white ball. \n\nAfter the second swap, Alice has the brown ball and Bob has the black ball. \n\nAfter the third swap, Bob has the brown ball and Claire has the black ball.",
+        "ground_truth": "white ball"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Jamie, Bob is dancing with Rodrigo, and Claire is dancing with Ophelia. \n\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Alice switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Bob is dancing with  ",
@@ -555,7 +616,8 @@
             "Rodrigo.": 0,
             "Ophelia.": 1
         },
-        "llama_output": "Answer: Rodrigo; \n\nInitially, Bob is dancing with Rodrigo. After the first switch, Bob is dancing with Alice's previous partner, which is Jamie. Then, Claire and Alice switch partners, so Alice is now dancing with Ophelia. Finally, Bob and Alice switch partners again, so Bob is now dancing with Alice's current partner, which is Ophelia. However, since Bob and Alice switched partners twice, Bob is actually dancing with Jamie's previous partner, which is Rodrigo."
+        "llama_output": "Answer: Rodrigo; \n\nInitially, Bob is dancing with Rodrigo. After the first switch, Bob is dancing with Alice's previous partner, which is Jamie. Then, Claire and Alice switch partners, so Alice is now dancing with Ophelia. Finally, Bob and Alice switch partners again, so Bob is now dancing with Alice's current partner, which is Ophelia. However, since Bob and Alice switched partners twice, Bob is actually dancing with Jamie's previous partner, which is Rodrigo.",
+        "ground_truth": "Ophelia"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a brown present, and Claire has a white present. \n\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Bob has the ",
@@ -564,7 +626,8 @@
             "brown present.": 0,
             "white present.": 1
         },
-        "llama_output": "Answer: brown present; \n\nAfter the first swap, Alice has the white present and Claire has the blue present. \n\nAfter the second swap, Bob has the blue present, Claire has the brown present, and Alice has the white present. \n\nAfter the third swap, Bob has the white present, Alice has the brown present, and Claire has the blue present."
+        "llama_output": "Answer: brown present; \n\nAfter the first swap, Alice has the white present and Claire has the blue present. \n\nAfter the second swap, Bob has the blue present, Claire has the brown present, and Alice has the white present. \n\nAfter the third swap, Bob has the white present, Alice has the brown present, and Claire has the blue present.",
+        "ground_truth": "white present"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets Moby Dick, and Claire gets The Fellowship of the Ring. \n\nAs the semester proceeds, they start trading around the new books. First, Alice and Bob swap books. Then, Claire and Alice swap books. Finally, Bob and Claire swap books. At the end of the semester, Bob has  ",
@@ -573,7 +636,8 @@
             "Moby Dick.": 1,
             "The Fellowship of the Ring.": 0
         },
-        "llama_output": "Answer: The Fellowship of the Ring; \n\nAfter the first swap, Alice has Moby Dick and Bob has Frankenstein. \n\nThen, Claire and Alice swap books, so Alice has The Fellowship of the Ring and Claire has Moby Dick. \n\nFinally, Bob and Claire swap books, so Bob gets The Fellowship of the Ring and Claire gets The Fellowship of the Ring. \n\nSince Bob and Claire swapped books, Bob must have gotten The Fellowship of the Ring."
+        "llama_output": "Answer: The Fellowship of the Ring; \n\nAfter the first swap, Alice has Moby Dick and Bob has Frankenstein. \n\nThen, Claire and Alice swap books, so Alice has The Fellowship of the Ring and Claire has Moby Dick. \n\nFinally, Bob and Claire swap books, so Bob gets The Fellowship of the Ring and Claire gets The Fellowship of the Ring. \n\nSince Bob and Claire swapped books, Bob must have gotten The Fellowship of the Ring.",
+        "ground_truth": "Moby Dick"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing cheerleader, Bob is playing right winger, and Claire is playing goalkeeper. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Bob and Alice trade positions. Finally, Claire and Bob trade positions. At the end of the match, Claire is playing ",
@@ -582,7 +646,8 @@
             "right winger.": 0,
             "goalkeeper.": 1
         },
-        "llama_output": "Answer: goalkeeper.; Claire and Bob traded positions at the end, and Claire was already playing goalkeeper before that, so she must still be playing goalkeeper."
+        "llama_output": "Answer: goalkeeper.; Claire and Bob traded positions at the end, and Claire was already playing goalkeeper before that, so she must still be playing goalkeeper.",
+        "ground_truth": "goalkeeper"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a brown present, and Claire has a yellow present. \n\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Bob and Alice swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Claire has the ",
@@ -591,7 +656,8 @@
             "brown present.": 0,
             "yellow present.": 1
         },
-        "llama_output": "Answer: yellow present; \n\nAfter the first swap, Bob and Claire swap their gifts, so Bob gets the yellow present and Claire gets the brown present.\n\nAfter the second swap, Bob and Alice swap their gifts, so Bob gets the pink ball and Alice gets the brown present.\n\nAfter the third swap, Claire and Alice swap their gifts, so Claire gets the pink ball and Alice gets the yellow present.\n\nTherefore, at the end of the event, Claire has the yellow present."
+        "llama_output": "Answer: yellow present; \n\nAfter the first swap, Bob and Claire swap their gifts, so Bob gets the yellow present and Claire gets the brown present.\n\nAfter the second swap, Bob and Alice swap their gifts, so Bob gets the pink ball and Alice gets the brown present.\n\nAfter the third swap, Claire and Alice swap their gifts, so Claire gets the pink ball and Alice gets the yellow present.\n\nTherefore, at the end of the event, Claire has the yellow present.",
+        "ground_truth": "yellow present"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Jamie, Bob is dancing with Karl, and Claire is dancing with Patrick. \n\nThroughout the song, the dancers often trade partners. First, Claire and Bob switch partners. Then, Alice and Claire switch partners. Finally, Bob and Claire switch partners. At the end of the dance, Claire is dancing with  ",
@@ -600,7 +666,8 @@
             "Karl.": 0,
             "Patrick.": 1
         },
-        "llama_output": "Answer: Patrick; Claire initially danced with Patrick, then switched with Bob, then switched with Alice, and finally switched with Bob again, so she ended up back with Patrick."
+        "llama_output": "Answer: Patrick; Claire initially danced with Patrick, then switched with Bob, then switched with Alice, and finally switched with Bob again, so she ended up back with Patrick.",
+        "ground_truth": "Patrick"
     },
     {
         "input": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Karl, Bob is dancing with Rodrigo, and Claire is dancing with Patrick. \n\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Bob and Alice switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Claire is dancing with  ",
@@ -609,7 +676,8 @@
             "Rodrigo.": 1,
             "Patrick.": 0
         },
-        "llama_output": "Answer: Patrick; \n\nInitially, Claire is dancing with Patrick. After Claire and Alice switch partners, Claire is dancing with Karl. Then, Bob and Alice switch partners, so Claire is still dancing with Karl. Finally, Alice and Claire switch partners, so Claire is dancing with Patrick again."
+        "llama_output": "Answer: Patrick; \n\nInitially, Claire is dancing with Patrick. After Claire and Alice switch partners, Claire is dancing with Karl. Then, Bob and Alice switch partners, so Claire is still dancing with Karl. Finally, Alice and Claire switch partners, so Claire is dancing with Patrick again.",
+        "ground_truth": "Rodrigo"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Lolita, Bob gets Hound of the Baskervilles, and Claire gets The Fellowship of the Ring. \n\nAs the semester proceeds, they start trading around the new books. First, Claire and Bob swap books. Then, Alice and Bob swap books. Finally, Claire and Bob swap books. At the end of the semester, Claire has  ",
@@ -618,7 +686,8 @@
             "Hound of the Baskervilles.": 0,
             "The Fellowship of the Ring.": 0
         },
-        "llama_output": "Answer: Hound of the Baskervilles; \n\nInitially, Claire has The Fellowship of the Ring. After Claire and Bob swap books, Claire gets Hound of the Baskervilles and Bob gets The Fellowship of the Ring. Then, Alice and Bob swap books, so Alice gets Hound of the Baskervilles and Bob gets Lolita. Finally, Claire and Bob swap books again, so Claire gets Lolita and Bob gets Hound of the Baskervilles."
+        "llama_output": "Answer: Hound of the Baskervilles; \n\nInitially, Claire has The Fellowship of the Ring. After Claire and Bob swap books, Claire gets Hound of the Baskervilles and Bob gets The Fellowship of the Ring. Then, Alice and Bob swap books, so Alice gets Hound of the Baskervilles and Bob gets Lolita. Finally, Claire and Bob swap books again, so Claire gets Lolita and Bob gets Hound of the Baskervilles.",
+        "ground_truth": "Lolita"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a orange ball, and Claire has a green present. \n\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Bob has the ",
@@ -627,7 +696,8 @@
             "orange ball.": 1,
             "green present.": 0
         },
-        "llama_output": "Answer: orange ball; \n\nAfter the first swap, Claire has the orange ball and Bob has the green present. \n\nAfter the second swap, Alice has the green present and Claire has the yellow present. \n\nAfter the third swap, Bob has the yellow present and Alice has the orange ball."
+        "llama_output": "Answer: orange ball; \n\nAfter the first swap, Claire has the orange ball and Bob has the green present. \n\nAfter the second swap, Alice has the green present and Claire has the yellow present. \n\nAfter the third swap, Bob has the yellow present and Alice has the orange ball.",
+        "ground_truth": "orange ball"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing cheerleader, Bob is playing right winger, and Claire is playing fullback. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Bob and Claire trade positions. Finally, Claire and Alice trade positions. At the end of the match, Claire is playing ",
@@ -636,7 +706,8 @@
             "right winger.": 0,
             "fullback.": 1
         },
-        "llama_output": "Answer: fullback; \n\nAfter the first swap, Alice is playing fullback and Bob is playing right winger. After the second swap, Bob is playing fullback and Alice is playing right winger. After the third swap, Claire and Alice trade positions again, so Claire is playing right winger and Alice is playing fullback."
+        "llama_output": "Answer: fullback; \n\nAfter the first swap, Alice is playing fullback and Bob is playing right winger. After the second swap, Bob is playing fullback and Alice is playing right winger. After the third swap, Claire and Alice trade positions again, so Claire is playing right winger and Alice is playing fullback.",
+        "ground_truth": "fullback"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left midfielder, Bob is playing goalkeeper, and Claire is playing right winger. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Claire and Alice trade positions. Finally, Alice and Bob trade positions. At the end of the match, Bob is playing ",
@@ -645,7 +716,8 @@
             "goalkeeper.": 1,
             "right winger.": 0
         },
-        "llama_output": "Answer: goalkeeper; \n\nAfter the first swap, Claire and Bob trade positions, so Claire becomes the goalkeeper and Bob becomes the right winger.\n\nAfter the second swap, Claire and Alice trade positions, so Claire becomes the left midfielder and Alice becomes the right winger.\n\nAfter the third swap, Alice and Bob trade positions, so Alice becomes the goalkeeper and Bob becomes the left midfielder."
+        "llama_output": "Answer: goalkeeper; \n\nAfter the first swap, Claire and Bob trade positions, so Claire becomes the goalkeeper and Bob becomes the right winger.\n\nAfter the second swap, Claire and Alice trade positions, so Claire becomes the left midfielder and Alice becomes the right winger.\n\nAfter the third swap, Alice and Bob trade positions, so Alice becomes the goalkeeper and Bob becomes the left midfielder.",
+        "ground_truth": "goalkeeper"
     },
     {
         "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a red present, and Claire has a orange ball. \n\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Claire has the ",
@@ -654,7 +726,8 @@
             "red present.": 0,
             "orange ball.": 0
         },
-        "llama_output": "Answer: blue present; \n\nAfter the first swap, Claire has the orange ball and Bob has the orange ball. \n\nAfter the second swap, Alice has the orange ball and Claire has the blue present. \n\nAfter the third swap, Bob has the blue present and Alice has the red present. \n\nSo, Claire has the blue present at the end of the event."
+        "llama_output": "Answer: blue present; \n\nAfter the first swap, Claire has the orange ball and Bob has the orange ball. \n\nAfter the second swap, Alice has the orange ball and Claire has the blue present. \n\nAfter the third swap, Bob has the blue present and Alice has the red present. \n\nSo, Claire has the blue present at the end of the event.",
+        "ground_truth": "blue present"
     },
     {
         "input": "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing right winger, Bob is playing cheerleader, and Claire is playing striker. \n\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Claire and Bob trade positions. Finally, Bob and Alice trade positions. At the end of the match, Alice is playing ",
@@ -663,7 +736,8 @@
             "cheerleader.": 0,
             "striker.": 0
         },
-        "llama_output": "Answer: striker; \n\nAfter the first swap, Alice is playing striker and Claire is playing right winger. After the second swap, Claire is playing cheerleader and Bob is playing striker. After the third swap, Bob is playing right winger and Alice is playing cheerleader. But then, Bob and Alice trade positions again, so Alice is playing striker and Bob is playing cheerleader."
+        "llama_output": "Answer: striker; \n\nAfter the first swap, Alice is playing striker and Claire is playing right winger. After the second swap, Claire is playing cheerleader and Bob is playing striker. After the third swap, Bob is playing right winger and Alice is playing cheerleader. But then, Bob and Alice trade positions again, so Alice is playing striker and Bob is playing cheerleader.",
+        "ground_truth": "right winger"
     },
     {
         "input": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Catch-22, Bob gets Moby Dick, and Claire gets The Great Gatsby. \n\nAs the semester proceeds, they start trading around the new books. First, Claire and Bob swap books. Then, Claire and Alice swap books. Finally, Bob and Claire swap books. At the end of the semester, Bob has  ",
@@ -672,6 +746,7 @@
             "Moby Dick.": 0,
             "The Great Gatsby.": 0
         },
-        "llama_output": "Answer: The Great Gatsby; \n\nInitially, Bob has Moby Dick. Claire and Bob swap books, so Claire gets Moby Dick and Bob gets The Great Gatsby. Then, Claire and Alice swap books, so Alice gets Moby Dick and Claire gets Catch-22. Finally, Bob and Claire swap books, so Bob gets Catch-22 and Claire gets The Great Gatsby. Therefore, at the end of the semester, Bob has The Great Gatsby."
+        "llama_output": "Answer: The Great Gatsby; \n\nInitially, Bob has Moby Dick. Claire and Bob swap books, so Claire gets Moby Dick and Bob gets The Great Gatsby. Then, Claire and Alice swap books, so Alice gets Moby Dick and Claire gets Catch-22. Finally, Bob and Claire swap books, so Bob gets Catch-22 and Claire gets The Great Gatsby. Therefore, at the end of the semester, Bob has The Great Gatsby.",
+        "ground_truth": "Catch"
     }
 ]

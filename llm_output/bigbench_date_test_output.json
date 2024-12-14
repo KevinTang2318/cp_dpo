@@ -9,7 +9,8 @@
             "03/24/2043": 0,
             "05/05/2008": 0
         },
-        "llama_output": "Answer: 03/17/2008; Today is the last day of the first quarter of 2008, which is March 31, 2008. One week ago from today would be March 24, 2008."
+        "llama_output": "Answer: 03/17/2008; Today is the last day of the first quarter of 2008, which is March 31, 2008. One week ago from today would be March 24, 2008.",
+        "ground_truth": "03/24/2008"
     },
     {
         "input": "This is the last day of 1899. What is the date 24 hours later in MM/DD/YYYY?",
@@ -21,7 +22,8 @@
             "12/31/1899": 0,
             "01/02/1900": 0
         },
-        "llama_output": "Answer: 01/01/1900; The question asks for the date 24 hours later, which would be the next day. Since today is December 31, 1899, the next day would be January 1, 1900."
+        "llama_output": "Answer: 01/01/1900; The question asks for the date 24 hours later, which would be the next day. Since today is December 31, 1899, the next day would be January 1, 1900.",
+        "ground_truth": "01/01/1900"
     },
     {
         "input": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?",
@@ -33,7 +35,8 @@
             "02/19/2105": 0,
             "01/09/2016": 0
         },
-        "llama_output": "Answer: 02/09/2016; \n\nJane was born on the last day of February in 2000, which is 02/29/2000. Since today is her 16-year-old birthday, it means today's date is 02/29/2016. If we subtract 10 days from this date, we get 02/19/2016."
+        "llama_output": "Answer: 02/09/2016; \n\nJane was born on the last day of February in 2000, which is 02/29/2000. Since today is her 16-year-old birthday, it means today's date is 02/29/2016. If we subtract 10 days from this date, we get 02/19/2016.",
+        "ground_truth": "02/19/2016"
     },
     {
         "input": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date 24 hours later in MM/DD/YYYY?",
@@ -45,7 +48,8 @@
             "01/04/1987": 0,
             "04/03/1987": 0
         },
-        "llama_output": "Answer: 01/03/1987; The date is 02/01/1987, which is February 1st, 1987. 24 hours later would be February 2nd, 1987, which is 02/02/1987 in the UK format. However, since the question asks for the date in MM/DD/YYYY format, we need to convert it. February 2nd would be 02/02 in the MM/DD format, but since we need to increment the day, it would become 01/03 in the MM/DD format."
+        "llama_output": "Answer: 01/03/1987; The date is 02/01/1987, which is February 1st, 1987. 24 hours later would be February 2nd, 1987, which is 02/02/1987 in the UK format. However, since the question asks for the date in MM/DD/YYYY format, we need to convert it. February 2nd would be 02/02 in the MM/DD format, but since we need to increment the day, it would become 01/03 in the MM/DD format.",
+        "ground_truth": "01/03/1987"
     },
     {
         "input": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date a month ago in MM/DD/YYYY?",
@@ -57,7 +61,8 @@
             "11/05/2019": 0,
             "01/01/2020": 0
         },
-        "llama_output": "Answer: 10/02/2019; The question states that today is the palindrome day of 2020, which means the date in MMDDYYYY format is the same when reversed. Since today's date is 02/02/2020, a month ago would be 01/02/2020. However, 01/02/2020 is not the correct answer because it is not a month ago from 02/02/2020. A month ago from 02/02/2020 would be 01/02/2019, which is 10/02/2019 in MM/DD/YYYY format."
+        "llama_output": "Answer: 10/02/2019; The question states that today is the palindrome day of 2020, which means the date in MMDDYYYY format is the same when reversed. Since today's date is 02/02/2020, a month ago would be 01/02/2020. However, 01/02/2020 is not the correct answer because it is not a month ago from 02/02/2020. A month ago from 02/02/2020 would be 01/02/2019, which is 10/02/2019 in MM/DD/YYYY format.",
+        "ground_truth": "01/02/2020"
     },
     {
         "input": "Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?",
@@ -69,7 +74,8 @@
             "07/25/1937": 0,
             "01/04/1938": 0
         },
-        "llama_output": "Answer: 12/25/1937; Tomorrow after Christmas Eve of 1937 would be Christmas Day, which is December 25, 1937."
+        "llama_output": "Answer: 12/25/1937; Tomorrow after Christmas Eve of 1937 would be Christmas Day, which is December 25, 1937.",
+        "ground_truth": "12/25/1937"
     },
     {
         "input": "Tomorrow is 11/12/2019. What is the date one week from today in MM/DD/YYYY?",
@@ -81,7 +87,8 @@
             "11/04/2019": 0,
             "08/21/2019": 0
         },
-        "llama_output": "Answer: 11/18/2019; Tomorrow is 11/12/2019, so one week from today would be 11/19/2019. Since the question asks for the date in MM/DD/YYYY format, the correct answer is 11/18/2019, which is one day before 11/19/2019."
+        "llama_output": "Answer: 11/18/2019; Tomorrow is 11/12/2019, so one week from today would be 11/19/2019. Since the question asks for the date in MM/DD/YYYY format, the correct answer is 11/18/2019, which is one day before 11/19/2019.",
+        "ground_truth": "11/18/2019"
     },
     {
         "input": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week from today in MM/DD/YYYY?",
@@ -93,7 +100,8 @@
             "07/04/2003": 0,
             "08/04/1930": 0
         },
-        "llama_output": "Answer: 08/05/2002; One week from July 29, 2002 is August 5, 2002."
+        "llama_output": "Answer: 08/05/2002; One week from July 29, 2002 is August 5, 2002.",
+        "ground_truth": "08/04/2002"
     },
     {
         "input": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date one week ago from today in MM/DD/YYYY?",
@@ -105,7 +113,8 @@
             "03/05/1932": 0,
             "03/05/2095": 0
         },
-        "llama_output": "Answer: 03/05/2002; Since today is March 12, 2002, one week ago would be March 5, 2002."
+        "llama_output": "Answer: 03/05/2002; Since today is March 12, 2002, one week ago would be March 5, 2002.",
+        "ground_truth": "03/05/2002"
     },
     {
         "input": "Today is Sep 9, 1909. What is the date 10 days ago in MM/DD/YYYY?",
@@ -117,7 +126,8 @@
             "08/29/1909": 0,
             "08/30/1967": 0
         },
-        "llama_output": "Answer: 08/29/1909; Today is September 9, 1909, and 10 days ago would be August 29, 1909."
+        "llama_output": "Answer: 08/29/1909; Today is September 9, 1909, and 10 days ago would be August 29, 1909.",
+        "ground_truth": "08/30/1909"
     },
     {
         "input": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one week from today in MM/DD/YYYY?",
@@ -128,7 +138,8 @@
             "12/06/2021": 0,
             "05/30/2021": 0
         },
-        "llama_output": "Answer: 06/08/2021; The question states that the deadline is June 1, 2021, which is 2 days away from now. This means that today's date is May 30, 2021. One week from today would be June 7, 2021, but since the question asks for the date in MM/DD/YYYY format, the correct answer is 06/08/2021, which is June 8, 2021."
+        "llama_output": "Answer: 06/08/2021; The question states that the deadline is June 1, 2021, which is 2 days away from now. This means that today's date is May 30, 2021. One week from today would be June 7, 2021, but since the question asks for the date in MM/DD/YYYY format, the correct answer is 06/08/2021, which is June 8, 2021.",
+        "ground_truth": "06/06/2021"
     },
     {
         "input": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?",
@@ -140,7 +151,8 @@
             "02/13/2017": 0,
             "02/28/2017": 0
         },
-        "llama_output": "Answer: 02/28/2017; \n\nJane was born on the last day of February in 2001, which is February 28th, 2001. Since today is her 16-year-old birthday, it means today's date is February 28th, 2017. 10 days ago would be February 18th, 2017. However, February only has 28 days in non-leap years and 29 days in leap years. Since 2001 was not a leap year, February 2001 only had 28 days. Therefore, 10 days ago from February 28th, 2017 would be February 28th, 2017 itself, not February 18th, 2017."
+        "llama_output": "Answer: 02/28/2017; \n\nJane was born on the last day of February in 2001, which is February 28th, 2001. Since today is her 16-year-old birthday, it means today's date is February 28th, 2017. 10 days ago would be February 18th, 2017. However, February only has 28 days in non-leap years and 29 days in leap years. Since 2001 was not a leap year, February 2001 only had 28 days. Therefore, 10 days ago from February 28th, 2017 would be February 28th, 2017 itself, not February 18th, 2017.",
+        "ground_truth": "02/18/2017"
     },
     {
         "input": "It was Sept. 1st, 2021 a week ago. What is the date yesterday in MM/DD/YYYY?",
@@ -152,7 +164,8 @@
             "08/07/2021": 0,
             "08/10/2021": 0
         },
-        "llama_output": "Answer: 09/08/2021; If it was September 1st, 2021 a week ago, that means today is September 8th, 2021."
+        "llama_output": "Answer: 09/08/2021; If it was September 1st, 2021 a week ago, that means today is September 8th, 2021.",
+        "ground_truth": "09/07/2021"
     },
     {
         "input": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date a month ago in MM/DD/YYYY?",
@@ -164,7 +177,8 @@
             "04/01/1930": 0,
             "12/02/1929": 0
         },
-        "llama_output": "Answer: 11/30/1929; Since yesterday was 12/31/1929, today is 01/01/1930. A month ago would be 11/30/1929, which is the correct answer."
+        "llama_output": "Answer: 11/30/1929; Since yesterday was 12/31/1929, today is 01/01/1930. A month ago would be 11/30/1929, which is the correct answer.",
+        "ground_truth": "12/01/1929"
     },
     {
         "input": "Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date today in MM/DD/YYYY?",
@@ -176,7 +190,8 @@
             "01/02/1990": 0,
             "12/23/1960": 0
         },
-        "llama_output": "Answer: 01/02/1963; The anniversary is 5 years after the marriage date, which is January 2, 1958. Therefore, the current date is January 2, 1963."
+        "llama_output": "Answer: 01/02/1963; The anniversary is 5 years after the marriage date, which is January 2, 1958. Therefore, the current date is January 2, 1963.",
+        "ground_truth": "01/02/1961"
     },
     {
         "input": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date a month ago in MM/DD/YYYY?",
@@ -188,7 +203,8 @@
             "08/12/2045": 0,
             "08/12/2093": 0
         },
-        "llama_output": "Answer: 07/29/2020; Since 176 days have passed since March 20, 2020, we can calculate the current date as follows: March 20, 2020 + 176 days = July 29, 2020. A month ago from July 29, 2020 would be June 29, 2020, which corresponds to the date 06/29/2020. However, none of the options match this date. The closest match is July 29, 2020, which is one of the options."
+        "llama_output": "Answer: 07/29/2020; Since 176 days have passed since March 20, 2020, we can calculate the current date as follows: March 20, 2020 + 176 days = July 29, 2020. A month ago from July 29, 2020 would be June 29, 2020, which corresponds to the date 06/29/2020. However, none of the options match this date. The closest match is July 29, 2020, which is one of the options.",
+        "ground_truth": "08/12/2020"
     },
     {
         "input": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date 10 days ago in MM/DD/YYYY?",
@@ -200,7 +216,8 @@
             "09/30/2020": 0,
             "09/02/1939": 0
         },
-        "llama_output": "Answer: 08/30/2020; \n\nSince 176 days have passed since March 20, 2020, we can calculate the current date as follows:\n\nMarch 20, 2020 + 176 days = July 23, 2020\n\nTo find the date 10 days ago, we subtract 10 days from July 23, 2020:\n\nJuly 23, 2020 - 10 days = July 13, 2020\n\nSince the month is July, the day 30 is valid. Therefore, the correct answer is July 30, 2020."
+        "llama_output": "Answer: 08/30/2020; \n\nSince 176 days have passed since March 20, 2020, we can calculate the current date as follows:\n\nMarch 20, 2020 + 176 days = July 23, 2020\n\nTo find the date 10 days ago, we subtract 10 days from July 23, 2020:\n\nJuly 23, 2020 - 10 days = July 13, 2020\n\nSince the month is July, the day 30 is valid. Therefore, the correct answer is July 30, 2020.",
+        "ground_truth": "09/02/2020"
     },
     {
         "input": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date a month ago in MM/DD/YYYY?",
@@ -212,7 +229,8 @@
             "09/14/1924": 0,
             "10/13/1924": 0
         },
-        "llama_output": "Answer: 09/15/1924; The date a month ago from 10/16/1924 would be 09/16/1924. Since the question asks for the date a month ago in MM/DD/YYYY format, we need to subtract one month from 09/16/1924, which would be 09/15/1924."
+        "llama_output": "Answer: 09/15/1924; The date a month ago from 10/16/1924 would be 09/16/1924. Since the question asks for the date a month ago in MM/DD/YYYY format, we need to subtract one month from 09/16/1924, which would be 09/15/1924.",
+        "ground_truth": "09/15/1924"
     },
     {
         "input": "It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?",
@@ -224,7 +242,8 @@
             "08/31/2021": 0,
             "03/09/2022": 0
         },
-        "llama_output": "Answer: 09/02/2021; Since it was September 1st, 2021 a week ago, that means the current date is September 1st, 2021. 24 hours later would be September 2nd, 2021."
+        "llama_output": "Answer: 09/02/2021; Since it was September 1st, 2021 a week ago, that means the current date is September 1st, 2021. 24 hours later would be September 2nd, 2021.",
+        "ground_truth": "09/09/2021"
     },
     {
         "input": "Today, 8/3/1997, is a day that we will never forget. What is the date 10 days ago in MM/DD/YYYY?",
@@ -236,7 +255,8 @@
             "07/23/1997": 0,
             "10/24/1997": 0
         },
-        "llama_output": "Answer: 07/23/1997; The date 10 days ago from 8/3/1997 would be 7/23/1997."
+        "llama_output": "Answer: 07/23/1997; The date 10 days ago from 8/3/1997 would be 7/23/1997.",
+        "ground_truth": "07/24/1997"
     },
     {
         "input": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date today in MM/DD/YYYY?",
@@ -248,7 +268,8 @@
             "03/10/1986": 0,
             "05/13/1985": 0
         },
-        "llama_output": "Answer: 04/10/1985; The question states that today's date is April 10, 1985, and Jane's appointment is 3 days later. Therefore, today's date is the same as the given date."
+        "llama_output": "Answer: 04/10/1985; The question states that today's date is April 10, 1985, and Jane's appointment is 3 days later. Therefore, today's date is the same as the given date.",
+        "ground_truth": "04/10/1985"
     },
     {
         "input": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date today in MM/DD/YYYY?",
@@ -260,7 +281,8 @@
             "02/22/2017": 0,
             "08/28/2017": 0
         },
-        "llama_output": "Answer: 02/28/2017; \n\nJane was born on the last day of February in 2001, which is February 28th, 2001. Since today is her 16th birthday, it means that 16 years have passed since her birth. Therefore, today's date is February 28th, 2017."
+        "llama_output": "Answer: 02/28/2017; \n\nJane was born on the last day of February in 2001, which is February 28th, 2001. Since today is her 16th birthday, it means that 16 years have passed since her birth. Therefore, today's date is February 28th, 2017.",
+        "ground_truth": "02/28/2017"
     },
     {
         "input": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date tomorrow in MM/DD/YYYY?",
@@ -272,7 +294,8 @@
             "01/02/2008": 0,
             "01/04/2008": 0
         },
-        "llama_output": "Answer: 01/03/2008; Since today is their golden wedding anniversary, it means they got married 50 years ago. If they got married on January 2, 1958, then today's date would be January 2, 2008. Therefore, tomorrow's date would be January 3, 2008."
+        "llama_output": "Answer: 01/03/2008; Since today is their golden wedding anniversary, it means they got married 50 years ago. If they got married on January 2, 1958, then today's date would be January 2, 2008. Therefore, tomorrow's date would be January 3, 2008.",
+        "ground_truth": "01/03/2008"
     },
     {
         "input": "This is the last day of 1899. What is the date today in MM/DD/YYYY?",
@@ -284,7 +307,8 @@
             "01/09/1900": 0,
             "09/26/1899": 0
         },
-        "llama_output": "Answer: 12/31/1899; The last day of the year 1899 is December 31, 1899."
+        "llama_output": "Answer: 12/31/1899; The last day of the year 1899 is December 31, 1899.",
+        "ground_truth": "12/31/1899"
     },
     {
         "input": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date today in MM/DD/YYYY?",
@@ -296,7 +320,8 @@
             "01/30/2008": 0,
             "08/02/2008": 0
         },
-        "llama_output": "Answer: 01/02/2008; The couple married on January 2, 1958, and today is their golden wedding anniversary, which means they have been married for 50 years. Therefore, the current date is January 2, 2008."
+        "llama_output": "Answer: 01/02/2008; The couple married on January 2, 1958, and today is their golden wedding anniversary, which means they have been married for 50 years. Therefore, the current date is January 2, 2008.",
+        "ground_truth": "01/02/2008"
     },
     {
         "input": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date today in MM/DD/YYYY?",
@@ -308,7 +333,8 @@
             "11/10/1986": 0,
             "01/30/1987": 0
         },
-        "llama_output": "Answer: 02/01/1987; The question states that in the UK, people usually put the day before the month when formatting the date, so the given date 02/01/1987 is in the correct format."
+        "llama_output": "Answer: 02/01/1987; The question states that in the UK, people usually put the day before the month when formatting the date, so the given date 02/01/1987 is in the correct format.",
+        "ground_truth": "01/02/1987"
     },
     {
         "input": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?",
@@ -320,7 +346,8 @@
             "03/13/2016": 0,
             "06/01/2016": 0
         },
-        "llama_output": "Answer: 02/27/2016; \n\nJane was born on the last day of February in 2000, which is 02/29/2000. Since she is 16 years old today, her birthday is 02/29/2016. Yesterday's date would be 02/27/2016."
+        "llama_output": "Answer: 02/27/2016; \n\nJane was born on the last day of February in 2000, which is 02/29/2000. Since she is 16 years old today, her birthday is 02/29/2016. Yesterday's date would be 02/27/2016.",
+        "ground_truth": "02/28/2016"
     },
     {
         "input": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 10 days ago in MM/DD/YYYY?",
@@ -331,7 +358,8 @@
             "12/22/2007": 0,
             "08/23/2007": 0
         },
-        "llama_output": "Answer: 12/22/2007; Today is their golden wedding anniversary, which means they got married 50 years ago. Since they got married on January 2, 1958, 50 years ago would be January 2, 2008. If today is their golden wedding anniversary, then 10 days ago would be December 22, 2007."
+        "llama_output": "Answer: 12/22/2007; Today is their golden wedding anniversary, which means they got married 50 years ago. Since they got married on January 2, 1958, 50 years ago would be January 2, 2008. If today is their golden wedding anniversary, then 10 days ago would be December 22, 2007.",
+        "ground_truth": "12/23/2007"
     },
     {
         "input": "Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later in MM/DD/YYYY?",
@@ -342,7 +370,8 @@
             "09/08/1917": 0,
             "08/29/2003": 0
         },
-        "llama_output": "Answer: 09/08/2003; The question states that today is 9/7, and we need to find the date 24 hours later. Since there are 24 hours in a day, adding 24 hours to 9/7 would bring us to the next day, which is 9/8."
+        "llama_output": "Answer: 09/08/2003; The question states that today is 9/7, and we need to find the date 24 hours later. Since there are 24 hours in a day, adding 24 hours to 9/7 would bring us to the next day, which is 9/8.",
+        "ground_truth": "09/08/2003"
     },
     {
         "input": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow in MM/DD/YYYY?",
@@ -354,7 +383,8 @@
             "01/03/2035": 0,
             "12/06/1986": 0
         },
-        "llama_output": "Answer: 01/03/1987; Tomorrow's date would be 03/01/1987 in the UK format, which is equivalent to 01/03/1987 in the US format."
+        "llama_output": "Answer: 01/03/1987; Tomorrow's date would be 03/01/1987 in the UK format, which is equivalent to 01/03/1987 in the US format.",
+        "ground_truth": "01/03/1987"
     },
     {
         "input": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date yesterday in MM/DD/YYYY?",
@@ -366,7 +396,8 @@
             "01/01/1934": 0,
             "10/19/1986": 0
         },
-        "llama_output": "Answer: 12/30/1986; Since today is 02/01/1987 for UK people, yesterday would be 12/30/1986."
+        "llama_output": "Answer: 12/30/1986; Since today is 02/01/1987 for UK people, yesterday would be 12/30/1986.",
+        "ground_truth": "01/01/1987"
     },
     {
         "input": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?",
@@ -378,7 +409,8 @@
             "07/18/2015": 0,
             "06/18/2030": 0
         },
-        "llama_output": "Answer: 06/18/2016; \n\nJane bought 40 eggs on May 9th, 2017 and ate one per day. This means she ate 40 eggs in 40 days. Since she ran out of eggs, it means she ate the last egg on May 8th, 2017. To find the date one year ago from today, we need to subtract one year from May 8th, 2017. May 8th, 2017 minus one year is May 8th, 2016. However, the question asks for the date in MM/DD/YYYY format, which is June 18th, 2016."
+        "llama_output": "Answer: 06/18/2016; \n\nJane bought 40 eggs on May 9th, 2017 and ate one per day. This means she ate 40 eggs in 40 days. Since she ran out of eggs, it means she ate the last egg on May 8th, 2017. To find the date one year ago from today, we need to subtract one year from May 8th, 2017. May 8th, 2017 minus one year is May 8th, 2016. However, the question asks for the date in MM/DD/YYYY format, which is June 18th, 2016.",
+        "ground_truth": "06/18/2016"
     },
     {
         "input": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date today in MM/DD/YYYY?",
@@ -390,7 +422,8 @@
             "11/30/2009": 0,
             "02/06/2010": 0
         },
-        "llama_output": "Answer: 12/16/2009; Since Jane visits the bookstore on the 16th of each month, and it is her 5th visit today, the date would be 16th of December, which is 12/16/2009."
+        "llama_output": "Answer: 12/16/2009; Since Jane visits the bookstore on the 16th of each month, and it is her 5th visit today, the date would be 16th of December, which is 12/16/2009.",
+        "ground_truth": "02/16/2010"
     },
     {
         "input": "Today is the last day of the first quarter of 2008. What is the date one year ago from today in MM/DD/YYYY?",
@@ -401,7 +434,8 @@
             "07/09/2007": 0,
             "03/31/2051": 0
         },
-        "llama_output": "Answer: 03/31/2007; Today is March 31, 2008, which means one year ago from today would be March 31, 2007."
+        "llama_output": "Answer: 03/31/2007; Today is March 31, 2008, which means one year ago from today would be March 31, 2007.",
+        "ground_truth": "03/31/2007"
     },
     {
         "input": "Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date 24 hours later in MM/DD/YYYY?",
@@ -413,7 +447,8 @@
             "01/02/1961": 0,
             "01/03/1964": 0
         },
-        "llama_output": "Answer: 01/03/1963; \n\nThe couple married on January 2, 1958, which is their 5-year anniversary today. This means they got married 5 years ago, so today's date is January 2, 1963. 24 hours later would be January 3, 1963."
+        "llama_output": "Answer: 01/03/1963; \n\nThe couple married on January 2, 1958, which is their 5-year anniversary today. This means they got married 5 years ago, so today's date is January 2, 1963. 24 hours later would be January 3, 1963.",
+        "ground_truth": "01/03/1961"
     },
     {
         "input": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date tomorrow in MM/DD/YYYY?",
@@ -425,7 +460,8 @@
             "12/02/1950": 0,
             "01/02/2020": 0
         },
-        "llama_output": "Answer: 12/03/2019; Jane got her job in 2016 and today is her 3-year work anniversary, so the current date is 12/02/2019. Tomorrow would be 12/03/2019."
+        "llama_output": "Answer: 12/03/2019; Jane got her job in 2016 and today is her 3-year work anniversary, so the current date is 12/02/2019. Tomorrow would be 12/03/2019.",
+        "ground_truth": "12/02/2019"
     },
     {
         "input": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date a month ago in MM/DD/YYYY?",
@@ -437,6 +473,7 @@
             "08/19/2018": 0,
             "02/14/2019": 0
         },
-        "llama_output": "Answer: 05/19/2019; Since John is correct that today is 6/19/2019, a month ago would be 5/19/2019."
+        "llama_output": "Answer: 05/19/2019; Since John is correct that today is 6/19/2019, a month ago would be 5/19/2019.",
+        "ground_truth": "05/19/2019"
     }
 ]

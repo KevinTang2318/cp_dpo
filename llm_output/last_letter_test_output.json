@@ -22,12 +22,12 @@
     {
         "question": "Take the last letters of each words in \"Pancho Claudio Elaine Vicky\" and concatenate them.",
         "answer": "ooey",
-        "llama_output": "Answer: o, o, e, y\n\nReasoning: The last letters of each word in the given string are:\n- Pancho: o\n- Claudio: o\n- Elaine: e\n- Vicky: y\n\nConcatenating these letters gives us the output: o-o-e-y."
+        "llama_output": "Answer: ooey;\n\nReasoning: The last letters of each word in the given string are:\n- Pancho: o\n- Claudio: o\n- Elaine: e\n- Vicky: y\n\nConcatenating these letters gives us the output: o-o-e-y."
     },
     {
         "question": "Take the last letters of each words in \"Flora Warren Gwendolyn Alissa\" and concatenate them.",
         "answer": "anna",
-        "llama_output": "Answer: a, n, n, a\n\nReasoning: The last letters of each word in the given phrase are:\n- Flora: a\n- Warren: n\n- Gwendolyn: n\n- Alissa: a\n\nConcatenating these letters gives us the output: a, n, n, a."
+        "llama_output": "Answer: anna;\n\nReasoning: The last letters of each word in the given phrase are:\n- Flora: a\n- Warren: n\n- Gwendolyn: n\n- Alissa: a\n\nConcatenating these letters gives us the output: a, n, n, a."
     },
     {
         "question": "Take the last letters of each words in \"Tristan Marleny Santiago Viviana\" and concatenate them.",
@@ -62,7 +62,7 @@
     {
         "question": "Take the last letters of each words in \"Kristen Herbert Benny El\" and concatenate them.",
         "answer": "ntyl",
-        "llama_output": "Answer: n, t, y, l\n\nReasoning: The last letters of each word in the given phrase are:\n- Kristen: n\n- Herbert: t\n- Benny: y\n- El: l\n\nI concatenated these letters to get the final answer: n, t, y, l."
+        "llama_output": "Answer: ntyl;\n\nReasoning: The last letters of each word in the given phrase are:\n- Kristen: n\n- Herbert: t\n- Benny: y\n- El: l\n\nI concatenated these letters to get the final answer: n, t, y, l."
     },
     {
         "question": "Take the last letters of each words in \"Courtney Ann John Fer\" and concatenate them.",
@@ -82,7 +82,7 @@
     {
         "question": "Take the last letters of each words in \"Darwin Colin Cj Abhishek\" and concatenate them.",
         "answer": "nnjk",
-        "llama_output": "Answer: n, n, j\n\nReasoning: The last letters of each word in the given string are:\n- Darwin: n\n- Colin: n\n- Cj: j (assuming Cj is a single word, if it's a typo and it's supposed to be two separate words, then the last letter of C would be C and the last letter of j would be j)\n- Abhishek: k\n\nConcatenating these last letters gives us the answer: n, n, j."
+        "llama_output": "Answer: nnj;\n\nReasoning: The last letters of each word in the given string are:\n- Darwin: n\n- Colin: n\n- Cj: j (assuming Cj is a single word, if it's a typo and it's supposed to be two separate words, then the last letter of C would be C and the last letter of j would be j)\n- Abhishek: k\n\nConcatenating these last letters gives us the answer: n, n, j."
     },
     {
         "question": "Take the last letters of each words in \"Otto Marjorie Leonor Esther\" and concatenate them.",
@@ -107,12 +107,12 @@
     {
         "question": "Take the last letters of each words in \"Dana German Alvin Braden\" and concatenate them.",
         "answer": "annn",
-        "llama_output": "Answer: n, n, n, n; \n\nReasoning: The last letters of each word in the given phrase are \"Dana\" (n), \"German\" (n), \"Alvin\" (n), and \"Braden\" (n)."
+        "llama_output": "Answer: nnnn; \n\nReasoning: The last letters of each word in the given phrase are \"Dana\" (n), \"German\" (n), \"Alvin\" (n), and \"Braden\" (n)."
     },
     {
         "question": "Take the last letters of each words in \"Len Marquis Kylie Sandra\" and concatenate them.",
         "answer": "nsea",
-        "llama_output": "Answer: s, s, e, a\n\nReasoning: The last letters of each word in the given phrase are:\n- Len: n\n- Marquis: s\n- Kylie: e\n- Sandra: a\n\nConcatenating these letters gives us the output: n-s-e-a."
+        "llama_output": "Answer: ssea; \n\nReasoning: The last letters of each word in the given phrase are:\n- Len: n\n- Marquis: s\n- Kylie: e\n- Sandra: a\n\nConcatenating these letters gives us the output: n-s-e-a."
     },
     {
         "question": "Take the last letters of each words in \"Alina Alessandra Amina Bianca\" and concatenate them.",
@@ -187,12 +187,12 @@
     {
         "question": "Take the last letters of each words in \"Paulo Tatyana Bernice Ra\u00fal\" and concatenate them.",
         "answer": "oael",
-        "llama_output": "Answer: o, a, e, l; \n\nReasoning: The last letters of each word in the given name are: Paulo - o, Tatyana - a, Bernice - e, Ra\u00fal - l."
+        "llama_output": "Answer: oael; \n\nReasoning: The last letters of each word in the given name are: Paulo - o, Tatyana - a, Bernice - e, Ra\u00fal - l."
     },
     {
         "question": "Take the last letters of each words in \"Quinton Sam Soledad Becca\" and concatenate them.",
         "answer": "nmda",
-        "llama_output": "Answer: n, m, d, a\n\nReasoning: The last letters of each word in the given string \"Quinton Sam Soledad Becca\" are:\n\n* Quinton: n\n* Sam: m\n* Soledad: d\n* Becca: a\n\nConcatenating these letters gives us the output \"nmda\"."
+        "llama_output": "Answer: nmda;\n\nReasoning: The last letters of each word in the given string \"Quinton Sam Soledad Becca\" are:\n\n* Quinton: n\n* Sam: m\n* Soledad: d\n* Becca: a\n\nConcatenating these letters gives us the output \"nmda\"."
     },
     {
         "question": "Take the last letters of each words in \"Alain Jerome Kristina Ida\" and concatenate them.",
@@ -227,7 +227,7 @@
     {
         "question": "Take the last letters of each words in \"Lewis Azucena Kai Ravi\" and concatenate them.",
         "answer": "saii",
-        "llama_output": "Answer: s, a, i, i\n\nReasoning: The last letters of each word in the given phrase are:\n- Lewis: s\n- Azucena: a\n- Kai: i\n- Ravi: i\n\nConcatenating these letters gives us the output: s, a, i, i."
+        "llama_output": "Answer: saii; \n\nReasoning: The last letters of each word in the given phrase are:\n- Lewis: s\n- Azucena: a\n- Kai: i\n- Ravi: i\n\nConcatenating these letters gives us the output: s, a, i, i."
     },
     {
         "question": "Take the last letters of each words in \"Gus Brock Ava Jenna\" and concatenate them.",
@@ -237,7 +237,7 @@
     {
         "question": "Take the last letters of each words in \"Domingo Briana Michael Joan\" and concatenate them.",
         "answer": "oaln",
-        "llama_output": "Answer: o, a, l, n\n\nReasoning: The last letters of each word in the given phrase are:\n- Domingo: o\n- Briana: a\n- Michael: l\n- Joan: n\n\nConcatenating these letters gives us the output: o, a, l, n."
+        "llama_output": "Answer: oaln; \n\nReasoning: The last letters of each word in the given phrase are:\n- Domingo: o\n- Briana: a\n- Michael: l\n- Joan: n\n\nConcatenating these letters gives us the output: o, a, l, n."
     },
     {
         "question": "Take the last letters of each words in \"Miriam Brandy Bertha Renato\" and concatenate them.",
