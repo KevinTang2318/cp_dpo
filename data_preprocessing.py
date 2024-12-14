@@ -27,6 +27,9 @@ if __name__ == "__main__":
         help="Specify one or more tasks to run inference on."
     )
     args = parser.parse_args()
+
+    print(f"Working on the following tasks: {args.tasks}")
+
     # load the datasets
     datasets = {
         "aqua": {
@@ -66,6 +69,7 @@ if __name__ == "__main__":
                 generate_bigbench_date_contrastive_prompt,
         }
     }
+
     login(token="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")
     model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
     pipeline = transformers.pipeline(
@@ -79,6 +83,7 @@ if __name__ == "__main__":
         pipeline.tokenizer.eos_token_id,
         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
     ]
+
     # create train val test splits
     if not os.path.exists("data"):
         os.makedirs("data")
@@ -103,6 +108,7 @@ if __name__ == "__main__":
                 json.dump(val_set, json_file, indent=4)
             with open(f"data/{task}_test.json", 'w') as json_file:
                 json.dump(test_set, json_file, indent=4)
+
     # run instruct model on training and validation datasets with CP
     # to get training and validation data
     for task in args.tasks:
@@ -124,6 +130,7 @@ if __name__ == "__main__":
             )
         else:
             print(f"Task '{task}' is not recognized. Skipping.")
+
     # run instruct model on test datasets to get baseline accuracy
     for task in args.tasks:
         if task in datasets:
