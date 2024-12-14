@@ -30,7 +30,7 @@ def generate_object_tracking_prompt(sample):
 def generate_object_tracking_constrastive_prompt(sample):
     prompt = f"""
         Q: {sample["input"]} Choose one correct answer from the following  options: {",".join(list(sample["target_scores"].keys()))}.
-        A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <correct ball color>; Wrong answer: <correct ball color>; <your reasoning>
+        A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <your choice>; Wrong answer: <your choice>; <your reasoning>
     """
 
     return prompt
@@ -66,6 +66,41 @@ def generate_coin_flip_constrastive_prompt(sample):
     prompt = f"""
         Q: {sample["question"]} Answer this question with either "Yes." or "No." first, then provide your reasoning.
         A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <yes or no>; Wrong answer: <yes or no>; <your reasoning>
+    """
+
+    return prompt
+
+
+def generate_last_letter_prompt(sample):
+    prompt = f"""
+        Q: {sample["question"]}; Output your answer in the following format: 
+        Answer: <your answer>; <your reasoning>
+    """
+
+    return prompt
+
+
+def generate_last_letter_constrastive_prompt(sample):
+    prompt = f"""
+        Q: {sample["question"]}
+        A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <your answer>; Wrong answer: <your answer>; <your reasoning>
+    """
+
+    return prompt
+
+
+def generate_bigbench_date_prompt(sample):
+    prompt = f"""
+        Q: {sample["input"]} Choose one correct answer from the following  options: {",".join(list(sample["target_scores"].keys()))}.Output your answer in the following format: Answer: <your choice>; <your reasoning>
+    """
+
+    return prompt
+
+
+def generate_bigbench_date_contrastive_prompt(sample):
+    prompt = f"""
+        Q: {sample["input"]} Choose one correct answer from the following  options: {",".join(list(sample["target_scores"].keys()))}.
+        A: Let's give a correct and a wrong answer. Output your answer in the following format: "Correct answer: <your choice>; Wrong answer: <your choice>; <your reasoning>
     """
 
     return prompt

@@ -28,3 +28,16 @@ def load_object_tracking_data(file_path):
         dataset = json.loads(data_file.read())
 
     return dataset["examples"]
+
+def load_last_letter_data(file_path):
+    with open(file_path, "r") as data_file:
+        dataset = json.loads(data_file.read())
+
+    return dataset["examples"]
+
+
+def load_bigbench_date_data(file_path):
+    with open(file_path, "r") as data_file:
+        dataset = json.loads(data_file.read())
+
+    return dataset["examples"]
