@@ -2998,8 +2998,8 @@
             "No"
         ],
         "ground_truth": "no",
-        "correct_answer": "No.",
-        "wrong_answer": "Yes.",
+        "correct_answer": "No",
+        "wrong_answer": "Yes",
         "llm_reasoning": "The coin is initially heads up. Noelia flips the coin, so it becomes tails up. Cassidy does not flip the coin, so it remains tails up. Ashok flips the coin, so it becomes heads up again. Francisco flips the coin, so it becomes tails up again. Therefore, the coin is not heads up at the end."
     },
     {
