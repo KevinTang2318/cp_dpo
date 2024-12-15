@@ -79,6 +79,8 @@ if __name__ == "__main__":
 
             print(f"{task} {dataset} statistics:")
             print("Correct answer matches ground truth:",
-                  f"{correct_answer_count}/{len(samples)}")
+                  f"{correct_answer_count}/{len(samples)}",
+                  f"Correct Accuracy: {correct_answer_count/len(samples):.2f}",)
             print("Wrong answer deviates from ground truth:",
-                  f"{wrong_answer_count}/{len(samples)}")
+                  f"{wrong_answer_count}/{len(samples)}",
+                  f"Wrong Accuracy: {wrong_answer_count/len(samples):.2f}",)
