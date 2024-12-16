@@ -339,8 +339,8 @@
         "question": "Take the last letters of each words in \"Niki Graham Vernon Beau\" and concatenate them.",
         "options": [],
         "ground_truth": "imnu",
-        "correct_answer": "i, m, n, u",
-        "wrong_answer": "i, m, r, u",
+        "correct_answer": "imnu",
+        "wrong_answer": "imru",
         "llm_reasoning": "The correct answer is obtained by taking the last letters of each word in the given string: \"Niki\" ends with \"i\", \"Graham\" ends with \"m\", \"Vernon\" ends with \"n\", and \"Beau\" ends with \"u\". The wrong answer is obtained by taking the last letters of each word, but in the wrong order."
     },
     {
@@ -1115,8 +1115,8 @@
         "question": "Take the last letters of each words in \"Arturo Dominick Christa Myles\" and concatenate them.",
         "options": [],
         "ground_truth": "okas",
-        "correct_answer": "o, k, a, s",
-        "wrong_answer": "o, k, a, s",
+        "correct_answer": "okas",
+        "wrong_answer": "okas",
         "llm_reasoning": "Reasoning: The last letters of each word in the given name are \"o\" from Arturo, \"k\" from Dominick, \"a\" from Christa, and \"s\" from Myles."
     },
     {
@@ -1459,8 +1459,8 @@
         "question": "Take the last letters of each words in \"Ruben Bernardo Ariel Shelley\" and concatenate them.",
         "options": [],
         "ground_truth": "noly",
-        "correct_answer": "n, o, l, y",
-        "wrong_answer": "n, o, l, y",
+        "correct_answer": "noly",
+        "wrong_answer": "noly",
         "llm_reasoning": "Reasoning: The last letters of each word in the given name are \"n\" from Ruben, \"o\" from Bernardo, \"l\" from Ariel, and \"y\" from Shelley."
     },
     {
@@ -1851,8 +1851,8 @@
         "question": "Take the last letters of each words in \"Donovan Lonnie Jairo Mariah\" and concatenate them.",
         "options": [],
         "ground_truth": "neoh",
-        "correct_answer": "n, e, o, h",
-        "wrong_answer": "n, n, o, h",
+        "correct_answer": "neoh",
+        "wrong_answer": "nnoh",
         "llm_reasoning": "The correct answer is obtained by taking the last letter of each word in the given name: Donovan (n), Lonnie (e), Jairo (o), Mariah (h). The wrong answer is obtained by taking the last letter of each word, but in the wrong order."
     },
     {

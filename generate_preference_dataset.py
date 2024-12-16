@@ -391,10 +391,10 @@ def generate_preference_dataset_for_bigbench_date(train_path, val_path):
 
 if __name__ == '__main__':
     # parsed all data
-    # generate_preference_dataset_for_aqua(
-    #     'llm_output/aqua_train_output.json',
-    #     'llm_output/aqua_val_output.json'
-    # )
+    generate_preference_dataset_for_aqua(
+        'llm_output/aqua_train_output.json',
+        'llm_output/aqua_val_output.json'
+    )
 
     generate_preference_dataset_for_coin_flip(
         'llm_output/coin_flip_train_output.json',
@@ -406,17 +406,17 @@ if __name__ == '__main__':
         "llm_output/object_tracking_val_output.json"
     )
 
-    # generate_preference_dataset_for_strategy_qa(
-    #     "llm_output/strategy_qa_train_output.json",
-    #     "llm_output/strategy_qa_val_output.json"
-    # )
+    generate_preference_dataset_for_strategy_qa(
+        "llm_output/strategy_qa_train_output.json",
+        "llm_output/strategy_qa_val_output.json"
+    )
 
-    # generate_preference_dataset_for_last_letter(
-    #     "llm_output/last_letter_train_output.json",
-    #     "llm_output/last_letter_val_output.json"
-    # )
+    generate_preference_dataset_for_last_letter(
+        "llm_output/last_letter_train_output.json",
+        "llm_output/last_letter_val_output.json"
+    )
 
-    # generate_preference_dataset_for_bigbench_date(
-    #     "llm_output/bigbench_date_train_output.json",
-    #     "llm_output/bigbench_date_val_output.json"
-    # )
+    generate_preference_dataset_for_bigbench_date(
+        "llm_output/bigbench_date_train_output.json",
+        "llm_output/bigbench_date_val_output.json"
+    )
