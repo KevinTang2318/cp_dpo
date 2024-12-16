@@ -90,3 +90,27 @@ The following tables demonstrates the precision for correct and wrong answer gen
 | Object Tracking | 0.01 | 1.00 |
 | Last Letters | 0.45 | 0.97 |
 | BigBench Date | 0.28 | 0.64 |
+
+We can derive several insights from the precision compar-
+isons. First, the precision for the generated correct answers
+is relatively low across all tasks, with the highest score
+of 0.63 observed on the Strategy QA training set (assume
+we only compare training sets here). Notably, the model
+performed extremely poorly on the Last Letter task, achieving
+a correct precision close to zero, which indicates that very
+few questions were interpreted or solved correctly. Addition-
+ally, the model demonstrated limited capabilities in solving
+mathematical problems. All such undesired behaviors likely
+due to the constrained model size of LLaMA3-8B-Instruct,
+since the experiment result shown by Yan et al. are relatively
+higher when using GPT-4.
+
+The relatively low precision on correct responses suggests
+that fine-tuning with such data may mislead the model by rein-
+forcing suboptimal patterns, potentially degrading its overall
+performance. However, a key observation is the consistency
+between Table II (training precision) and Table III (validation
+precision), which indicates minimal distributional differences
+between the training and validation datasets. This stability
+could contribute to improved generalization and better per-
+formance of the fine-tuned model.
