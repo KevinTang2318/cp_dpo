@@ -17,9 +17,9 @@ if __name__ == "__main__":
         "tasks",
         nargs="+",
         choices=[
-            "aqua", 
-            "strategy_qa", 
-            "coin_flip", 
+            "aqua",
+            "strategy_qa",
+            "coin_flip",
             "object_tracking",
             "last_letter",
             "bigbench_date"
@@ -58,19 +58,20 @@ if __name__ == "__main__":
             "raw_data": load_last_letter_data(
                 "datasets/last_letter/last_letters.json"),
             "prompt_generator": generate_last_letter_prompt,
-            "contrastive_prompt_generator":     
+            "contrastive_prompt_generator":
                 generate_last_letter_constrastive_prompt,
         },
         "bigbench_date": {
             "raw_data": load_bigbench_date_data(
                 "datasets/bigbench_date/task.json"),
             "prompt_generator": generate_bigbench_date_prompt,
-            "contrastive_prompt_generator": 
+            "contrastive_prompt_generator":
                 generate_bigbench_date_contrastive_prompt,
         }
     }
 
-    login(token="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")
+    hf_token = os.environ.get("HF_TOKEN")
+    login(token=hf_token)
     model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
     pipeline = transformers.pipeline(
         "text-generation",
@@ -78,7 +79,7 @@ if __name__ == "__main__":
         model_kwargs={"torch_dtype": torch.bfloat16},
         device="cuda"
     )
-    
+
     terminators = [
         pipeline.tokenizer.eos_token_id,
         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")

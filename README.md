@@ -25,22 +25,23 @@ You would also need to install the `transformers` library and all its dependency
 
 ## Execution Instructions
 1. Clone this repo onto your VM
-2. Run `data_preprocessing.py` on all datasets to generates the datasets with LLM generated responses.
+2. Configure an environment variable called `HF_TOKEN` with your huggingface token ad the value.
+3. Run `data_preprocessing.py` on all datasets to generates the datasets with LLM generated responses.
     ```
     python3 data_preprocessing.py aqua strategy_qa coin_flip object_tracking last_letter bigbench_date
     ```
     You can also select specific dataset(s) to process by only specifying its name.
-3. Run `generate_preference_dataset.py` on all datasets to generate the preference datasets which will be used for DPO fine-tuning:
+4. Run `generate_preference_dataset.py` on all datasets to generate the preference datasets which will be used for DPO fine-tuning:
     ```
     python3 generate_preference_datasets.py
     ```
     To run this code for specific datasets, comment out the function invocation for other datasets in the main section of this code.
-4. Run `calculate_accuracy.py` to get the test accuracies on all six reasoning tasks using Zero-Shot prompting:
+5. Run `calculate_accuracy.py` to get the test accuracies on all six reasoning tasks using Zero-Shot prompting:
     ```
     python3 calculate_accuracy.py aqua strategy_qa coin_flip object_tracking last_letter bigbench_date
     ```
     You can also select specific dataset(s) to process by only specifying its name.
-5. Run `analysis.py` to calculate the precision for the generated responses on train and val sets using CP:
+6. Run `analysis.py` to calculate the precision for the generated responses on train and val sets using CP:
     ```
     python3 analysis.py all
     ```
