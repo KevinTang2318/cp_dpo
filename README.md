@@ -23,7 +23,7 @@ We recommend running the code in this repo on a GCP VM that has the following co
 
 You would also need to install the `transformers` library and all its dependency on the VM to successfully run inference for Llama3. 
 
-## Computational Resource Requirements for data generation and analysis 
+## Computational Resource Requirements for DPO fine-tuning
 Please install the necessary packages by running: 
     ```
     pip install -r requirements.txt
