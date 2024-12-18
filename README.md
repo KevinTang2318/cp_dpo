@@ -23,7 +23,7 @@ We recommend running the code in this repo on a GCP VM that has the following co
 
 You would also need to install the `transformers` library and all its dependency on the VM to successfully run inference for Llama3.
 
-## Execution Instructions
+## Execution Instructions for data generation and analysis
 1. Clone this repo onto your VM
 2. Configure an environment variable called `HF_TOKEN` with your huggingface token ad the value.
 3. Run `data_preprocessing.py` on all datasets to generates the datasets with LLM generated responses.
@@ -49,6 +49,56 @@ You would also need to install the `transformers` library and all its dependency
 
 Finally, you would need to use all data under `preference_data` in the DPO stage to fine-tune the model.
 
+# Execution Instructions for DPO training and output parsing 
+1. Training the model: 
+    Run the following code with your desired configurations. The following one is the paramter setting we used.
+    ```
+    CUDA_VISIBLE_DEVICES=0,1 python dpo_training.py \
+    --model_type auto \
+    --model_name_or_path "meta-llama/Meta-Llama-3-8B-Instruct" \
+    --train_file_dir ./data/reward/train \
+    --validation_file_dir ./data/reward/validation \
+    --per_device_train_batch_size 2 \
+    --per_device_eval_batch_size 1 \
+    --do_train \
+    --do_eval \
+    --use_peft True \
+    --max_train_samples 250 \
+    --max_eval_samples 10 \
+    --max_steps 100 \
+    --eval_steps 20 \
+    --save_steps 50 \
+    --max_source_length 1024 \
+    --max_target_length 512 \
+    --output_dir outputs-dpo-llama-v10 \
+    --target_modules "k_proj, q_proj, v_proj" \
+    --lora_rank 4 \
+    --lora_alpha 8 \
+    --lora_dropout 0.1 \
+    --torch_dtype float16 \
+    --fp16 True \
+    --device_map auto \
+    --report_to tensorboard \
+    --remove_unused_columns False \
+    --gradient_checkpointing True \
+    --cache_dir ./cache
+    ``` 
+2. Merge the LoRA with the original model and modify the directories as desired:
+    ```
+    python merge_peft_adapter.py --model_type llama \
+    --base_model meta-llama/Meta-Llama-3-8B-Instruct --lora_model outputs-dpo-llama-v10 --output_dir merged-dpo-v10/
+    ```
+3. Run the inference code and modify the directory (of the output file) in the code at line 258 
+    ```
+    python inference.py --model_type llama --base_model merged-dpo-v10
+    ```
+4. Parse the output by changing the json file of the output in line 4, then run:
+    ```
+    python extract_answer.py
+    ```
+    This should give you the accuracy score. 
+
+Credit to GitHub MedicalGPT (@author:XuMing(xuming624@qq.com)) for step 1, 2, 3. 
 ## Results
 
 ### Tests statistics for CP + DPO fine-tuning
@@ -58,12 +108,12 @@ The following table shows the accuracy scores of all experiments conducted in th
 
 |              | Zero-Shot (baseline)    | Zero-Shot-CP-DPO |
 |--------------|----------------------------|-----------------|
-| AQuA | 0.39 | NA |
-| Strategy-QA | 0.66 | NA |
-| Coin Flip | 0.46 | NA |
-| Object Tracking | 0.29| NA |
-| Last Letters | 0.14 | NA |
-| BigBench Date | 0.43 | NA |
+| AQuA | 0.39 | 0.38 |
+| Strategy-QA | 0.66 | 0.63 |
+| Coin Flip | 0.46 | 0.46 |
+| Object Tracking | 0.29| 0.02 |
+| Last Letters | 0.14 | 0.38 |
+| BigBench Date | 0.43 | 0.27 |
 
 
 ### Analysis on train and val preference datasets
