@@ -56,7 +56,7 @@ For both training and inference, the minimum configuration would be two 3090s or
 
 Finally, you would need to use all data under `preference_data` in the DPO stage to fine-tune the model.
 
-# Execution Instructions for DPO training and output parsing 
+## Execution Instructions for DPO training and output parsing 
 1. Training the model: 
     Run the following code with your desired configurations. The following one is the paramter setting we used.
     ```
