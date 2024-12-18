@@ -116,6 +116,9 @@ The following table shows the accuracy scores of all experiments conducted in th
 | BigBench Date | 0.43 | 0.27 |
 
 
+We compare the difference in the baseline Zero-shot prompting and Zero-shot result after training with DPO method from CP method. Unfortunately, we did not find much significance in the performance. The performance pairs are mostly very similar to each other except for the Last Letter pair. In the Last Letter finetuning, both preferred answer and not preferred answer are purely letter combinations (such as "aabb"). This means that model face great difficulty in inferring the intrinsic pattern of the letters from the answers. 
+
+
 ### Analysis on train and val preference datasets
 
 The following tables demonstrates the precision for correct and wrong answer generated using Contrastive Prompting. We collected these data to investigate how accurate CP is and what kind of impact it has on the final fine-runed model.
