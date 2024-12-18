@@ -13,7 +13,7 @@ This repository contains the data and code to generate preference datasets and p
 - **preference_data**: contains the processed preference datasets
 - ***.py**: functional codes for data preprocessing and LLM response generation
 
-## Computational Resource Requirements
+## Computational Resource Requirements for data generation and analysis 
 We recommend running the code in this repo on a GCP VM that has the following configurations:
 
 - **Region**: us-east1
@@ -21,7 +21,14 @@ We recommend running the code in this repo on a GCP VM that has the following co
 - **Persistent Disk Size**: 200GB
 - **OS**: Deep Learning VM for PyTorch 2.4 with CUDA 12.4 M126
 
-You would also need to install the `transformers` library and all its dependency on the VM to successfully run inference for Llama3.
+You would also need to install the `transformers` library and all its dependency on the VM to successfully run inference for Llama3. 
+
+## Computational Resource Requirements for data generation and analysis 
+Please install the necessary packages by running: 
+    ```
+    pip install -r requirements.txt
+    ```
+For both training and inference, the minimum configuration would be two 3090s or any equivalent GPU with equal or higher RAM. All of them were trained on CUDA and no guarantee that it would run on other GPU devices. 
 
 ## Execution Instructions for data generation and analysis
 1. Clone this repo onto your VM
